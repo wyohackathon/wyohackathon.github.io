@@ -4800,6 +4800,9 @@ a.close.disabled {
 .bg-video #jarallax-container-0 {
   opacity: 0.33 !important; }
 
+.bg-video .divider svg * {
+  fill: #77160c; }
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
