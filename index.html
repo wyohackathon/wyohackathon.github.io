@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>WyoHackathon 2019</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/MyriadPro-It.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Semibold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/MyriadPro-SemiboldIt.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3" data-sticky="top">
+        <div class="container">
+          <a class="navbar-brand fade-page" href="index.html">
+            WyoHackathon 2019
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a data-smooth-scroll href="#events" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a data-smooth-scroll href="#speakers" class="nav-link">Speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a data-smooth-scroll href="#sponsors" class="nav-link">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                  <a data-smooth-scroll href="#venue" class="nav-link">Venue</a>
+                </li>
+                <li class="nav-item">
+                  <a data-smooth-scroll href="#2018highlights" class="nav-link">2018 Highlights</a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary ml-lg-3" data-toggle="modal" data-target="#signupModal">Developer Signup</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="bg-primary bg-video text-light p-0 o-hidden jarallax" data-jarallax-video="mp4:./assets/video/banner.mp4" data-speed="1" data-type="scroll-opacity">
+      <div class="container layer-2">
+        <div class="row mb-3 min-vh-80 align-items-center" data-aos="fade-up">
+          <div class="col-12">
+            <div class="py-3 text-center">
+              <img class="img-fluid" src="assets/img/logo.svg" alt="WyoHackathon 2019 Logo" data-inject-svg />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="py-3 bg-primary-landing text-center d-none d-md-block">
+              <div class="text-uppercase">Breakin' Through</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider flip-x">
+        <img class="bg-primary-3" src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
+      </div>
+    </section>
+    <section class="bg-primary-3 has-divider">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-lg-6 text-light mt-3">
+            <h1 class="display-5">SEPTEMBER 20-22, 2019</h1>
+            <h2 class="display-6"><em>Starting 5:00 PM Mountain Time</em></h2>
+          </div>
+          <div class="col-12 col-lg-6 mb-3 mb-md-0" data-countdown-date="2019/09/20 15:00:00" data-detailed>
+            <div data-active class="row text-center">
+              <div class="col">
+                <div class="card card-body shadow-3d">
+                  <span class="h1 text-primary mb-2" data-days></span>
+                  <span class="h5 mb-0" data-days-label></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-body shadow-3d">
+                  <span class="h1 text-primary mb-2" data-hours></span>
+                  <span class="h5 mb-0" data-hours-label></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-body shadow-3d">
+                  <span class="h1 text-primary mb-2" data-minutes></span>
+                  <span class="h5 mb-0" data-minutes-label></span>
+                </div>
+              </div>
+
+              <div class="col d-none d-md-block">
+                <div class="card card-body shadow-3d">
+                  <span class="h1 text-primary mb-2" data-seconds></span>
+                  <span class="h5 mb-0" data-seconds-label></span>
+                </div>
+              </div>
+            </div>
+
+            <div data-elapsed style="display: none;">
+              <h1>Event ongoing</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img class="bg-white" src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
+      </div>
+    </section>
+    <section id="events">
+      <div class="container">
+        <div class="row mb-3 text-center force-half-height">
+          <div class="col-12">
+            <img src="assets/img/logos/events/stampede.svg" alt="wyoming blockchain stampede graphic" data-inject-svg />
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col">
+            <h2 class="h1">Events</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d">
+              <div class="icon-round mb-3 mb-md-4 icon bg-primary">
+                <img class="icon bg-primary" src="assets/img/logos/events/taskforce.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">Wyoming Blockchain Taskforce</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/19&ndash;20</h6>
+              <p class="card-text">The Wyoming Blockchain Task Force is a bi-partisan group whose job is to draft proposed blockchain bills for consideration by the Wyoming legislature.</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d bg-primary text-light">
+              <div class="icon-round mb-3 mb-md-4 icon bg-white">
+                <img class="icon bg-white" src="assets/img/logos/events/developerconf.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">Stampede Developers Conference</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/20 8am &ndash; 3pm</h6>
+              <p class="card-text">A full day of technical speakers and workshops helping attendees prepare for the WyoHackathon Challenges and get acquainted with new technologies, concepts and emerging standards.</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d bg-primary-2 text-light">
+              <div class="icon-round mb-3 mb-md-4 icon bg-white">
+                <img class="icon bg-white" src="assets/img/logos/events/wyohackathon.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">WyoHackathon</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/20 3pm &ndash; 9/22 noon</h6>
+              <p class="card-text">The WyoHackathon is a celebratory blockchain  event for developers, entrepreneurs and established companies to experience the blockchain community, create amazing innovations and learn about the opportunities with blockchain technology and the new Wyoming legislation, while connecting with like-minded people.</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d bg-primary-3 text-light">
+              <div class="icon-round mb-3 mb-md-4 icon bg-white">
+                <img class="icon bg-white" src="assets/img/logos/events/businessconf.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">Stampede Business Conference</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/21 8am &ndash; 3pm</h6>
+              <p class="card-text">A full day of speakers and workshops helping attendees understand the Wyoming legislative environment, business opportunities of blockchain and use cases applicable to Wyoming and worldwide.</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d bg-primary-alt text-light">
+              <div class="icon-round mb-3 mb-md-4 icon bg-primary">
+                <img class="icon bg-white" src="assets/img/logos/events/symphony.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">Symphony of Blockchain Exhibition</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/19&ndash;22</h6>
+              <p class="card-text">The Symphony of Blockchain is an interactive, visual and auditory exploration of Bitcoin, cryptocurrency and the blockchain. It is an ongoing research initiative with a singular aim: to help bring about greater understanding of both blockchain technology and the ever expanding (and contracting) cryptocurrency marketplace.</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="card card-icon-3 card-body hover-shadow-3d bg-primary-2-alt text-light">
+              <div class="icon-round mb-3 mb-md-4 icon bg-white">
+                <img class="icon bg-white" src="assets/img/logos/events/sandcastle.svg" alt="icon" data-inject-svg />
+              </div>
+              <h5 class="mt-2 mb-3">Sandcastle Invitational</h5>
+              <h6 class="card-subtitle mb-2 text-muted">9/22 noon &ndash; 5pm</h6>
+              <p class="card-text">Sandcastle is seeking the best and most promising blockchain startups the world over to compete during Dubai2020 in the finale Sandcastle Challenge. Two winners from the Wyoming Blockchain Stampede will earn two of the 16 slots to compete in EXPO2020 Dubai.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="speakers">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h2 class="h1">Speakers</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Joe Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/avatars/female-4.jpg" alt="Sally Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Sally Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="300">
+            <img src="assets/img/avatars/male-2.jpg" alt="Jon Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Jon Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="400">
+            <img src="assets/img/avatars/female-3.jpg" alt="Rebecca Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Rebecca Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="500">
+            <img src="assets/img/avatars/male-5.jpg" alt="Jake Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Jake Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="600">
+            <img src="assets/img/avatars/male-4.jpg" alt="Kate Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Kate Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="700">
+            <img src="assets/img/avatars/female-2.jpg" alt="Candice Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Candice Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="800">
+            <img src="assets/img/avatars/female-1.jpg" alt="Sam Shmoe" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Sam Shmoe</h5>
+              <a href="#">@loremipsum</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="#" class="hover-arrow">View all Speakers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary-3-alt has-divider" id="sponsors">
+      <div class="divider flip-y">
+        <img src="assets/img/dividers/divider-1.svg" alt="graphical divider" data-inject-svg />
+      </div>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h2 class="h1">Sponsors</h2>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col">
+            <h3 class="h2">Title Sponsor</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex mb-5" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://www.kraken.com/">
+              <img src="assets/img/logos/sponsors/kraken.png" alt="Kraken" />
+            </a>
+          </div>
+        </div>
+        <div class="row mb-1 mt-4">
+          <div class="col">
+            <h3 class="h2">Media Partners</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://www.whatbitcoindid.com/">
+              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="#" class="hover-arrow">Sponsorship information</a>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img src="assets/img/dividers/divider-3.svg" alt="graphical divider" data-inject-svg />
+      </div>
+    </section>
+    <section id="venue">
+      <div class="container">
+        <div class="row mb-4">
+          <h2 class="h1">Venue</h2>
+        </div>
+        <div class="row">
+          <div class="col-8 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mt-3 mb-0">Engineering Education &amp; Research Building (EERB)</h3>
+            <p class="lead mt-0 mb-0">University of Wyoming</p>
+            <p class="lead mt-0 mb-0">Laramie, WY 82070 USA</p>
+            <a href="https://goo.gl/maps/LtUSp5FkbDQXfFre9" class="hover-arrow mt-1">Directions</a>
+            <p class="pr-lg-4 mt-3">
+              The new 4-story Engineering Education and Research Building is the latest addition to the University of Wyoming College of Engineering and Applied Science. Comprised of research and teaching lab spaces, faculty offices, a medium classroom, a large auditorium, and collaboration spaces, the building is shared by multiple disciplines of engineering department including civil, architectural, mechanical, electrical, computer science, atmospheric, chemical and petroleum engineering programs. The grand 4-story atrium also features a “floating” glass and steel staircase.
+            </p>
+          </div>
+          <div class="col-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/article-eerb.jpg" alt="Image" class="rounded">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="bg-primary-3-alt has-divider" id="2018highlights">
+      <div class="divider flip-y">
+        <img src="assets/img/dividers/divider-3.svg" alt="graphical divider" data-inject-svg />
+      </div>
+      <div class="container">
+        <div class="row align-items-center justify-content-around">
+          <div class="col-md-6 col-xl-5 mb-3 mb-md-0">
+            <div class="row justify-content-center">
+              <div class="col-xl-10 col-lg-11">
+                <h3 class="display-4">2018 Highlights</h3>
+                <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                <!-- <a href="#" class="lead hover-arrow">View 2018 Highlights</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-6 mb-3 mb-md-0">
+            <div class="image-collage">
+              <a href="https://www.youtube.com/watch?v=GKQeFgCxU1U" data-fancybox class="d-none d-lg-block">
+                <div data-jarallax-element="0 12">
+                  <img src="assets/img/article-business.jpg" alt="Image" class="rounded" data-aos="fade-right">
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=GKQeFgCxU1U" data-fancybox>
+                <div>
+                  <img src="assets/img/article-sandcastle.jpg" alt="Image" class="rounded" data-aos="fade-up">
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=GKQeFgCxU1U" data-fancybox class="d-none d-lg-block">
+                <div data-jarallax-element="0 -12">
+                  <img src="assets/img/article-hackathon.jpg" alt="Image" class="rounded" data-aos="fade-left">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pb-4 bg-primary-3 text-light" id="footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col">
+            <div class="card card-body border-0 o-hidden mb-0 bg-primary text-light">
+              <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="h3 text-center mb-md-0">Take part in WyoHackathon 2019</div>
+                <a href="#" class="btn btn-lg btn-white" data-toggle="modal" data-target="#signupModal">Developer Signup</a>
+              </div>
+              <div class="decoration layer-0 opacity-20">
+                <img class="bg-primary-3" src="assets/img/decorations/deco-blob-2.svg" alt="decoration" data-inject-svg />
+              </div>
+              <div class="decoration layer-0 right opacity-20">
+                <img class="bg-primary-3" src="assets/img/decorations/deco-dots-3.svg" alt="decoration" data-inject-svg />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2">
+          <div class="col-auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="https://www.twitter.com/wyohackathon" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://t.me/WyoHackathon" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/telegram.svg" alt="telegram social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/company/wyohackathon/" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/linkedin.svg" alt="linkedin social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.facebook.com/wyohackathon" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/wyohackathon/" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="mailto:wyohackathon@gmail.com" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/theme/communication/mail-at.svg" alt="email icon" data-inject-svg />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-auto text-center">
+            <small class="text-muted">&copy;2019 | All Rights Reserved | <a href="https://www.uwyo.edu/">University of Wyoming</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
+      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+    </a>
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">Developer Signup</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Please check back soon to register as a developer!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        document.querySelector('body').classList.add('loaded');
+      });
+    </script>
+
+  </body>
+
+</html>
