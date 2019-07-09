@@ -8288,74 +8288,8 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
   position: relative;
   right: .25rem; }
 
-svg.icon * {
-  fill: #ffc425; }
-
 svg.icon[class*='bg-'] {
   background: none !important; }
-
-svg.bg-white * {
-  fill: #fff; }
-
-svg.bg-primary * {
-  fill: #ffc425; }
-
-svg.bg-primary-alt * {
-  fill: #a2a42c; }
-
-svg.bg-secondary * {
-  fill: #6c757d; }
-
-svg.bg-secondary-alt * {
-  fill: #f6f7f7; }
-
-svg.bg-success * {
-  fill: #28a745; }
-
-svg.bg-success-alt * {
-  fill: #f2faf4; }
-
-svg.bg-info * {
-  fill: #17a2b8; }
-
-svg.bg-info-alt * {
-  fill: #f1f9fb; }
-
-svg.bg-warning * {
-  fill: #ffc107; }
-
-svg.bg-warning-alt * {
-  fill: #fffbf0; }
-
-svg.bg-danger * {
-  fill: #dc3545; }
-
-svg.bg-danger-alt * {
-  fill: #fdf3f4; }
-
-svg.bg-light * {
-  fill: #f8f9fa; }
-
-svg.bg-light-alt * {
-  fill: white; }
-
-svg.bg-dark * {
-  fill: #212529; }
-
-svg.bg-dark-alt * {
-  fill: #f2f2f2; }
-
-svg.bg-primary-2 * {
-  fill: #9a651e; }
-
-svg.bg-primary-2-alt * {
-  fill: #2a3e60; }
-
-svg.bg-primary-3 * {
-  fill: #77160c; }
-
-svg.bg-primary-3-alt * {
-  fill: rgba(126, 113, 110, 0.25); }
 
 .text-light svg.icon:not([class*='bg-']) * {
   fill: #fff; }
