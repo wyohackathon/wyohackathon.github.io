@@ -7657,6 +7657,9 @@ a.text-light:hover, a.text-light:focus {
 .text-dark {
   color: #212529 !important; }
 
+.text-dark a {
+  color: #212529 !important; }
+
 a.text-dark:hover, a.text-dark:focus {
   color: black !important; }
 
