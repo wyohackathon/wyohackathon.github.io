@@ -8616,7 +8616,14 @@ section {
   font-size: 5rem;
   height: 8rem;
   line-height: 9rem;
-  margin: 0 auto; }
+  padding: 0 2rem;
+  margin: 3rem 0 0;
+  text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .bg-primary-landing div {
+    font-size: 4rem; }
+}
 
 @media (min-width: 992px) {
   .bg-primary-landing div {
@@ -9588,14 +9595,8 @@ blockquote {
 .decoration.top {
   top: 0; }
 
-.decoration.top-offset {
-  top: -50%; }
-
 .decoration.left {
   left: 0; }
-
-.decoration.left-offset {
-  left: -25%; }
 
 .decoration.right {
   right: 0; }
@@ -9609,11 +9610,58 @@ blockquote {
 .decoration.bottom {
   bottom: 0; }
 
+.decoration.rect-white {
+  bottom: 10%; }
+
+.decoration.rect-orange {
+  bottom: 40%;
+  left: 80%;
+  transform: scale(8); }
+
+@media (min-width: 768px) {
+  .decoration.rect-white {
+    bottom: 0;
+    left: -55%;
+    transform: scale(0.5); }
+
+  .decoration.rect-orange {
+    bottom: 50%;
+    left: 60%;
+    transform: scale(4); }
+}
+
+@media (min-width: 992px) {
+  .decoration.rect-white {
+    bottom: -15%;
+    left: -75%;
+    transform: scale(0.5); }
+
+  .decoration.rect-orange {
+    bottom: 50%;
+    left: 50%;
+    transform: scale(3); }
+}
+
+@media (min-width: 1200px) {
+  .decoration.rect-white {
+    bottom: -10%;
+    left: -55%;
+    transform: scale(0.5); }
+
+  .decoration.rect-orange {
+    bottom: 50%;
+    left: 60%;
+    transform: scale(4); }
+}
+
 .decoration.scale-quarter {
   transform: scale(0.25); }
 
 .decoration.scale-half {
   transform: scale(0.5); }
+
+.decoration.scale-three-quarters {
+  transform: scale(0.75); }
 
 .decoration.scale-2 {
   transform: scale(2); }
@@ -9638,10 +9686,6 @@ blockquote {
   .decoration-check .icon {
     position: absolute;
     height: 4rem; }
-
-.force-half-height {
-  transform: scale(0.5);
-  max-height: 400px; }
 
 .mobile-screenshot {
   position: relative; }
@@ -11531,6 +11575,11 @@ https://flickity.metafizzy.co
       max-width: 384px; }
     .image-collage > a:nth-child(2):hover {
       transform: rotateZ(-2deg) translate3d(0, -10px, 0); }
+
+.icon.stampede {
+  height: 400px;
+  width: 400px;
+}
 
 @media (max-width: 991.98px) {
   .image-collage > a:nth-child(2) img {
