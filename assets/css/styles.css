@@ -8312,6 +8312,14 @@ svg.icon[class*='bg-'] {
 
 @font-face {
   font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-stretch: condensed;
+  src: url("../fonts/MyriadPro-Cond.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Myriad Pro';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
