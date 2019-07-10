@@ -8618,23 +8618,30 @@ section {
 .bg-primary-3-alt {
   background: rgba(126, 113, 110, 0.25); }
 
-.bg-primary-landing div {
-  background: rgba(86, 90, 98, 0.8);
+.bg-primary-landing * {
+  background: #333;
   color: #fff !important;
-  font-size: 5rem;
-  height: 8rem;
-  line-height: 9rem;
-  padding: 0 2rem;
+  font-size: 4rem;
+  font-stretch: condensed;
+  height: 6rem;
+  line-height: 7rem;
+  padding: 0 2rem 0 1rem;
   margin: 3rem 0 0;
+  width: auto;
   text-transform: uppercase; }
 
+.bg-primary-landing h2 {
+  margin: auto; }
+
 @media (min-width: 768px) {
-  .bg-primary-landing div {
-    font-size: 4rem; }
+  .bg-primary-landing * {
+    height: 8rem;
+    line-height: 9rem;
+    font-size: 5rem; }
 }
 
 @media (min-width: 992px) {
-  .bg-primary-landing div {
+  .bg-primary-landing * {
     max-width: 80%; }
 }
 
