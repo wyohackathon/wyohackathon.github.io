@@ -9633,6 +9633,13 @@ blockquote {
   left: 330px;
   transform: scale(8); }
 
+footer {
+  background-image: url(/assets/img/decorations/honeycomb.svg), linear-gradient(180deg, rgba(222,219,218,1) 0%, rgba(255,196,37,1)29%, rgba(119,22,12,1) 85%);
+  background-size: 100% auto;
+  min-height: 100vh;
+  padding-top: 20vh;
+}
+
 @media (min-width: 768px) {
   .decoration.rect-white {
     bottom: 70px;
