@@ -71,6 +71,8 @@ hr {
   overflow: visible; }
 
 h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-stretch: condensed;
   margin-top: 0;
   margin-bottom: 1.5rem; }
 
@@ -8621,12 +8623,12 @@ section {
 .bg-primary-landing * {
   background: #333;
   color: #fff !important;
-  font-size: 4rem;
+  display: inline-block;
+  font-size: 6rem;
   font-stretch: condensed;
-  height: 6rem;
   line-height: 7rem;
-  padding: 0 2rem 0 1rem;
-  margin: 3rem 0 0;
+  padding: 0 3rem 0 0.5rem;
+  margin: 0.5rem 0 0;
   width: auto;
   text-transform: uppercase; }
 
@@ -8635,9 +8637,8 @@ section {
 
 @media (min-width: 768px) {
   .bg-primary-landing * {
-    height: 8rem;
     line-height: 9rem;
-    font-size: 5rem; }
+    font-size: 8rem; }
 }
 
 @media (min-width: 992px) {
