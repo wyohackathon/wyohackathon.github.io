@@ -71,14 +71,67 @@ hr {
   overflow: visible; }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-  font-stretch: condensed;
   margin-top: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem; 
+  font-stretch: condensed;}
 
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
+
+/*------------------------------*/
+/*------------------------------*/
+/*-----custom corrections-------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+#breakin{width:19rem;}
+#through{width: 22rem;}
+.rect-orange{opacity:0.60; filter: saturate(900%) alpha(opacity=60); -webkit-filter: saturate(900%);}
+.rect-white{opacity:0.80;filter: alpha(opacity=80);}
+#cntdwnleft{text-align: right; border-right: 1px solid #fff; padding-right: 40px;}
+@media (min-width:768px){#cntdwnleft h1{font-size: 5rem;line-height: 4rem;}}/*prior to 768 the font otherwise becomes too big to fin into the column*/
+#cntdwnright{padding: 20px 0 0 40px;}
+#cntdwnstyle1{height:150px;width:20%;position: absolute;right:0;top:0;} /*this is the upper right decoration*/
+#cntdwnstyle1 svg{height: 100%;}
+#cntdwnstyle1 svg polygon{fill: #ffc425;}
+#cntdwnstyle2{height:150px;width:20%;position: absolute;left:0;top:276px;} /*this is the lower left decoration*/
+#cntdwnstyle2 svg{height: 100%;}
+#cntdwnstyle2 svg polygon{fill: #ffc425;}
+@media (max-width: 767px) {#cntdwnstyle2{top:227px;} }  /*this corrrects the decoration's height according to the set text line-height. I would have used bottom:0; but I couldn't get it to ever work like that due to changing heights of the section*/
+#sponsors{overflow:hidden; position:relative;} /*this and the next rule set up the web-like background for the sponsor section. I needed to do it this way in order to set the opacity/color, since it's not an svg*/
+#sponsors:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url(../img/decorations/element3.png);
+  background-size:cover;
+  height: 100%;
+  filter: grayscale(1) opacity(0.5);}
+.avitext{text-align: center; padding-top: 10px;}
+.avitext a{color: #000; font-weight: normal; font-style: italic;}
+.greytriangle{filter: grayscale(1) opacity(1); left: -680px; top: -350px; transform: scale(-2); }
+.yellowtriangle{filter: opacity(0.8); transform: scale(1.9); top: 650px;}
+#twentyeighteenhighlights{background-color: #2a3e60;color:#fff; overflow: hidden;}
+#twentyeighteenhighlights .display-4{color: #fff; line-height: 5rem; font-size: 5rem;}
+.grn-triangle{bottom: -20px; left: 1230px; transform: scale(3); }
+.honeycomb2{left: 0; bottom: 0; transform: scale(2);}
+.hili{padding: 15px 0 15px 0;} /*this is affecting the video thumbnails*/
+.eventicon{width: 100px;}
+.eventtext{font-size: 1.6rem; text-transform: uppercase; font-stretch: normal;}
+#venue{background-color: rgba(0, 0, 0, 0.14);}
+#venue .figure{background-color: #ffc425;}
+.bold{font-weight: bold;}
+.centr{margin-left: auto; margin-right: auto;}
+/*------------------------------*/
+/*------------------------------*/
+/*-------/corrections-----------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
 
 abbr[title],
 abbr[data-original-title] {
@@ -3361,7 +3414,8 @@ input[type="button"].btn-block {
 
 .card-subtitle {
   margin-top: -1rem;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  color: #77160c; }
 
 .card-text:last-child {
   margin-bottom: 0; }
@@ -8251,9 +8305,9 @@ nav[data-overlay].navbar-toggled-show {
   opacity: .25; }
 
 section .nav-link, footer .nav-link {
-  transition: opacity 0.2s linear; }
+  transition: opacity 0.2s linear; padding-top: 230px;}
   section .nav-link:not(.active):not(.disabled):not(:hover), footer .nav-link:not(.active):not(.disabled):not(:hover) {
-    opacity: .5; }
+    opacity: .8;}
   section .nav-link .icon, footer .nav-link .icon {
     transform: translate3d(0, 0, 0); }
   section .nav-link[aria-expanded="true"], footer .nav-link[aria-expanded="true"] {
@@ -8623,12 +8677,12 @@ section {
 .bg-primary-landing * {
   background: #333;
   color: #fff !important;
-  display: inline-block;
-  font-size: 6rem;
+  font-size: 4rem;
   font-stretch: condensed;
+  height: 6rem;
   line-height: 7rem;
-  padding: 0 3rem 0 0.5rem;
-  margin: 0.5rem 0 0;
+  padding: 0 2rem 0 1rem;
+  margin: .75rem 0 0;
   width: auto;
   text-transform: uppercase; }
 
@@ -8637,13 +8691,14 @@ section {
 
 @media (min-width: 768px) {
   .bg-primary-landing * {
-    line-height: 9rem;
-    font-size: 8rem; }
+    height: 6rem;
+    line-height: 7rem;
+    font-size: 6rem; }
 }
 
 @media (min-width: 992px) {
   .bg-primary-landing * {
-    max-width: 80%; }
+    }
 }
 
 img.rounded, div.rounded {
@@ -9517,8 +9572,8 @@ blockquote {
 .avatar {
   flex-shrink: 0;
   width: 3rem;
-  height: 3rem;
-  border-radius: 50%; }
+  /*height: 3rem; these are what was originally here
+  border-radius: 50%;*/ }
   .avatar.avatar-sm {
     width: 2.25rem;
     height: 2.25rem; }
@@ -9526,8 +9581,9 @@ blockquote {
     width: 4.5rem;
     height: 4.5rem; }
   .avatar.avatar-xlg {
-    width: 7.5rem;
-    height: 7.5rem; }
+    width: 80%;
+    margin-left: 10%;
+    /*height: 7.5rem; width matched*/ }
 
 @media (min-width: 992px) {
   .avatar.avatar-lg {
@@ -9643,38 +9699,41 @@ footer {
 
 @media (min-width: 768px) {
   .decoration.rect-white {
-    bottom: 70px;
-    left: -630px;
+    bottom: -90px;
+    left: -730px;
     transform: scale(0.5); }
 
   .decoration.rect-orange {
-    bottom: 420px;
-    left: 420px;
-    transform: scale(4); }
+    bottom: 210px;
+    left: 250px;
+    transform: scale(2.3); }
+  #breakin{margin-top: 1rem;}
 }
 
 @media (min-width: 992px) {
   .decoration.rect-white {
-    bottom: 60px;
+    bottom: -120px;
     left: -720px;
     transform: scale(0.5); }
 
   .decoration.rect-orange {
-    bottom: 470px;
-    left: 520px;
-    transform: scale(3); }
+    bottom: 240px;
+    left: 440px;
+    transform: scale(2.7); }
+  #breakin{margin-top: 8rem;}
 }
 
 @media (min-width: 1200px) {
   .decoration.rect-white {
-    bottom: 20px;
-    left: -600px;
+    bottom: -85px;
+    left: -650px;
     transform: scale(0.5); }
 
   .decoration.rect-orange {
-    bottom: 490px;
-    left: 710px;
-    transform: scale(4); }
+    bottom: 290px;
+    left: 540px;
+    transform: scale(2.8); }
+  #breakin{margin-top: 10rem;}
 }
 
 .decoration.scale-quarter {
@@ -11599,15 +11658,23 @@ https://flickity.metafizzy.co
     .image-collage > a:nth-child(2):hover {
       transform: rotateZ(-2deg) translate3d(0, -10px, 0); }
 
-.icon.stampede {
-  height: 400px;
-  width: 400px;
-}
 
 @media (max-width: 991.98px) {
   .image-collage > a:nth-child(2) img {
-    max-width: 100%; } }
-
+    max-width: 100%; } 
+  .stampede {
+    height: 400px;
+    width: 400px;}
+}
+@media (max-width: 500px){
+    .stampede {
+    height: 300px;
+    width: 300px;}
+    #cntdwnstyle2{top:262px;}
+}
+@media (max-width: 767px){
+    #cntdwnstyle2{top:227px;}
+}
 /**
 Ion.RangeSlider, 2.3.0
 © Denis Ineshin, 2010 - 2018, IonDen.com
