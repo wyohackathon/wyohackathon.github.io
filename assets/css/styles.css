@@ -99,6 +99,7 @@ p {
 #cntdwnstyle2 svg{height: 100%;}
 #cntdwnstyle2 svg polygon{fill: #ffc425;}
 @media (max-width: 767px) {#cntdwnstyle2{top:227px;} }  /*this corrrects the decoration's height according to the set text line-height. I would have used bottom:0; but I couldn't get it to ever work like that due to changing heights of the section*/
+@media (max-width: 365px) {#cntdwnstyle2{top:261px;} }
 #sponsors{overflow:hidden; position:relative;} /*this and the next rule set up the web-like background for the sponsor section. I needed to do it this way in order to set the opacity/color, since it's not an svg*/
 #sponsors:before {
   content: "";
@@ -11666,15 +11667,16 @@ https://flickity.metafizzy.co
     height: 400px;
     width: 400px;}
 }
+@media (max-width: 767px){
+    #cntdwnstyle2{top:227px;}
+}
 @media (max-width: 500px){
     .stampede {
     height: 300px;
     width: 300px;}
     #cntdwnstyle2{top:262px;}
 }
-@media (max-width: 767px){
-    #cntdwnstyle2{top:227px;}
-}
+
 /**
 Ion.RangeSlider, 2.3.0
 © Denis Ineshin, 2010 - 2018, IonDen.com
