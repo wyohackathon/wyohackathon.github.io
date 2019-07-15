@@ -9697,9 +9697,9 @@ blockquote {
   bottom: 20%; }
 
 .decoration.rect-orange {
-  bottom: 55%;
-  left: 80%;
-  transform: scale(8); }
+  bottom: 47%;
+  left: 91%;
+  transform: scale(20); }
 
 footer {
   background-image: url(../img/decorations/honeycomb.svg), linear-gradient(180deg, rgba(222,219,218,1) 0%, rgba(255,196,37,1)29%, rgba(119,22,12,1) 85%);
