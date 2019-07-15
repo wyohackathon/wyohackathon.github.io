@@ -36,7 +36,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Myriad Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
+/*colors: brown: #974708 blue:#183B61 red:#8B0E04 green:#A3A510 dark green:#7A7000  */
 *,
 *::before,
 *::after {
@@ -85,8 +85,8 @@ p {
 /*------------------------------*/
 /*------------------------------*/
 /*------------------------------*/
-#breakin{width:19rem;}
-#through{width: 22rem;}
+#breakin{width:24rem;height: 8rem;line-height: 8rem;font-size: 8rem;}
+#through{width: 27rem;height: 8rem;line-height: 8rem;font-size: 8rem;}
 .rect-orange{opacity:0.60; filter: saturate(900%) alpha(opacity=60); -webkit-filter: saturate(900%);}
 .rect-white{opacity:0.80;filter: alpha(opacity=80);}
 #cntdwnleft{text-align: right; border-right: 1px solid #fff; padding-right: 40px;}
@@ -112,6 +112,7 @@ p {
   background-size:cover;
   height: 100%;
   filter: grayscale(1) opacity(0.5);}
+#speakers{max-width: 100%; overflow: hidden;}
 .avitext{text-align: center; padding-top: 10px;}
 .avitext a{color: #000; font-weight: normal; font-style: italic;}
 .greytriangle{filter: grayscale(1) opacity(1); left: -680px; top: -350px; transform: scale(-2); }
@@ -123,10 +124,18 @@ p {
 .hili{padding: 15px 0 15px 0;} /*this is affecting the video thumbnails*/
 .eventicon{width: 100px;}
 .eventtext{font-size: 1.6rem; text-transform: uppercase; font-stretch: normal;}
-#venue{background-color: rgba(0, 0, 0, 0.14);}
+#venue{background-color: rgba(0, 0, 0, 0.14); background-image: url(../img/eerb5.jpg);background-size:cover;}
 #venue .figure{background-color: #ffc425;}
 .bold{font-weight: bold;}
 .centr{margin-left: auto; margin-right: auto;}
+.bgloosen{background-color: rgba(255, 255, 255, 0.14); color: #000;}
+#subfooter{ 
+  min-height: 150px;
+  padding-top: 0;
+  background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,196,37,1)29%, rgba(119,22,12,1) 85%);}
+#subfooter a{padding-top: 70px; opacity: 0.9;}
+.submovedown{position: relative; height:200px; top:-50px;}
+@media(max-width: 767px){.undrln{border-top: 1px solid #555; padding-top: 10px;}}
 /*------------------------------*/
 /*------------------------------*/
 /*-------/corrections-----------*/
@@ -8682,8 +8691,8 @@ section {
   font-stretch: condensed;
   height: 6rem;
   line-height: 7rem;
-  padding: 0 2rem 0 1rem;
-  margin: .75rem 0 0;
+  padding: 0 2rem 0 0.2rem;
+  margin: .3rem 0 0;
   width: auto;
   text-transform: uppercase; }
 
@@ -8693,7 +8702,7 @@ section {
 @media (min-width: 768px) {
   .bg-primary-landing * {
     height: 6rem;
-    line-height: 7rem;
+    line-height: 6rem;
     font-size: 6rem; }
 }
 
@@ -9684,11 +9693,11 @@ blockquote {
   bottom: 0; }
 
 .decoration.rect-white {
-  bottom: 100px; }
+  bottom: 20%; }
 
 .decoration.rect-orange {
-  bottom: 250px;
-  left: 330px;
+  bottom: 55%;
+  left: 80%;
   transform: scale(8); }
 
 footer {
@@ -9721,7 +9730,7 @@ footer {
     bottom: 240px;
     left: 440px;
     transform: scale(2.7); }
-  #breakin{margin-top: 8rem;}
+  #breakin{margin-top: 3rem;}
 }
 
 @media (min-width: 1200px) {
@@ -11667,15 +11676,24 @@ https://flickity.metafizzy.co
     height: 400px;
     width: 400px;}
 }
+@media (max-width: 767px){
+    #cntdwnstyle2{top:227px;}
+}
 @media (max-width: 500px){
     .stampede {
     height: 300px;
     width: 300px;}
-    #cntdwnstyle2{top:262px;}
-}
-@media (max-width: 767px){
     #cntdwnstyle2{top:227px;}
 }
+@media (max-width: 365px){
+  #cntdwnstyle2{top:261px;}
+
+}
+@media (max-width: 300px){
+  #cntdwnstyle2{display: none;}
+  #cntdwnstyle1{display: none;}
+}
+
 /**
 Ion.RangeSlider, 2.3.0
 © Denis Ineshin, 2010 - 2018, IonDen.com
