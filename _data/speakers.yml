@@ -11,43 +11,43 @@ hackathon:
     bio: They are also a person.
   - name: Tyler Lindholm
     image: tylerlindholm.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: Tyler_Lindholm
+    linkedin: tyler-lindholm-9119a259
     bio: They are also a person.
   - name: Drew Hinkes
     image: drewhinkes.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: propelforward
+    linkedin: andrewhinkes
     bio: They are also a person.
   - name: Trace Mayer
     image: tracemayer.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: TraceMayer
+    linkedin: tracemayer
     bio: They are also a person.
   - name: Joby Weeks
     image: jobyweeks.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: Jobyweeks
+    linkedin: jobyweeks
     bio: They are also a person.
   - name: Sebastien Henot
     image: sebastienhenot.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: sebhenot
+    linkedin: sebastienhenot
     bio: They are also a person.
   - name: Chris Snook
     image: chrissnook.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: chrisjsnook
+    linkedin: chrisjsnook
     bio: They are also a person.
   - name: Austin Griffith
     image: austingriffith.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: austingriffith
+    linkedin: austin-griffith-65ba2a2
     bio: They are also a person.
   - name: Emma Channing
     image: emmachanning.jpg
-    twitter: loremipsum
-    linkedin:
+    twitter: emschanning
+    linkedin: emmachanning
     bio: They are also a person.
 
 bizcon:
