@@ -12493,6 +12493,13 @@ Build date: 2018-12-11 23:23:51
 	transform: rotateY(180deg);
   padding-left: 40px; }
 
+.status-widget__state {
+  color: #fff !important;
+  font-size: 12px !important; }
+
+.status-widget__pane a {
+  color: #333 !important; }
+
 .jarallax {
   position: relative;
   z-index: 0; }

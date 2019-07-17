@@ -7535,4 +7535,19 @@ if ('serviceWorker' in navigator) {
     });
 }
 
+function initializeStatusWidget() {
+  if (typeof Status !== 'undefined') {
+    window.statusWidget = new Status.Widget({
+      hostname: 'status.wyohackathon.io',
+      selector: '#status',
+      display: {
+        panePosition: 'top-right'
+      }
+    });
+  } else {
+    setTimeout(initializeStatusWidget, 250);
+  }
+}
+initializeStatusWidget();
+
 //# sourceMappingURL=theme.js.map
