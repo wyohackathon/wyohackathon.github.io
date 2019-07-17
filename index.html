@@ -1,3 +1,6 @@
+---
+title: Main Page
+---
 <!doctype html>
 <html lang="en">
 
@@ -132,7 +135,7 @@
           </div>
         </div>
       </div>
-      
+
     </section>
     <section class="has-divider" id="sponsors">
       <div class="container">
@@ -143,336 +146,63 @@
           </div>
           <div class="col-5 col-md-4"></div>
         </div>
+
         <div class="row mb-1">
           <div class="col">
             <h3 class="h2">Title Sponsor</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-6 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.kraken.com/">
-              <img src="assets/img/logos/sponsors/kraken.png" alt="Kraken" />
-            </a>
-          </div>
-        </div>
+        {% include sponsors.html level="title" class="col-12 col-lg-6 d-flex mb-5 centr" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Sandcastle</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
+        {% include sponsors.html level="sandcastle" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Founder</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
-        <!--div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div-->
+        {% include sponsors.html level="founder" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Developer</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
-        <!--div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div-->
+        {% include sponsors.html level="developer" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Investor</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
-        <!--div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div-->
+        {% include sponsors.html level="investor" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Innovator</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
-        <!--div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div-->
+        {% include sponsors.html level="innovator" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Hacker</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <!--a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a-->
-          </div>
-        </div>
-        <!--This is the format for copy-pasting new additions.-->
-        <!--
-        <div class="row">
-          <div class="col-12 col-lg-6 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.kraken.com/">
-              <img src="assets/img/logos/sponsors/kraken.png" alt="Kraken" />
-            </a>
-          </div>
-        </div>
-        -->
+        {% include sponsors.html level="hacker" %}
+
         <div class="row mb-1 mt-4">
           <div class="col">
             <h3 class="h2">Media Partners</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-5 centr" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.whatbitcoindid.com/">
-              <img src="assets/img/logos/sponsors/wbd.jpg" alt="What Bitcoin Did" />
-            </a>
-          </div>
-        </div>
+        {% include sponsors.html level="media-partner" %}
+
         <div class="row mt-3">
           <div class="col text-dark text-center">
             <p>To indicate your interest in presenting, volunteering or sponsoring the 2019 WyoHackathon, please contact the WyoHackathon Team:</p>
@@ -487,7 +217,7 @@
     </section>
     <section id="speakers">
       <div class="container">
-        
+
         <div class="decoration greytriangle">
           <img src="assets/img/decorations/yellowtriangle.svg" alt="decoration" data-inject-svg  />
         </div>
@@ -502,83 +232,15 @@
           <div class="col-4"></div>
         </div>
         <div class="row">
-          <!--<div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg mr-3"><br/>
-            <div>
-              <h5 class="mb-0">Joe Shmoe</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div> This is how it was originally, saving for just in case-->
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/jessepowell.jpg" alt="Jesse Powell" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Jesse Powell</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/caitlinlong.jpg" alt="Caitlin Long" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Caitlin Long</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/tylerlindholm.jpg" alt="Tyler Lindholm" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Tyler Lindholm</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/drewhinkes.jpg" alt="Drew Hinkes" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Drew Hinkes</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/tracemayer.jpg" alt="Trace Mayer" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Trace Mayer</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/jobyweeks.jpg" alt="Joby Weeks" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Joby Weeks</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/sebastienhenot.jpg" alt="Sebastien Henot" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Sebastien Henot</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/chrissnook.jpg" alt="Chris Snook" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Chris Snook</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/austingriffith.jpg" alt="Austin Griffith" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Austin Griffith</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/emmachanning.jpg" alt="Emma Channing" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Emma Channing</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
+          {% include speakers.html event="hackathon" %}
+
+        </div>
+        <!-- TODO: the following contents should be hidden until shown with link below -->
+        <div class="row">
+          {% include speakers.html event="bizcon" %}
+        </div>
+        <div class="row">
+          {% include speakers.html event="devcon" %}
         </div>
         <!--div class="row"> This is commented out as it was not in the design, and it is not easily accomplished. Kept in case we need it later
           <div class="col">
@@ -677,7 +339,7 @@
               <!--p class="card-text">The Wyoming Blockchain Task Force is a bi-partisan group whose job is to draft proposed blockchain bills for consideration by the Wyoming legislature.</p-->
             </a>
           </div>
-          
+
           <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
             <a href="developerconf.html"><div  class="row">
               <div class="mb-3 mb-md-4 icon col-4">
@@ -723,7 +385,7 @@
             </a>
           </div>
         </div>
-            
+
             <div class="row mt-3">
               <div class="col text-center" style="padding-left:17px;">
                 <h5 class="mt-2 eventtext">Concluding Celebration</h5>
@@ -732,7 +394,7 @@
                 <h6 class="card-subtitle mb-5 ">Come wrap up all the festivities with food and drink.</h6>
               </div>
             </div>
-   
+
           <div class="row mt-3">
           <div class="col text-dark text-center">
             <h3>Get in Touch With Us</h3>
@@ -744,8 +406,8 @@ those innovations and turning them into businesses (Stampede Business Conference
 them the support, mentorship and acceleration required for success (Sandcastle).</p>
           </div>
         </div>
-          
-          
+
+
         </div>
       </div>
     </section>

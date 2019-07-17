@@ -1,0 +1,65 @@
+hackathon:
+  - name: Jesse Powell
+    image: jessepowell.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are a person.
+  - name: Caitlin Long
+    image: caitlinlong.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Tyler Lindholm
+    image: tylerlindholm.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Drew Hinkes
+    image: drewhinkes.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Trace Mayer
+    image: tracemayer.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Joby Weeks
+    image: jobyweeks.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Sebastien Henot
+    image: sebastienhenot.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Chris Snook
+    image: chrissnook.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Austin Griffith
+    image: austingriffith.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+  - name: Emma Channing
+    image: emmachanning.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+
+bizcon:
+  - name: Joe Schmoe
+    image: male-1.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.
+
+devcon:
+  - name: Jane Schmoe
+    image: female-1.jpg
+    twitter: loremipsum
+    linkedin:
+    bio: They are also a person.

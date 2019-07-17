@@ -1,0 +1,17 @@
+{% for speaker in site.data.speakers[include.event] %}
+  <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+    <img src="assets/img/avatars/{{speaker.image}}" alt="{{speaker.name}}" class="avatar avatar-xlg">
+    <div class="avitext">
+      <h5 class="mb-0 bold">{{speaker.name}}</h5>
+      {% if speaker.twitter %}
+        <a href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>
+      {% endif %}
+
+      {% if speaker.linkedin %}
+        <a href="https://www.linkedin.com/in/{{speaker.linkedin}}">LinkedIn</a>
+      {% endif %}
+    </div>
+
+    <!-- TODO: put {{speaker.bio}} somewhere! -->
+  </div>
+{% endfor %}

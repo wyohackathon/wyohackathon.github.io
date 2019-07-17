@@ -1,3 +1,6 @@
+---
+title: Devcon Event Page
+---
 <!doctype html>
 <html lang="en">
 
@@ -82,36 +85,7 @@ We are openly accepting papers and presentation suggestions.
           <div class="col-4"></div>
         </div>
         <div class="row">
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Joe Shmoe</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Joe Shmoe</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Joe Shmoe</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-          <!-- Copy pasta for any addional speakers
-          <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/avatars/male-1.jpg" alt="Joe Shmoe" class="avatar avatar-xlg">
-            <div class="avitext">
-              <h5 class="mb-0 bold">Joe Shmoe</h5>
-              <a href="#">@loremipsum</a>
-            </div>
-          </div>
-        -->
+          {% include speakers.html event="devcon" %}
         </div>
       </div>
     </section>
@@ -124,7 +98,7 @@ We are openly accepting papers and presentation suggestions.
           </div>
           <div class="col-4"></div>
         </div>
-        <!--This is where the agenda is. Format: row class divs are the rows. Col-# class divs are the columns. 
+        <!--This is where the agenda is. Format: row class divs are the rows. Col-# class divs are the columns.
         <div class="row mt-3">
           <div class="col">
             <h5 class="eventtext">Thursday Sept 19</h5>
@@ -136,7 +110,7 @@ We are openly accepting papers and presentation suggestions.
           </div>
         </div>
         <!--Copy and paste the above lines to add headings (days), if desired.
-        <div class="row undrln"> 
+        <div class="row undrln">
           <div class="col-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
             <p>12:00pm - 12:40pm</p>
           </div>
@@ -148,7 +122,7 @@ We are openly accepting papers and presentation suggestions.
           </div>
         </div>
         <!--Copy pasting the section between this comment and the immediate above comment will add a single row (time, speaker, title).
-        <div class="row undrln"> 
+        <div class="row undrln">
           <div class="col-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
             <p>12:40pm - 12:55pm</p>
           </div>
@@ -171,7 +145,7 @@ We are openly accepting papers and presentation suggestions.
             <p>Friday Summary</p>
           </div>
         </div>
-        <div class="row undrln"> 
+        <div class="row undrln">
           <div class="col-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
             <p>12:00pm - 12:40pm</p>
           </div>
@@ -182,7 +156,7 @@ We are openly accepting papers and presentation suggestions.
             <p>Title of talk for friday @ noon</p>
           </div>
         </div>
-        <div class="row undrln"> 
+        <div class="row undrln">
           <div class="col-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
             <p>12:40pm - 12:55pm</p>
           </div>
@@ -193,7 +167,7 @@ We are openly accepting papers and presentation suggestions.
             <p>Title of talk 4, which has a very long title. I am typing out a long one to test how well longer titles might overflow.</p>
           </div>
         </div>
-        <div class="row undrln"> 
+        <div class="row undrln">
           <div class="col-2 mb-1" data-aos="fade-up" data-aos-delay="100">
             <p>12:55pm - 1:10pm</p>
           </div>
