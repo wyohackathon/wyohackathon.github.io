@@ -50,6 +50,13 @@ hackathon:
     linkedin: emmachanning
     bio: They are also a person.
 
+hackathon-opening:
+  - name: Caitlin Long
+    image: caitlinlong.jpg
+    twitter: CaitlinLong_
+    linkedin: caitlin-long-
+    bio: They are also a person.
+
 bizcon:
   - name: Joe Schmoe
     image: male-1.jpg
