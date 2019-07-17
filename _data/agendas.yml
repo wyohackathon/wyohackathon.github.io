@@ -26,13 +26,13 @@ bizcon:
 
 devcon:
   - day: September 20, 2019
-    summary: To Be Announced
+    summary: Summary
     items:
-      - start: To Be Announced
-        end: To Be Announced
-        speaker: To Be Announced
-        title: To Be Announced
-      - start: To Be Announced
-        end: To Be Announced
-        speaker: To Be Announced
-        title: To Be Announced
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
