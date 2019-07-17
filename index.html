@@ -212,36 +212,37 @@ layout: default
     <div class="row">
       {% include speakers.html event="hackathon" %}
     </div>
-    <!-- TODO: the following contents should be hidden until shown with link below -->
-    <div class="row mb-1 mt-4">
-      <div class="col">
-        <h3 class="h2">WyoHackathon Opening Speakers</h3>
-      </div>
-    </div>
     <div class="row">
-      {% include speakers.html event="hackathon-opening" %}
-    </div>
-    <div class="row mb-1 mt-4">
       <div class="col">
-        <h3 class="h2">Business Conference Speakers</h3>
+        <a class="hover-arrow" data-toggle="collapse" role="button" href="#collapsedSpeakers" aria-expanded="false" aria-controls="collapsedSpeakers">View All Speakers</a>
       </div>
     </div>
-    <div class="row">
-      {% include speakers.html event="bizcon" %}
-    </div>
-    <div class="row mb-1 mt-4">
-      <div class="col">
-        <h3 class="h2">Developer's Conference Speakers</h3>
+    <div class="collapse" id="collapsedSpeakers">
+      <div class="row mb-1 mt-4">
+        <div class="col">
+          <h3 class="h2">WyoHackathon Opening Speakers</h3>
+        </div>
+      </div>
+      <div class="row">
+        {% include speakers.html event="hackathon-opening" %}
+      </div>
+      <div class="row mb-1 mt-4">
+        <div class="col">
+          <h3 class="h2">Business Conference Speakers</h3>
+        </div>
+      </div>
+      <div class="row">
+        {% include speakers.html event="bizcon" %}
+      </div>
+      <div class="row mb-1 mt-4">
+        <div class="col">
+          <h3 class="h2">Developer's Conference Speakers</h3>
+        </div>
+      </div>
+      <div class="row">
+        {% include speakers.html event="devcon" %}
       </div>
     </div>
-    <div class="row">
-      {% include speakers.html event="devcon" %}
-    </div>
-    <!--div class="row"> This is commented out as it was not in the design, and it is not easily accomplished. Kept in case we need it later
-      <div class="col">
-        <a href="#" class="hover-arrow">View all Speakers</a>
-      </div>
-    </div-->
   </div>
 </section>
 <section>
