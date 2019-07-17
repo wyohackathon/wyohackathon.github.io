@@ -1,6 +1,16 @@
 {% for speaker in site.data.speakers[include.event] %}
   <div class="col-sm-6 col-lg-4 align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
-    <img src="assets/img/avatars/{{speaker.image}}" alt="{{speaker.name}}" class="avatar avatar-xlg">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="assets/img/avatars/{{speaker.image}}" alt="{{speaker.name}}" class="avatar avatar-xlg">
+        </div>
+        <div class="back">
+          <h4 class="h5">Speaker Bio</h4>
+          <p>{{speaker.bio}}</p>
+        </div>
+      </div>
+    </div>
     <div class="avitext">
       <h5 class="mb-0 bold">{{speaker.name}}</h5>
       {% if speaker.twitter %}
@@ -11,7 +21,5 @@
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{speaker.linkedin}}">LinkedIn</a>
       {% endif %}
     </div>
-
-    <!-- TODO: put {{speaker.bio}} somewhere! -->
   </div>
 {% endfor %}
