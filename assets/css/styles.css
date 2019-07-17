@@ -72,7 +72,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.5rem;
   font-stretch: condensed;}
 
 p {
@@ -131,11 +131,11 @@ p {
 .centr{margin-left: auto; margin-right: auto;}
 .bgloosen{background-color: rgba(255, 255, 255, 0.14); color: #000;}
 @media (max-width: 767px){.bgloosen{background-color: rgba(255, 255, 255, 0.34); color: #000;}}
-#subfooter{ 
+#subfooter{
   min-height: 150px;
   padding-top: 0;
   background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,196,37,1)29%, rgba(119,22,12,1) 85%);}
-#subfooter a{padding-top: 70px; opacity: 0.9;}
+#subfooter a.nav-link{padding-top: 70px; opacity: 0.9;}
 .submovedown{position: relative; height:200px; top:-50px;}
 @media(max-width: 767px){.undrln{border-top: 1px solid #555; padding-top: 10px;}}
 /*------------------------------*/
@@ -3426,7 +3426,7 @@ input[type="button"].btn-block {
 
 .card-subtitle {
   margin-top: -1rem;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   color: #77160c; }
 
 .card-text:last-child {
@@ -11673,7 +11673,7 @@ https://flickity.metafizzy.co
 
 @media (max-width: 991.98px) {
   .image-collage > a:nth-child(2) img {
-    max-width: 100%; } 
+    max-width: 100%; }
   .stampede {
     height: 400px;
     width: 400px;}
