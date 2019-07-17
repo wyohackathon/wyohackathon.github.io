@@ -8,6 +8,9 @@ sandcastle:
 founder:
 
 developer:
+  - name: Hund
+    logo: hund.svg
+    link: https://hund.io
 
 investor:
   - name: Wyoming Business Council
