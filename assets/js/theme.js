@@ -1800,10 +1800,10 @@
                   self.selectedDates.length > 0 || self.config.noCalendar;
               var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
               /* TODO: investigate this further
-          
+
                 Currently, there is weird positioning behavior in safari causing pages
                 to scroll up. https://github.com/chmln/flatpickr/issues/563
-          
+
                 However, most browsers are not Safari and positioning is expensive when used
                 in scale. https://github.com/chmln/flatpickr/issues/1096
               */
@@ -7527,4 +7527,12 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(function(reg){
+    }).catch(function(err) {
+    });
+}
+
 //# sourceMappingURL=theme.js.map
