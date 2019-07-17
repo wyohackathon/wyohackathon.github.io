@@ -12464,6 +12464,35 @@ Build date: 2018-12-11 23:23:51
   .irs--theme .irs-handle:hover > i:first-child {
     background-color: #a43540; }
 
+.flip-container {
+	perspective: 1000px; }
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg); }
+
+.flip-container, .front, .back {
+	width: 100%;
+	height: 308px; }
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative; }
+
+.flip-container .front, .flip-container .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0; }
+
+.flip-container .front {
+	z-index: 2;
+	transform: rotateY(0deg); }
+
+.flip-container .back {
+	transform: rotateY(180deg);
+  padding-left: 40px; }
+
 .jarallax {
   position: relative;
   z-index: 0; }
