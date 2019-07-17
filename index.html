@@ -1,610 +1,457 @@
 ---
-title: Main Page
+title: WyoHackathon 2019
+layout: default
 ---
-<!doctype html>
-<html lang="en">
+<div class="navbar-container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3" data-sticky="top">
+    <div class="container">
+      <a class="navbar-brand fade-page" href="index.html">
+        WyoHackathon 2019
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+        <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+      </button>
+      <div class="collapse navbar-collapse justify-content-end">
+        <div class="py-2 py-lg-0">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a data-smooth-scroll href="#events" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a data-smooth-scroll href="#speakers" class="nav-link">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a data-smooth-scroll href="#sponsors" class="nav-link">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a data-smooth-scroll href="#venue" class="nav-link">Venue</a>
+            </li>
+            <li class="nav-item">
+              <a data-smooth-scroll href="#2018highlights" class="nav-link">2018 Highlights</a>
+            </li>
+          </ul>
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="http://157.230.199.150:3005/" class="btn btn-primary ml-lg-3" data-toggle="modal" data-target="#signupModal">Developer Signup</a><!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
+      </div>
+    </div>
+  </nav>
+</div>
+<section class="bg-primary bg-video text-light p-0 o-hidden jarallax" data-jarallax-video="mp4:./assets/video/banner.mp4" data-speed="1" data-type="scroll-opacity">
+  <div class="container layer-2">
+    <div class="row mb-3 min-vh-80 align-items-center" data-aos="fade-up">
+      <div class="decoration-wrapper">
+        <div class="decoration rect-white">
+          <img src="assets/img/decorations/element1.png" alt="decoration" />
+        </div>
+        <div class="decoration rect-orange">
+          <img src="assets/img/decorations/element2.png" alt="decoration" />
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="py-3 text-center">
+          <img class="img-fluid" src="assets/img/logo.svg" alt="WyoHackathon 2019 Logo" data-inject-svg />
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="py-3 bg-primary-landing d-none d-md-block">
+          <div id="breakin">Breakin</div>
+          <div id="through">Through</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-primary-3 has-divider">
+  <div class="divider flip-y" id="cntdwnstyle1">
+    <img src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
+  </div>
+  <div class="divider flip-x" id="cntdwnstyle2">
+    <img src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
+  </div>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-6 col-lg-6 text-light mt-3" id="cntdwnleft">
+        <h1 class="display-5 bold ">SEPTEMBER</h1>
+        <h1 class="display-5 bold">19-22, 2019</h1>
+        <!--<h2 class="display-6"><em>5p MST</em></h2>-->
+      </div>
+      <div class="col-6 col-lg-6 mb-3 mb-md-0 text-light" id="cntdwnright" data-countdown-date="2019/09/19 15:00:00" data-detailed>
+        <div data-active class="row">
+          <div class="col-12">
+            <div class="">
+              <span class="h1 mb-2" data-days></span>
+              <span class="h5 mb-0 text-uppercase font-weight-light" data-days-label></span>
+            </div>
+          </div>
 
-  <head>
-    <meta charset="utf-8">
-    <title>WyoHackathon 2019</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Cond.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-It.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Semibold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-SemiboldIt.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/MyriadPro-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-  </head>
+          <div class="col-12">
+            <div class="">
+              <span class="h1 mb-2" data-hours></span>
+              <span class="h5 mb-0 text-uppercase font-weight-light" data-hours-label></span>
+            </div>
+          </div>
 
-  <body>
-    <div class="loader">
-      <div class="loading-animation"></div>
+          <div class="col-12">
+            <div class="">
+              <span class="h1 mb-2" data-minutes></span>
+              <span class="h5 mb-0 text-uppercase font-weight-light" data-minutes-label></span>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="">
+              <span class="h1 mb-2" data-seconds></span>
+              <span class="h5 mb-0 text-uppercase font-weight-light" data-seconds-label></span>
+            </div>
+          </div>
+        </div>
+
+        <div data-elapsed style="display: none;">
+          <h1>Event ongoing</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section class="has-divider" id="sponsors">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-1 col-md-3"></div>
+      <div class="col-4 bg-primary-landing centr">
+        <h2 class="h1 figure">Sponsors</h2>
+      </div>
+      <div class="col-5 col-md-4"></div>
     </div>
 
-    <div class="navbar-container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3" data-sticky="top">
-        <div class="container">
-          <a class="navbar-brand fade-page" href="index.html">
-            WyoHackathon 2019
+    <div class="row mb-1">
+      <div class="col">
+        <h3 class="h2">Title Sponsor</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="title" class="col-12 col-lg-6 d-flex mb-5 centr" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Sandcastle</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="sandcastle" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Founder</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="founder" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Developer</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="developer" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Investor</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="investor" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Innovator</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="innovator" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Hacker</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="hacker" %}
+
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Media Partners</h3>
+      </div>
+    </div>
+    {% include sponsors.html level="media-partner" %}
+
+    <div class="row mt-3">
+      <div class="col text-dark text-center">
+        <p>To indicate your interest in presenting, volunteering or sponsoring the 2019 WyoHackathon, please contact the WyoHackathon Team:</p>
+        <p><a href="mailto:wyohackathon@gmail.com?Subject=Wyohackathon" target="_top">wyohackathon@gmail.com </a></p>
+        <p>307-223-2239</p>
+      </div>
+    </div>
+  </div>
+  <div class="divider">
+    <img src="assets/img/dividers/divider-4.svg" alt="graphical divider" data-inject-svg />
+  </div>
+</section>
+<section id="speakers">
+  <div class="container">
+
+    <div class="decoration greytriangle">
+      <img src="assets/img/decorations/yellowtriangle.svg" alt="decoration" data-inject-svg  />
+    </div>
+    <div class="decoration yellowtriangle">
+      <img src="assets/img/decorations/yellowtriangle.svg" alt="decoration" data-inject-svg  />
+    </div>
+    <div class="row mb-4">
+      <div class="col-2 col-md-4"></div>
+      <div class="col bg-primary-landing">
+        <h2 class="h1 figure">Speakers</h2>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row">
+      {% include speakers.html event="hackathon" %}
+    </div>
+    <!-- TODO: the following contents should be hidden until shown with link below -->
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">WyoHackathon Opening Speakers</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% include speakers.html event="hackathon-opening" %}
+    </div>
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Business Conference Speakers</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% include speakers.html event="bizcon" %}
+    </div>
+    <div class="row mb-1 mt-4">
+      <div class="col">
+        <h3 class="h2">Developer's Conference Speakers</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% include speakers.html event="devcon" %}
+    </div>
+    <!--div class="row"> This is commented out as it was not in the design, and it is not easily accomplished. Kept in case we need it later
+      <div class="col">
+        <a href="#" class="hover-arrow">View all Speakers</a>
+      </div>
+    </div-->
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-1 col-sm-2 col-md-3"></div>
+      <a target="_blank" rel="noopener noreferrer" href="http://157.230.199.150:3005/" class="col bg-primary-landing"> <!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
+        <h2 class="h1 figure" id="register">Register Now</h2>
+      </a>
+      <div class="col-1"></div>
+    </div>
+    <p>WyoHackathon 2019 sign-ups are powered by Krama File System to secure your private information by encrypting it with your Ethereum wallet and storing it in a decentralized network of nodes spread across the globe. Each signup has its provenance maintained on the Ethereum Kovan Testnet.</p><p>The submission application is built by Aicumen Technologies Inc. and operates best on these web browsers: Brave, Firefox, Chrome, and Opera. You will also require Metamask with a valid Ethereum account to sign-up.</p>
+  </div>
+</section>
+<section class="has-divider" id="twentyeighteenhighlights">
+  <div class="container">
+    <div class="decoration grn-triangle">
+      <img src="assets/img/decorations/greentriangle.svg" alt="decoration" data-inject-svg  />
+    </div>
+    <div class="decoration honeycomb2">
+      <img src="assets/img/decorations/honeycomb2.svg" alt="decoration" data-inject-svg  />
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-md-6 col-xl-5 mb-3 mb-md-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 col-lg-11">
+            <h3 class="display-4">2018</h3>
+            <h3 class="display-4">HIGHLIGHTS</h3>
+            <p class="lead">The WyoHackathon 2018 was such a huge success that attendees petitioned us to do it again. The University agreed. In 2019 we are expanding the event to include multiple educational opportunities and visibility for our presenters, sponsors and attendees.</p>
+            <!-- <a href="#" class="lead hover-arrow">View 2018 Highlights</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-5 mb-3 mb-md-0">
+        <div>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
+            <div>
+              <img src="assets/img/article-business.jpg" alt="Image" class="rounded hili">
+            </div>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
-            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
-          </button>
-          <div class="collapse navbar-collapse justify-content-end">
-            <div class="py-2 py-lg-0">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a data-smooth-scroll href="#events" class="nav-link">Events</a>
-                </li>
-                <li class="nav-item">
-                  <a data-smooth-scroll href="#speakers" class="nav-link">Speakers</a>
-                </li>
-                <li class="nav-item">
-                  <a data-smooth-scroll href="#sponsors" class="nav-link">Sponsors</a>
-                </li>
-                <li class="nav-item">
-                  <a data-smooth-scroll href="#venue" class="nav-link">Venue</a>
-                </li>
-                <li class="nav-item">
-                  <a data-smooth-scroll href="#2018highlights" class="nav-link">2018 Highlights</a>
-                </li>
-              </ul>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
+            <div>
+              <img src="assets/img/article-sandcastle.jpg" alt="Image" class="rounded hili">
             </div>
-            <a target="_blank" rel="noopener noreferrer" href="http://157.230.199.150:3005/" class="btn btn-primary ml-lg-3" data-toggle="modal" data-target="#signupModal">Developer Signup</a><!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
-          </div>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
+            <div>
+              <img src="assets/img/article-hackathon.jpg" alt="Image" class="rounded hili">
+            </div>
+          </a>
         </div>
-      </nav>
+      </div>
     </div>
-    <section class="bg-primary bg-video text-light p-0 o-hidden jarallax" data-jarallax-video="mp4:./assets/video/banner.mp4" data-speed="1" data-type="scroll-opacity">
-      <div class="container layer-2">
-        <div class="row mb-3 min-vh-80 align-items-center" data-aos="fade-up">
-          <div class="decoration-wrapper">
-            <div class="decoration rect-white">
-              <img src="assets/img/decorations/element1.png" alt="decoration" />
-            </div>
-            <div class="decoration rect-orange">
-              <img src="assets/img/decorations/element2.png" alt="decoration" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="py-3 text-center">
-              <img class="img-fluid" src="assets/img/logo.svg" alt="WyoHackathon 2019 Logo" data-inject-svg />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="py-3 bg-primary-landing d-none d-md-block">
-              <div id="breakin">Breakin</div>
-              <div id="through">Through</div>
-            </div>
-          </div>
-        </div>
+  </div>
+</section>
+<section id="events">
+  <div class="container">
+    <div class="row mb-3 text-center">
+      <div class="col-12">
+        <img class="stampede" src="assets/img/logos/events/stampede.svg" alt="wyoming blockchain stampede graphic" data-inject-svg />
       </div>
-    </section>
-    <section class="bg-primary-3 has-divider">
-      <div class="divider flip-y" id="cntdwnstyle1">
-        <img src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
-      </div>
-      <div class="divider flip-x" id="cntdwnstyle2">
-        <img src="assets/img/dividers/divider-4.svg" alt="divider graphic" data-inject-svg />
-      </div>
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-6 col-lg-6 text-light mt-3" id="cntdwnleft">
-            <h1 class="display-5 bold ">SEPTEMBER</h1>
-            <h1 class="display-5 bold">19-22, 2019</h1>
-            <!--<h2 class="display-6"><em>5p MST</em></h2>-->
+    </div>
+    <div class="row" style="position:relative; top:-90px; padding: 15px;">
+      <div class="col-12">
+      <p class="text-center"><em>Presented by:</em> College of Engineering and Applied Science (CEAS)</p>
+      <p class="text-center">Department of Computer Science</p>
+        </div><div>
+      <p>We’re holding the WyoHackathon in Laramie as part of a larger, even more inclusive event. On September 19-22, 2019 the Wyoming Blockchain Stampede will comprise:</p>
+    </div></div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="symphony.html" class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/symphony.svg" alt="icon" data-inject-svg />
           </div>
-          <div class="col-6 col-lg-6 mb-3 mb-md-0 text-light" id="cntdwnright" data-countdown-date="2019/09/19 15:00:00" data-detailed>
-            <div data-active class="row">
-              <div class="col-12">
-                <div class="">
-                  <span class="h1 mb-2" data-days></span>
-                  <span class="h5 mb-0 text-uppercase font-weight-light" data-days-label></span>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="">
-                  <span class="h1 mb-2" data-hours></span>
-                  <span class="h5 mb-0 text-uppercase font-weight-light" data-hours-label></span>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="">
-                  <span class="h1 mb-2" data-minutes></span>
-                  <span class="h5 mb-0 text-uppercase font-weight-light" data-minutes-label></span>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="">
-                  <span class="h1 mb-2" data-seconds></span>
-                  <span class="h5 mb-0 text-uppercase font-weight-light" data-seconds-label></span>
-                </div>
-              </div>
-            </div>
-
-            <div data-elapsed style="display: none;">
-              <h1>Event ongoing</h1>
-            </div>
+          <div class="col-8">
+          <h5 class="mt-2 eventtext">Symphony of Blockchain Exhibition</h5>
+          <h6 class="card-subtitle mb-2 ">9/19&ndash;22</h6></div>
+          <!--p class="card-text">The Symphony of Blockchain is an interactive, visual and auditory exploration of Bitcoin, cryptocurrency and the blockchain. It is an ongoing research initiative with a singular aim: to help bring about greater understanding of both blockchain technology and the ever expanding (and contracting) cryptocurrency marketplace.</p-->
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="blockchain.html"><div class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/taskforce.svg" alt="icon" data-inject-svg />
           </div>
-        </div>
+          <div class="col-8">
+          <h5 class="mt-2 eventtext">Wyoming Blockchain Taskforce</h5>
+          <h6 class="card-subtitle mb-2 ">9/19&ndash;20</h6></div></div>
+          <!--p class="card-text">The Wyoming Blockchain Task Force is a bi-partisan group whose job is to draft proposed blockchain bills for consideration by the Wyoming legislature.</p-->
+        </a>
       </div>
 
-    </section>
-    <section class="has-divider" id="sponsors">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-1 col-md-3"></div>
-          <div class="col-4 bg-primary-landing centr">
-            <h2 class="h1 figure">Sponsors</h2>
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="developerconf.html"><div  class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/developerconf.svg" alt="icon" data-inject-svg />
           </div>
-          <div class="col-5 col-md-4"></div>
-        </div>
-
-        <div class="row mb-1">
-          <div class="col">
-            <h3 class="h2">Title Sponsor</h3>
+          <div class="col-8">
+          <h5 class="mt-2 eventtext">Stampede Developers Conference</h5>
+          <h6 class="card-subtitle mb-2 ">9/20 8am &ndash; 3pm</h6></div></div>
+          <!--p class="card-text">A full day of technical speakers and workshops helping attendees prepare for the WyoHackathon Challenges and get acquainted with new technologies, concepts and emerging standards.</p-->
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="hackathon.html"><div  class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/wyohackathon.svg" alt="icon" data-inject-svg />
           </div>
-        </div>
-        {% include sponsors.html level="title" class="col-12 col-lg-6 d-flex mb-5 centr" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Sandcastle</h3>
+          <div class="col-8" style="padding-left:27px;">
+          <h5 class="mt-2 eventtext">WyoHackathon</h5>
+          <h6 class="card-subtitle mb-2 ">9/20 3pm &ndash; 9/22 noon</h6></div></div>
+          <!--p class="card-text">The WyoHackathon is a celebratory blockchain  event for developers, entrepreneurs and established companies to experience the blockchain community, create amazing innovations and learn about the opportunities with blockchain technology and the new Wyoming legislation, while connecting with like-minded people.</p-->
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="businessconf.html"><div  class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/businessconf.svg" alt="icon" data-inject-svg />
           </div>
-        </div>
-        {% include sponsors.html level="sandcastle" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Founder</h3>
+          <div class="col-8">
+          <h5 class="mt-2 eventtext">Stampede Business Conference</h5>
+          <h6 class="card-subtitle mb-2 ">9/21 8am &ndash; 3pm</h6></div></div>
+          <!--p class="card-text">A full day of speakers and workshops helping attendees understand the Wyoming legislative environment, business opportunities of blockchain and use cases applicable to Wyoming and worldwide.</p-->
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="sandcastle.html" class="row">
+          <div class="mb-3 mb-md-4 icon col-4">
+            <img src="assets/img/logos/events/sandcastle.svg" alt="icon" data-inject-svg />
           </div>
-        </div>
-        {% include sponsors.html level="founder" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Developer</h3>
-          </div>
-        </div>
-        {% include sponsors.html level="developer" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Investor</h3>
-          </div>
-        </div>
-        {% include sponsors.html level="investor" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Innovator</h3>
-          </div>
-        </div>
-        {% include sponsors.html level="innovator" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Hacker</h3>
-          </div>
-        </div>
-        {% include sponsors.html level="hacker" %}
-
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Media Partners</h3>
-          </div>
-        </div>
-        {% include sponsors.html level="media-partner" %}
+          <div class="col-8" style="padding-left:17px;">
+          <h5 class="mt-2 eventtext">Sandcastle Invitational</h5>
+          <h6 class="card-subtitle mb-2 ">9/22 noon &ndash; 5pm</h6></div>
+          <!--p class="card-text">Sandcastle is seeking the best and most promising blockchain startups the world over to compete during Dubai2020 in the finale Sandcastle Challenge. Two winners from the Wyoming Blockchain Stampede will earn two of the 16 slots to compete in EXPO2020 Dubai.</p-->
+        </a>
+      </div>
+    </div>
 
         <div class="row mt-3">
-          <div class="col text-dark text-center">
-            <p>To indicate your interest in presenting, volunteering or sponsoring the 2019 WyoHackathon, please contact the WyoHackathon Team:</p>
-            <p><a href="mailto:wyohackathon@gmail.com?Subject=Wyohackathon" target="_top">wyohackathon@gmail.com </a></p>
-            <p>307-223-2239</p>
-          </div>
-        </div>
-      </div>
-      <div class="divider">
-        <img src="assets/img/dividers/divider-4.svg" alt="graphical divider" data-inject-svg />
-      </div>
-    </section>
-    <section id="speakers">
-      <div class="container">
-
-        <div class="decoration greytriangle">
-          <img src="assets/img/decorations/yellowtriangle.svg" alt="decoration" data-inject-svg  />
-        </div>
-        <div class="decoration yellowtriangle">
-          <img src="assets/img/decorations/yellowtriangle.svg" alt="decoration" data-inject-svg  />
-        </div>
-        <div class="row mb-4">
-          <div class="col-2 col-md-4"></div>
-          <div class="col bg-primary-landing">
-            <h2 class="h1 figure">Speakers</h2>
-          </div>
-          <div class="col-4"></div>
-        </div>
-        <div class="row">
-          {% include speakers.html event="hackathon" %}
-        </div>
-        <!-- TODO: the following contents should be hidden until shown with link below -->
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">WyoHackathon Opening Speakers</h3>
-          </div>
-        </div>
-        <div class="row">
-          {% include speakers.html event="hackathon-opening" %}
-        </div>
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Business Conference Speakers</h3>
-          </div>
-        </div>
-        <div class="row">
-          {% include speakers.html event="bizcon" %}
-        </div>
-        <div class="row mb-1 mt-4">
-          <div class="col">
-            <h3 class="h2">Developer's Conference Speakers</h3>
-          </div>
-        </div>
-        <div class="row">
-          {% include speakers.html event="devcon" %}
-        </div>
-        <!--div class="row"> This is commented out as it was not in the design, and it is not easily accomplished. Kept in case we need it later
-          <div class="col">
-            <a href="#" class="hover-arrow">View all Speakers</a>
-          </div>
-        </div-->
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-1 col-sm-2 col-md-3"></div>
-          <a target="_blank" rel="noopener noreferrer" href="http://157.230.199.150:3005/" class="col bg-primary-landing"> <!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
-            <h2 class="h1 figure" id="register">Register Now</h2>
-          </a>
-          <div class="col-1"></div>
-        </div>
-        <p>WyoHackathon 2019 sign-ups are powered by Krama File System to secure your private information by encrypting it with your Ethereum wallet and storing it in a decentralized network of nodes spread across the globe. Each signup has its provenance maintained on the Ethereum Kovan Testnet.</p><p>The submission application is built by Aicumen Technologies Inc. and operates best on these web browsers: Brave, Firefox, Chrome, and Opera. You will also require Metamask with a valid Ethereum account to sign-up.</p>
-      </div>
-    </section>
-    <section class="has-divider" id="twentyeighteenhighlights">
-      <div class="container">
-        <div class="decoration grn-triangle">
-          <img src="assets/img/decorations/greentriangle.svg" alt="decoration" data-inject-svg  />
-        </div>
-        <div class="decoration honeycomb2">
-          <img src="assets/img/decorations/honeycomb2.svg" alt="decoration" data-inject-svg  />
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-md-6 col-xl-5 mb-3 mb-md-0">
-            <div class="row justify-content-center">
-              <div class="col-xl-10 col-lg-11">
-                <h3 class="display-4">2018</h3>
-                <h3 class="display-4">HIGHLIGHTS</h3>
-                <p class="lead">The WyoHackathon 2018 was such a huge success that attendees petitioned us to do it again. The University agreed. In 2019 we are expanding the event to include multiple educational opportunities and visibility for our presenters, sponsors and attendees.</p>
-                <!-- <a href="#" class="lead hover-arrow">View 2018 Highlights</a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 col-lg-5 mb-3 mb-md-0">
-            <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
-                <div>
-                  <img src="assets/img/article-business.jpg" alt="Image" class="rounded hili">
-                </div>
-              </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
-                <div>
-                  <img src="assets/img/article-sandcastle.jpg" alt="Image" class="rounded hili">
-                </div>
-              </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GKQeFgCxU1U">
-                <div>
-                  <img src="assets/img/article-hackathon.jpg" alt="Image" class="rounded hili">
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-<section id="events">
-      <div class="container">
-        <div class="row mb-3 text-center">
-          <div class="col-12">
-            <img class="stampede" src="assets/img/logos/events/stampede.svg" alt="wyoming blockchain stampede graphic" data-inject-svg />
-          </div>
-        </div>
-        <div class="row" style="position:relative; top:-90px; padding: 15px;">
-          <div class="col-12">
-          <p class="text-center"><em>Presented by:</em> College of Engineering and Applied Science (CEAS)</p>
-          <p class="text-center">Department of Computer Science</p>
-            </div><div>
-          <p>We’re holding the WyoHackathon in Laramie as part of a larger, even more inclusive event. On September 19-22, 2019 the Wyoming Blockchain Stampede will comprise:</p>
-        </div></div>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="symphony.html" class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/symphony.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8">
-              <h5 class="mt-2 eventtext">Symphony of Blockchain Exhibition</h5>
-              <h6 class="card-subtitle mb-2 ">9/19&ndash;22</h6></div>
-              <!--p class="card-text">The Symphony of Blockchain is an interactive, visual and auditory exploration of Bitcoin, cryptocurrency and the blockchain. It is an ongoing research initiative with a singular aim: to help bring about greater understanding of both blockchain technology and the ever expanding (and contracting) cryptocurrency marketplace.</p-->
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="blockchain.html"><div class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/taskforce.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8">
-              <h5 class="mt-2 eventtext">Wyoming Blockchain Taskforce</h5>
-              <h6 class="card-subtitle mb-2 ">9/19&ndash;20</h6></div></div>
-              <!--p class="card-text">The Wyoming Blockchain Task Force is a bi-partisan group whose job is to draft proposed blockchain bills for consideration by the Wyoming legislature.</p-->
-            </a>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="developerconf.html"><div  class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/developerconf.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8">
-              <h5 class="mt-2 eventtext">Stampede Developers Conference</h5>
-              <h6 class="card-subtitle mb-2 ">9/20 8am &ndash; 3pm</h6></div></div>
-              <!--p class="card-text">A full day of technical speakers and workshops helping attendees prepare for the WyoHackathon Challenges and get acquainted with new technologies, concepts and emerging standards.</p-->
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="hackathon.html"><div  class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/wyohackathon.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8" style="padding-left:27px;">
-              <h5 class="mt-2 eventtext">WyoHackathon</h5>
-              <h6 class="card-subtitle mb-2 ">9/20 3pm &ndash; 9/22 noon</h6></div></div>
-              <!--p class="card-text">The WyoHackathon is a celebratory blockchain  event for developers, entrepreneurs and established companies to experience the blockchain community, create amazing innovations and learn about the opportunities with blockchain technology and the new Wyoming legislation, while connecting with like-minded people.</p-->
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="businessconf.html"><div  class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/businessconf.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8">
-              <h5 class="mt-2 eventtext">Stampede Business Conference</h5>
-              <h6 class="card-subtitle mb-2 ">9/21 8am &ndash; 3pm</h6></div></div>
-              <!--p class="card-text">A full day of speakers and workshops helping attendees understand the Wyoming legislative environment, business opportunities of blockchain and use cases applicable to Wyoming and worldwide.</p-->
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="sandcastle.html" class="row">
-              <div class="mb-3 mb-md-4 icon col-4">
-                <img src="assets/img/logos/events/sandcastle.svg" alt="icon" data-inject-svg />
-              </div>
-              <div class="col-8" style="padding-left:17px;">
-              <h5 class="mt-2 eventtext">Sandcastle Invitational</h5>
-              <h6 class="card-subtitle mb-2 ">9/22 noon &ndash; 5pm</h6></div>
-              <!--p class="card-text">Sandcastle is seeking the best and most promising blockchain startups the world over to compete during Dubai2020 in the finale Sandcastle Challenge. Two winners from the Wyoming Blockchain Stampede will earn two of the 16 slots to compete in EXPO2020 Dubai.</p-->
-            </a>
+          <div class="col text-center" style="padding-left:17px;">
+            <h5 class="mt-2 eventtext">Concluding Celebration</h5>
+            <h6 class="card-subtitle mb-2 ">September 22, 2019 5pm &ndash; 7pm</h6>
+            <h6 class="card-subtitle mb-2 ">Gateway Center</h6>
+            <h6 class="card-subtitle mb-5 ">Come wrap up all the festivities with food and drink.</h6>
           </div>
         </div>
 
-            <div class="row mt-3">
-              <div class="col text-center" style="padding-left:17px;">
-                <h5 class="mt-2 eventtext">Concluding Celebration</h5>
-                <h6 class="card-subtitle mb-2 ">September 22, 2019 5pm &ndash; 7pm</h6>
-                <h6 class="card-subtitle mb-2 ">Gateway Center</h6>
-                <h6 class="card-subtitle mb-5 ">Come wrap up all the festivities with food and drink.</h6>
-              </div>
-            </div>
-
-          <div class="row mt-3">
-          <div class="col text-dark text-center">
-            <h3>Get in Touch With Us</h3>
-            <p>The week is organized to reflect the ecosystem cycle that starts with providing the legal
+      <div class="row mt-3">
+      <div class="col text-dark text-center">
+        <h3>Get in Touch With Us</h3>
+        <p>The week is organized to reflect the ecosystem cycle that starts with providing the legal
 framework and environment for successful blockchain and crypto business creation (the
 Taskforce), then an environment for educating what is possible technologically (Stampede
 Developer Conference) leading to innovations and possibilities (WyoHackathon). Then taking
 those innovations and turning them into businesses (Stampede Business Conference) and giving
 them the support, mentorship and acceleration required for success (Sandcastle).</p>
-          </div>
-        </div>
-
-
-        </div>
       </div>
-    </section>
-    <section id="venue">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-3 col-md-4"></div>
-          <div class="col bg-primary-landing">
-            <h2 class="h1 figure">Venue</h2>
-          </div>
-          <div class="col-4"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 mb-3 mb-md-0 bgloosen" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="mt-3 mb-0 bold">Engineering Education &amp; Research Building (EERB)</h3>
-            <p class="lead mt-0 mb-0">University of Wyoming</p>
-            <p class="lead mt-0 mb-0">103 E Lewis St.</p>
-            <p class="lead mt-0 mb-0">Laramie, WY 82072 USA</p>
-            <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/LtUSp5FkbDQXfFre9" class="hover-arrow mt-1" style="color:#974708;">Directions</a>
-            <p class="pr-lg-4 mt-3">
-              The new 4-story Engineering Education and Research Building is the latest addition to the University of Wyoming College of Engineering and Applied Science. Comprised of research and teaching lab spaces, faculty offices, a medium classroom, a large auditorium, and collaboration spaces, the building is shared by multiple disciplines of engineering department including civil, architectural, mechanical, electrical, computer science, atmospheric, chemical and petroleum engineering programs. The grand 4-story atrium also features a “floating” glass and steel staircase.
-            </p>
-            <h3 class="mb-1">Hilton Garden Inn, 2229 Grand Ave. (307) 745-5500</h3>
+    </div>
+
+
+    </div>
+  </div>
+</section>
+<section id="venue">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-3 col-md-4"></div>
+      <div class="col bg-primary-landing">
+        <h2 class="h1 figure">Venue</h2>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 mb-3 mb-md-0 bgloosen" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="mt-3 mb-0 bold">Engineering Education &amp; Research Building (EERB)</h3>
+        <p class="lead mt-0 mb-0">University of Wyoming</p>
+        <p class="lead mt-0 mb-0">103 E Lewis St.</p>
+        <p class="lead mt-0 mb-0">Laramie, WY 82072 USA</p>
+        <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/LtUSp5FkbDQXfFre9" class="hover-arrow mt-1" style="color:#974708;">Directions</a>
+        <p class="pr-lg-4 mt-3">
+          The new 4-story Engineering Education and Research Building is the latest addition to the University of Wyoming College of Engineering and Applied Science. Comprised of research and teaching lab spaces, faculty offices, a medium classroom, a large auditorium, and collaboration spaces, the building is shared by multiple disciplines of engineering department including civil, architectural, mechanical, electrical, computer science, atmospheric, chemical and petroleum engineering programs. The grand 4-story atrium also features a “floating” glass and steel staircase.
+        </p>
+        <h3 class="mb-1">Hilton Garden Inn, 2229 Grand Ave. (307) 745-5500</h3>
 <p class="mb-0">Queen $160 + plus tax; King $143 + plus tax</p>
 <p>Please use UW Hackathon 2019 when booking the room</p>
 <h3 class="mb-1">Holiday Inn, 204 30th Street  (307) 721-9000</h3>
 <p class="mb-0">King or Queen $109 + tax</p>
 <p>Please use UW Hackathon 2019 when booking the room</p>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
-            <img id="map" src="assets/img/map.png" alt="map" style="width:100%;"></img>
-          </div>
-        </div>
       </div>
-    </section>
-    <footer class="pb-4 bg-primary-3 text-light" id="footer">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col">
-            <div class="card card-body border-0 o-hidden mb-0 bg-primary-3 text-light">
-              <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
-                <div class="h3 text-center mb-md-0">Take part in WyoHackathon 2019</div>
-                <a target="_blank" rel="noopener noreferrer"  href="http://157.230.199.150:3005/" class="btn btn-lg btn-white" data-toggle="modal" data-target="#signupModal">Developer Signup</a><!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-auto">
-            <ul class="nav">
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/wyohackathon" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="https://t.me/WyoHackathon" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/telegram.svg" alt="telegram social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/wyohackathon/" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/linkedin.svg" alt="linkedin social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wyohackathon" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wyohackathon/" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" rel="noopener noreferrer" href="mailto:wyohackathon@gmail.com" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/theme/communication/mail-at.svg" alt="email icon" data-inject-svg />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col col-md-auto text-center">
-            <small class="text-muted">&copy;2019 | All Rights Reserved | <a target="_blank" rel="noopener noreferrer" href="https://www.uwyo.edu/">University of Wyoming</a></small>
-          </div>
-        </div>
+      <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+        <img id="map" src="assets/img/map.png" alt="map" style="width:100%;"></img>
       </div>
-    </footer>
-
-    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
-      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
-    </a>
-
-    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="signupModalLabel">Developer Signup</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Please check back soon to register as a developer!
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+    </div>
+  </div>
+</section>
+{% capture registration %}
+  <div class="row mb-5">
+    <div class="col">
+      <div class="card card-body border-0 o-hidden mb-0 bg-primary-3 text-light">
+        <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div class="h3 text-center mb-md-0">Take part in WyoHackathon 2019</div>
+          <a target="_blank" rel="noopener noreferrer" href="http://157.230.199.150:3005/" class="btn btn-lg btn-white" data-toggle="modal" data-target="#signupModal">Developer Signup</a><!--Use sbumit.wyohackathon.io here rather than the IP once this is set up-->
         </div>
       </div>
     </div>
+  </div>
+{% endcapture %}
+{% include footer.html extra_content=registration %}
 
-    <!-- Required vendor scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="assets/js/clipboard.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-    <!-- Flatpickr (calendar/date/time picker UI) -->
-    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- jQuery smartWizard facilitates steppable wizard content -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
-    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/theme.js"></script>
-    <!-- Removes page load animation when window is finished loading -->
-    <script type="text/javascript">
-      window.addEventListener("load", function () {
-        document.querySelector('body').classList.add('loaded');
-      });
-    </script>
-
-    <!--script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: 41.32, lng: -105.58};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 15, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ypDgO18h0IpvXUCP8_LBdhjWY_PTnvo&callback=initMap">
-    </script-->
-
-  </body>
-
-</html>
+<a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
+  <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+</a>
