@@ -1,0 +1,20 @@
+{
+  "name": "WyoHackathon 2019",
+  "short_name": "WyoHackathon",
+  "start_url": "/?source=pwa",
+  "display": "browser",
+  "theme_color": "#77160c",
+  "background_color": "#77160c",
+  "icons": [
+    {
+      "src": "/assets/img/logos/manifest/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/logos/manifest/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
