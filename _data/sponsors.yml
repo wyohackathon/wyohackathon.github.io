@@ -17,6 +17,9 @@ hacker:
   - name: SIMBA
     logo: simba.png
     link: https://simbachain.com
+  - name: IBM
+    logo: ibm.jpg
+    link: https://ibm.com
 
 media-partner:
   - name: What Bitcoin Did
