@@ -3,70 +3,70 @@ hackathon:
     image: jessepowell.jpg
     twitter: jespow
     linkedin: jessepowell
-    bio: They are a person.
+    bio: 
   - name: Caitlin Long
     image: caitlinlong.jpg
     twitter: CaitlinLong_
     linkedin: caitlin-long-
-    bio: They are also a person.
+    bio: 
   - name: Tyler Lindholm
     image: tylerlindholm.jpg
     twitter: Tyler_Lindholm
     linkedin: tyler-lindholm-9119a259
-    bio: They are also a person.
+    bio: 
   - name: Drew Hinkes
     image: drewhinkes.jpg
     twitter: propelforward
     linkedin: andrewhinkes
-    bio: They are also a person.
+    bio: 
   - name: Trace Mayer
     image: tracemayer.jpg
     twitter: TraceMayer
     linkedin: tracemayer
-    bio: They are also a person.
+    bio: 
   - name: Joby Weeks
     image: jobyweeks.jpg
     twitter: Jobyweeks
     linkedin: jobyweeks
-    bio: They are also a person.
+    bio: 
   - name: Sebastien Henot
     image: sebastienhenot.jpg
     twitter: sebhenot
     linkedin: sebastienhenot
-    bio: They are also a person.
+    bio: 
   - name: Chris Snook
     image: chrissnook.jpg
     twitter: chrisjsnook
     linkedin: chrisjsnook
-    bio: They are also a person.
+    bio: 
   - name: Austin Griffith
     image: austingriffith.jpg
     twitter: austingriffith
     linkedin: austin-griffith-65ba2a2
-    bio: They are also a person.
+    bio: 
   - name: Emma Channing
     image: emmachanning.jpg
     twitter: emschanning
     linkedin: emmachanning
-    bio: They are also a person.
+    bio: 
 
 hackathon-opening:
   - name: Caitlin Long
     image: caitlinlong.jpg
     twitter: CaitlinLong_
     linkedin: caitlin-long-
-    bio: They are also a person.
+    bio: 
 
 bizcon:
-  - name: Joe Schmoe
-    image: male-1.jpg
-    twitter: loremipsum
-    linkedin:
-    bio: They are also a person.
+  - name: Drew Hinkes
+    image: drewhinkes.jpg
+    twitter: propelforward
+    linkedin: andrewhinkes
+    bio: 
 
 devcon:
-  - name: Jane Schmoe
-    image: female-1.jpg
-    twitter: loremipsum
-    linkedin:
-    bio: They are also a person.
+  - name: Austin Griffith
+    image: austingriffith.jpg
+    twitter: austingriffith
+    linkedin: austin-griffith-65ba2a2
+    bio: 
