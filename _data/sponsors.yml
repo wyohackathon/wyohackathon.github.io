@@ -1,7 +1,7 @@
 title:
   - name: Kraken
     logo: kraken.png
-    link: https://www.kraken.com/
+    link: https://www.kraken.com
 
 sandcastle:
 
@@ -12,17 +12,20 @@ developer:
 investor:
   - name: Wyoming Business Council
     logo: wbc.png
-    link: http://www.wyomingbusiness.org/
+    link: http://www.wyomingbusiness.org
 
 innovator:
 
 hacker:
   - name: SIMBA
     logo: simba.png
-    link: https://simbachain.com
+    link: https://www.simbachain.com
   - name: IBM
     logo: ibm.jpg
-    link: https://ibm.com
+    link: https://www.ibm.com
+  - name: Kingdom Trust
+    logo: kingdomtrust.png
+    link: https://www.kingdomtrust.com
 
 media-partner:
   - name: What Bitcoin Did
