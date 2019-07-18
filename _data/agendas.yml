@@ -1,38 +1,38 @@
 hackathon:
-  - day: Friday, Sept 20
-    summary: Livestreaming and video capture of talks
+  - day: September 20, 2019
+    summary: Summary
     items:
-      - start: 8:00am
-        end: 8:40am
-        speaker: Silva Hound
-        title: Title of talk
-      - start: 8:40am
-        end: 9:55am
-        speaker: Ted Thourough
-        title: Title of talk 2
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
 
 bizcon:
-  - day: Saturday, Sept 21
-    summary: Livestreaming and video capture of talks
+  - day: September 21, 2019
+    summary: Summary
     items:
-      - start: 8:00am
-        end: 8:40am
-        speaker: Silva Hound
-        title: Title of talk
-      - start: 8:40am
-        end: 9:55am
-        speaker: Ted Thourough
-        title: Title of talk 2
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
 
 devcon:
-  - day: Friday, Sept 20
-    summary: Livestreaming and video capture of talks
+  - day: September 20, 2019
+    summary: Summary
     items:
-      - start: 8:00am
-        end: 8:40am
-        speaker: Silva Hound
-        title: Title of talk
-      - start: 8:40am
-        end: 9:55am
-        speaker: Ted Thourough
-        title: Title of talk 2
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
+      - start: Start
+        end: End
+        speaker: Speaker
+        title: Title
