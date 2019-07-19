@@ -19,6 +19,12 @@ investor:
   - name: Wyoming Business Council
     logo: wbc.png
     link: http://www.wyomingbusiness.org
+  - name: Global Blockchain Business Council
+    logo: gbbc.png
+    link: https://gbbcouncil.org/
+  - name: BXE Capital
+    logo: bxecapital.png
+    link: https://www.bxecapital.com/
 
 innovator:
 
