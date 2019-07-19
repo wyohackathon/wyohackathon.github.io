@@ -34,6 +34,11 @@ hackathon:
     twitter: TraceMayer
     linkedin: tracemayer
     bio: 
+  - name: Sandra Ro
+    image: sandraro.png
+    twitter: srolondon
+    linkedin: sandraro
+    bio: 
   - name: Joby Weeks
     image: jobyweeks.jpg
     twitter: Jobyweeks
@@ -69,11 +74,6 @@ hackathon:
     twitter: 
     linkedin: 
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
-  - name: Sandra Ro
-    image: sandraro.png
-    twitter: srolondon
-    linkedin: sandraro
-    bio: 
 
 hackathon-opening:
   - name: Caitlin Long
@@ -87,6 +87,11 @@ bizcon:
     image: drewhinkes.jpg
     twitter: propelforward
     linkedin: andrewhinkes
+    bio: 
+  - name: Sandra Ro
+    image: sandraro.png
+    twitter: srolondon
+    linkedin: sandraro
     bio: 
 
 devcon:
