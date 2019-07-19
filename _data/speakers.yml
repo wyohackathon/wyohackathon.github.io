@@ -64,6 +64,11 @@ hackathon:
     twitter: 
     linkedin: 
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
+  - name: Anthony Pompliano
+    image: anthonypompliano.png
+    twitter: apompliano
+    linkedin: anthonypompliano
+    bio: 
 
 hackathon-opening:
   - name: Caitlin Long
