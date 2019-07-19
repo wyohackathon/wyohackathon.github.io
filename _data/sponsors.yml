@@ -14,6 +14,9 @@ developer:
   - name: Hund
     logo: hund.png
     link: https://hund.io
+  - name: IoTrust
+    logo: iotrust.png
+    link: https://iotrust.kr/
 
 investor:
   - name: Wyoming Business Council
