@@ -14,12 +14,7 @@ hackathon:
     twitter: Tyler_Lindholm
     linkedin: tyler-lindholm-9119a259
     bio: 
-- name: Charles Hoskinson
-    image: charleshoskinson.png
-    twitter: IOHK_Charles
-    linkedin: charles-hoskinson-1a95a4b4
-    bio: Charles Hoskinson is a Colorado-based technology entrepreneur and mathematician. He attended Metropolitan State University of Denver and University of Colorado Boulder to study analytic number theory before moving into cryptography through industry exposure.
-- name: Drew Hinkes
+  - name: Drew Hinkes
     image: drewhinkes.jpg
     twitter: propelforward
     linkedin: andrewhinkes
