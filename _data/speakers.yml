@@ -49,6 +49,16 @@ hackathon:
     twitter: emschanning
     linkedin: emmachanning
     bio: 
+  - name: Peter McCormack
+    image: petermccormack.png
+    twitter: petermccormack
+    linkedin: petermccormack1
+    bio: Peter is the host of the What Bitcoin Did podcast, where he interviews the leading minds in the Bitcoin space.
+  - name: Michael Peyton Jones
+    image: michaelpeytonjones.png
+    twitter: 
+    linkedin: 
+    bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
 
 hackathon-opening:
   - name: Caitlin Long
