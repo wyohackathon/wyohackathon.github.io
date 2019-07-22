@@ -87,8 +87,8 @@ hackathon:
   - name: Jann Mueller
     image: 
     twitter: j_mueller1
-    linkedin: jann-müller
-    bio: I'm a functional compiler engineer at IOHK who is working on the Plutus smart contract language. He is interested in functional programming, modeling uncertainty, and their intersections Jann previously worked on projects in regulatory and financial risk.
+    linkedin: jann-muller
+    bio: A functional compiler engineer at IOHK who is working on the Plutus smart contract language. He is interested in functional programming, modeling uncertainty, and their intersections Jann previously worked on projects in regulatory and financial risk.
   - name: Barney Debnam
     image: 
     twitter: barneydebnam
@@ -98,7 +98,7 @@ hackathon:
     image: 
     twitter: Arshasays
     linkedin: ananthacrkrishnan
-    bio: CEO & Chief Ideator @Aicumen Technologies Inc | Anantha has 20+ Years of International Leadership Experience in the areas of Business Transformation, digital technologies, and Marketing & Customer Strategy. A proven thought leader and expert in the area of Business Transformation, Artificial Intelligence, and blockchain, Anantha works with organizations to accelerate business value.
+    bio: CEO & Chief Ideator @ Aicumen Technologies Inc | Anantha has 20+ Years of International Leadership Experience in the areas of Business Transformation, digital technologies, and Marketing & Customer Strategy. A proven thought leader and expert in the area of Business Transformation, Artificial Intelligence, and blockchain, Anantha works with organizations to accelerate business value.
 
 hackathon-opening:
   - name: Caitlin Long
