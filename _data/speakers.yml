@@ -87,7 +87,7 @@ hackathon:
   - name: Jann Mueller
     image: jannmueller.png
     twitter: j_mueller1
-    linkedin: jann-muller
+    linkedin: jann-müller
     bio: A functional compiler engineer at IOHK who is working on the Plutus smart contract language. He is interested in functional programming, modeling uncertainty, and their intersections Jann previously worked on projects in regulatory and financial risk.
   - name: Barney Debnam
     image: 
