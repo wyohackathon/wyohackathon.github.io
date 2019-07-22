@@ -74,6 +74,31 @@ hackathon:
     twitter: 
     linkedin: 
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
+  - name: Eric Badiere
+    image: 
+    twitter: ebadiere
+    linkedin: ericbadiere
+    bio: Software programmer/engineer for over 20 years. I am also an ethereum miner. I currently work for Clearme where we are working on identity solutions that respect the user's privacy.
+  - name: Munair Simpson
+    image: 
+    twitter: munair
+    linkedin: munair
+    bio: Munair Simpson is the chief marketing officer of IoTrust, the creator of the D'CENT Biometic Wallet.
+  - name: Jann Mueller
+    image: 
+    twitter: j_mueller1
+    linkedin: jann-müller
+    bio: I'm a functional compiler engineer at IOHK who is working on the Plutus smart contract language. He is interested in functional programming, modeling uncertainty, and their intersections Jann previously worked on projects in regulatory and financial risk.
+  - name: Barney Debnam
+    image: 
+    twitter: barneydebnam
+    linkedin: barneydebnam
+    bio: Agriculture & Natural Resource Technologist | 2+ years down the Crypto rabbit hole | Decentralization Zealot for Farmers & Ranchers | Ex-Global CIO at DuPont Pioneer & Crop Protection | Recovering Enterprise IT Executive | Multiple Web 1.0 AgTech Startups | World's First Internet Crop Management System | World's First Digital Grain Contract | I wonder about the value of 'Salad-Chains'
+  - name: Anantha Krishnan
+    image: 
+    twitter: Arshasays
+    linkedin: ananthacrkrishnan
+    bio: CEO & Chief Ideator @Aicumen Technologies Inc | Anantha has 20+ Years of International Leadership Experience in the areas of Business Transformation, digital technologies, and Marketing & Customer Strategy. A proven thought leader and expert in the area of Business Transformation, Artificial Intelligence, and blockchain, Anantha works with organizations to accelerate business value.
 
 hackathon-opening:
   - name: Caitlin Long
