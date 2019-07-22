@@ -129,7 +129,7 @@ p {
 #venue .figure{background-color: #ffc425;}
 .bold{font-weight: bold;}
 .centr{margin-left: auto; margin-right: auto;}
-.bgloosen{background-color: rgba(255, 255, 255, 0.14); color: #000;}
+.bgloosen{background-color: rgba(255, 255, 255, 0.34); color: #000;}
 @media (max-width: 767px){.bgloosen{background-color: rgba(255, 255, 255, 0.34); color: #000;}}
 #subfooter{
   min-height: 150px;
