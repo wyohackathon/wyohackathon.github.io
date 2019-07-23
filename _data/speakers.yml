@@ -3,12 +3,12 @@ hackathon:
     image: jessepowell.jpg
     twitter: jespow
     linkedin: jessepowell
-    bio: 
+    bio:
   - name: Caitlin Long
     image: caitlinlong.jpg
     twitter: CaitlinLong_
     linkedin: caitlin-long-
-    bio: 
+    bio:
   - name: Rep. Tyler Lindholm
     image: tylerlindholm.jpg
     twitter: Tyler_Lindholm
@@ -23,7 +23,7 @@ hackathon:
     image: anthonypompliano.png
     twitter: apompliano
     linkedin: anthonypompliano
-    bio: 
+    bio:
   - name: Andrew Hinkes
     image: drewhinkes.png
     twitter: propelforward
@@ -38,12 +38,12 @@ hackathon:
     image: sandraro.png
     twitter: srolondon
     linkedin: sandraro
-    bio: 
+    bio:
   - name: Joby Weeks
     image: jobyweeks.jpg
     twitter: Jobyweeks
     linkedin: jobyweeks
-    bio: 
+    bio:
   - name: Sebastien Henot
     image: sebastienhenot.jpg
     twitter: sebhenot
@@ -58,12 +58,12 @@ hackathon:
     image: austingriffith.jpg
     twitter: austingriffith
     linkedin: austin-griffith-65ba2a2
-    bio: 
+    bio:
   - name: Emma Channing
     image: emmachanning.jpg
     twitter: emschanning
     linkedin: emmachanning
-    bio: 
+    bio:
   - name: Peter McCormack
     image: petermccormack.png
     twitter: petermccormack
@@ -71,8 +71,8 @@ hackathon:
     bio: Peter is the host of the What Bitcoin Did podcast, where he interviews the leading minds in the Bitcoin space.
   - name: Michael Peyton Jones
     image: michaelpeytonjones.png
-    twitter: 
-    linkedin: 
+    twitter:
+    linkedin:
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
   - name: Eric Badiere
     image: ericbadiere.png
@@ -111,32 +111,31 @@ hackathon:
     bio: Co-Founder and Managing Partner of BXE Capital. BXE Capital is the first digital assets investment fund in the state of Colorado. Mr. Finkleman has over 25 years of combined experience within both public and privately held corporations and carved out a specialty within FinTech and corporate finance. Prior to founding the Fund, Mr. Finkleman spent nearly eight years working in virtually every aspect within corporate payments.
   - name: Become a Speaker
     image: becomeaspeaker.png
-    twitter: yougotthis
-    linkedin: 
-    bio: I've been around the block and in chains, but we the willing, led by the unknowing, are doing the impossible for the ungrateful. We have done so much, with so little, for so long, we are now qualified to do anything, with nothing. Sign Up Today @ https://forms.gle/d98mRoCTNeUn1oCRA
+    website: https://forms.gle/d98mRoCTNeUn1oCRA
+    bio: I've been around the block and in chains, but we the willing, led by the unknowing, are doing the impossible for the ungrateful. We have done so much, with so little, for so long, we are now qualified to do anything, with nothing.
 
 hackathon-opening:
   - name: Caitlin Long
     image: caitlinlong.jpg
     twitter: CaitlinLong_
     linkedin: caitlin-long-
-    bio: 
+    bio:
 
 bizcon:
   - name: Andrew Hinkes
     image: drewhinkes.jpg
     twitter: propelforward
     linkedin: andrewhinkes
-    bio: 
+    bio:
   - name: Sandra Ro
     image: sandraro.png
     twitter: srolondon
     linkedin: sandraro
-    bio: 
+    bio:
 
 devcon:
   - name: Austin Griffith
     image: austingriffith.jpg
     twitter: austingriffith
     linkedin: austin-griffith-65ba2a2
-    bio: 
+    bio:
