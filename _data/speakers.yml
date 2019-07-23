@@ -75,7 +75,7 @@ hackathon:
     linkedin: 
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
   - name: Eric Badiere
-    image: 
+    image: ericbadiere.png
     twitter: ebadiere
     linkedin: ericbadiere
     bio: Software programmer/engineer for over 20 years. I am also an ethereum miner. I currently work for Clearme where we are working on identity solutions that respect the user's privacy.
