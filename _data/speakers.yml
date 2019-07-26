@@ -38,7 +38,7 @@ hackathon:
     image: sandraro.png
     twitter: srolondon
     linkedin: sandraro
-    bio:
+    bio: CEO of the Global Blockchain Business Council (GBBC) across over 50 countries. Serves on the NYS Digital Currency Task Force, the US Department of State Speakers’ Bureau for blockchain / security, the EU Blockchain Observatory & Forum: Use Cases & Transition Scenarios Working Group, the NYC Blockchain Center, and the Global Blockchain Policy Council (GBPC), founded by bipartisan South Korean Congress.
   - name: Joby Weeks
     image: jobyweeks.jpg
     twitter: Jobyweeks
@@ -131,7 +131,7 @@ bizcon:
     image: sandraro.png
     twitter: srolondon
     linkedin: sandraro
-    bio:
+    bio: CEO of the Global Blockchain Business Council (GBBC) across over 50 countries. Serves on the NYS Digital Currency Task Force, the US Department of State Speakers’ Bureau for blockchain / security, the EU Blockchain Observatory & Forum: Use Cases & Transition Scenarios Working Group, the NYC Blockchain Center, and the Global Blockchain Policy Council (GBPC), founded by bipartisan South Korean Congress.
 
 devcon:
   - name: Austin Griffith
