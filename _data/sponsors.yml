@@ -17,6 +17,9 @@ developer:
   - name: IoTrust
     logo: iotrust.png
     link: https://iotrust.kr/
+  - name: Elevated Games
+    logo: elevatedgames.png
+    link: https://www.elevated.games
 
 investor:
   - name: Wyoming Business Council
