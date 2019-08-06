@@ -138,6 +138,12 @@ p {
 #subfooter a.nav-link{padding-top: 70px; opacity: 0.9;}
 .submovedown{position: relative; height:200px; top:-50px;}
 @media(max-width: 767px){.undrln{border-top: 1px solid #555; padding-top: 10px;}}
+
+.featured-competition {
+  position: absolute;
+  top: 20px;
+  right: 15%;
+  z-index: 1000; }
 /*------------------------------*/
 /*------------------------------*/
 /*-------/corrections-----------*/
