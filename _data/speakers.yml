@@ -124,6 +124,21 @@ hackathon:
     twitter: 
     linkedin: 
     bio: Kevin Owocki is the founder of Gitcoin.co -- An Ethereum-based network for growing open source software with incentivization mechanics. He has a BS in Computer Science, 10 years of engineering leadership experience in startups and Open Source Software, and is a community organizer in the Boulder Colorado Tech Scene.
+  - name: Jeremy Wood
+    image: jeremywood.png
+    twitter: 
+    linkedin: 
+    bio: Since 2013 Jeremy has been interested in crypto and is a founding member of the Kansai Bitcoin Meet-up. He became entranced by the potential of blockchains and joined Ethereum at the end of 2013, managing operations. After Ethereum, Jeremy consulted on cryptocurrencies then started Input Output with Charles Hoskinson in 2015. Jeremy believes fintech's future depends on experimentation, research, and collaboration between diverse groups.
+  - name: David Esser
+    image: davidesser.png
+    twitter: 
+    linkedin: 
+    bio: David Esser is the Product Manager for Cardano. David brings over 20 years of Product and Technology leadership to IOHK. A serial entrepreneur, David was co-founder of successful startups DBO2 and RepairPal where he owned Product Management as CTO/COO. Believing in the potential of blockchain technologies to solve classes of problems that haven’t been solvable at scale before, David joined IOHK in 2019 and is focused on building the world’s best blockchain platforms.
+  - name: Amanda B. Johnson
+    image: amandajbohnson.png
+    twitter: 
+    linkedin: 
+    bio: Supervisor of the Dash Investment Foundation (DIF), the world's first owner-less and member-less investment fund. Ms. Johnson began educating on cryptocurrency in 2014 as a journalist for Bitcoin Magazine and CoinTelegraph. In 2015 she launched "The Daily Decrypt." In 2016 she applied to the Dash treasury system for funds, she became the world's first freelancer to work for a Decentralized Autonomous Organization (DAO).
   - name: Become a Speaker
     image: becomeaspeaker.png
     website: https://forms.gle/d98mRoCTNeUn1oCRA
