@@ -152,16 +152,96 @@ hackathon-opening:
     bio: Wyoming Blockchain Task Force, gubernatorial appointee, 2018-present; Chairman & president of enterprise blockchain company, Symbiont, in 2016-2018, which was named FinTech Company of the Year 2017 by CustodyRisk; Women in Finance Award for Excellence in Blockchain 2016 by MarketsMedia; Inc. list of 10 business leaders changing the world through tech in 2016; Blockchain evangelist since 2014 and bitcoin since 2012; served on Morgan Stanley’s internal blockchain working group.
 
 bizcon:
+  - name: Charles Hoskinson
+    image: charleshoskinson.png
+    twitter: IOHK_Charles
+    linkedin: charles-hoskinson-1a95a4b4
+    bio: Charles founded 3 cryptocurrency-related startups—Invictus Innovations, Ethereum and IOHK. He was the founding chairman of the Bitcoin Foundation's education committee and established the Cryptocurrency Research Group in 2013. He educates on cryptocurrency, evangelizes decentralization and is making cryptographic tools easier to use for the mainstream with his work leading research, design and development of Cardano.
+  - name: Ganesh Prasad Kumble
+    image: ganeshprasadkumble.png
+    twitter: 0zAND1z
+    linkedin: kumblegp
+    bio: Ganesh Prasad Kumble leads platform innovation at Aicumen Technologies Inc. He is an expert in emerging technologies and business strategy. Ganesh has co-founded, bootstrapped, mentored several start-ups and initiatives across SaaS, eCommerce, IoT, Blockchain & AI. He is a contributor to several open-source projects including Ethereum and IPFS. He is also a moderator at Ethereum Research.
+  - name: Karthik Balasubramanian
+    image: 
+    twitter: 
+    linkedin: 
+    bio: 
+  - name: Emma Channing
+    image: emmachanning.png
+    twitter: emschanning
+    linkedin: emmachanning
+    bio:
+  - name: Joshua Finkleman
+    image: joshuafinkleman.png
+    twitter: BXECapital
+    linkedin: joshuafinkleman
+    bio: Co-Founder and Managing Partner of BXE Capital. BXE Capital is the first digital assets investment fund in the state of Colorado. Mr. Finkleman has over 25 years of combined experience within both public and privately held corporations and carved out a specialty within FinTech and corporate finance. Prior to founding the Fund, Mr. Finkleman spent nearly eight years working in virtually every aspect within corporate payments.
   - name: Andrew Hinkes
     image: drewhinkes.png
     twitter: propelforward
     linkedin: andrewhinkes
     bio: One of Coindesk’s Most Influential People in Blockchain (2017), Attorney @ Carlton Fields, National Blockchain & Digital Currency practice. Co-founder & General Counsel of Athena Blockchain, a professional services firm focused on tokenized investment products. Adjunct Prof. @ NYU Stern Business School & the NYU School of Law, where he co-teaches "Digital Currency, Blockchains, & the Future of the Financial Services Industry."
+  - name: Anantha Krishnan
+    image: ananthakrishnan.png
+    twitter: Arshasays
+    linkedin: ananthacrkrishnan
+    bio: CEO & Chief Ideator @ Aicumen Technologies Inc | Anantha has 20+ Years of International Leadership Experience in the areas of Business Transformation, digital technologies, and Marketing & Customer Strategy. A proven thought leader and expert in the area of Business Transformation, Artificial Intelligence, and blockchain, Anantha works with organizations to accelerate business value.
+  - name: Rep. Tyler Lindholm
+    image: tylerlindholm.png
+    twitter: Tyler_Lindholm
+    linkedin: tyler-lindholm-9119a259
+    bio: Wyoming House District 1, Majority Whip, Blockchain Taskforce Committee
+  - name: Caitlin Long
+    image: caitlinlong.jpg
+    twitter: CaitlinLong_
+    linkedin: caitlin-long-
+    bio: Wyoming Blockchain Task Force, gubernatorial appointee, 2018-present; Chairman & president of enterprise blockchain company, Symbiont, in 2016-2018, which was named FinTech Company of the Year 2017 by CustodyRisk; Women in Finance Award for Excellence in Blockchain 2016 by MarketsMedia; Inc. list of 10 business leaders changing the world through tech in 2016; Blockchain evangelist since 2014 and bitcoin since 2012; served on Morgan Stanley’s internal blockchain working group.
+  - name: Trace Mayer
+    image: tracemayer.png
+    twitter: TraceMayer
+    linkedin: tracemayer
+    bio: Trace Mayer is an entrepreneur, investor, journalist, monetary scientist, philosopher and ardent defender of the freedom of speech. Started recommending Bitcoin around $0.25 and funded core blockchain infrastructure including Armory, Kraken, and others.
+  - name: Peter McCormack
+    image: petermccormack.png
+    twitter: petermccormack
+    linkedin: petermccormack1
+    bio: Peter is the host of the What Bitcoin Did podcast, where he interviews the leading minds in the Bitcoin space.
+  - name: David Pope
+    image: 
+    twitter: 
+    linkedin: 
+    bio: 
+  - name: Jesse Powell
+    image: jessepowell.jpg
+    twitter: jespow
+    linkedin: jessepowell
+    bio: Jesse Powell is the founder and CEO of numerous organizations, including Kraken. Powell was founder and CEO of Lewt, Inc., that delivered services for assisting players in online-based video games with account management and in-game currency, from 2001 to 2011. He also founded Internet Ventures & Holdings, which also provided services to the online gaming community. In 2007 he started the Verge Gallery & Studio Project in Sacramento and took board seat in 2010.
   - name: Sandra Ro
     image: sandraro.png
     twitter: srolondon
     linkedin: sandraro
     bio: CEO of the Global Blockchain Business Council (GBBC) across over 50 countries. Serves on the NYS Digital Currency Task Force, the US Department of State Speakers’ Bureau for blockchain & security, the EU Blockchain Observatory & Forum- Use Cases & Transition Scenarios Working Group, the NYC Blockchain Center, and the Global Blockchain Policy Council (GBPC), founded by bipartisan South Korean Congress.
+  - name: Munair Simpson
+    image: munairsimpson.png
+    twitter: munair
+    linkedin: munair
+    bio: Munair Simpson is the chief marketing officer of IoTrust, the creator of the D'CENT Biometic Wallet.
+  - name: Chris Snook
+    image: chrissnook.jpg
+    twitter: chrisjsnook
+    linkedin: chrisjsnook
+    bio: Bestselling Author of Digital Sense | Managing Partner at Launch Haus a Venture Studio and Opportunity Zone Impact Fund | Chairman/Founder of Sandcastle Foundation, Sandcastle Startups Challenge and the World Tokenomic Forum. Husband and Father.
+  - name: Joby Weeks
+    image: jobyweeks.jpg
+    twitter: Jobyweeks
+    linkedin: jobyweeks
+    bio: 2010 early Bitcoin investor/pioneer. Educates and presents on how this peer-to-peer asset built on a revolutionary technology called Blockchain and Cryptography can shift the transfer of wealth from banks and put the people in control of their wealth. To bank the un bankable. 2014 Bitclub was established to allow people profit from the source by mining cryptocurrency. Mined over 75,000 Bitcoins with 1,000,000 members enrolled in over 100 countries. Helped create 100 millionaires.
+  - name: Sebastien Henot
+    image: sebastienhenot.jpg
+    twitter: sebhenot
+    linkedin: sebastienhenot
+    bio: IT engineer background with 15 years of international business operations and strategic marketing experience. Head of Business Innovation in the automotive industry. Working to adapt the OEM's business model to tackle new technological and societal disruptions- blockchain, autonomous driving, connected cars, IoT, and New Mobility services. Chairman of the Vehicle Identity workgroup at MOBI
 
 devcon:
   - name: Eric Badiere
