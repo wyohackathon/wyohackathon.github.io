@@ -145,11 +145,26 @@ hackathon:
     bio: I've been around the block and in chains, but we the willing, led by the unknowing, are doing the impossible for the ungrateful. We have done so much, with so little, for so long, we are now qualified to do anything, with nothing.
 
 hackathon-opening:
+  - name: Charles Hoskinson
+    image: charleshoskinson.png
+    twitter: IOHK_Charles
+    linkedin: charles-hoskinson-1a95a4b4
+    bio: Charles founded 3 cryptocurrency-related startups—Invictus Innovations, Ethereum and IOHK. He was the founding chairman of the Bitcoin Foundation's education committee and established the Cryptocurrency Research Group in 2013. He educates on cryptocurrency, evangelizes decentralization and is making cryptographic tools easier to use for the mainstream with his work leading research, design and development of Cardano.
   - name: Caitlin Long
     image: caitlinlong.jpg
     twitter: CaitlinLong_
     linkedin: caitlin-long-
     bio: Wyoming Blockchain Task Force, gubernatorial appointee, 2018-present; Chairman & president of enterprise blockchain company, Symbiont, in 2016-2018, which was named FinTech Company of the Year 2017 by CustodyRisk; Women in Finance Award for Excellence in Blockchain 2016 by MarketsMedia; Inc. list of 10 business leaders changing the world through tech in 2016; Blockchain evangelist since 2014 and bitcoin since 2012; served on Morgan Stanley’s internal blockchain working group.
+  - name: Rep. Tyler Lindholm
+    image: tylerlindholm.png
+    twitter: Tyler_Lindholm
+    linkedin: tyler-lindholm-9119a259
+    bio: Wyoming House District 1, Majority Whip, Blockchain Taskforce Committee
+  - name: Jesse Powell
+    image: jessepowell.jpg
+    twitter: jespow
+    linkedin: jessepowell
+    bio: Jesse Powell is the founder and CEO of numerous organizations, including Kraken. Powell was founder and CEO of Lewt, Inc., that delivered services for assisting players in online-based video games with account management and in-game currency, from 2001 to 2011. He also founded Internet Ventures & Holdings, which also provided services to the online gaming community. In 2007 he started the Verge Gallery & Studio Project in Sacramento and took board seat in 2010.
 
 bizcon:
   - name: Charles Hoskinson
