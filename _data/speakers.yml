@@ -164,8 +164,53 @@ bizcon:
     bio: CEO of the Global Blockchain Business Council (GBBC) across over 50 countries. Serves on the NYS Digital Currency Task Force, the US Department of State Speakers’ Bureau for blockchain & security, the EU Blockchain Observatory & Forum- Use Cases & Transition Scenarios Working Group, the NYC Blockchain Center, and the Global Blockchain Policy Council (GBPC), founded by bipartisan South Korean Congress.
 
 devcon:
+  - name: Eric Badiere
+    image: ericbadiere.png
+    twitter: ebadiere
+    linkedin: ericbadiere
+    bio: Software programmer/engineer for over 20 years. I am also an ethereum miner. I currently work for Clearme where we are working on identity solutions that respect the user's privacy.
+  - name: Peter Chmiel
+    image: 
+    twitter: 
+    linkedin: 
+    bio: 
+  - name: Tommy Cooksey
+    image: tommycooksey.png
+    twitter: tommy_cooksey
+    linkedin: tommycooksey1972
+    bio: Master Trainer, Blockchain Developer, Architect. Over 20 years of IT training experience.
+  - name: David Esser
+    image: davidesser.png
+    twitter: 
+    linkedin: davidesser
+    bio: David Esser is the Product Manager for Cardano. David brings over 20 years of Product and Technology leadership to IOHK. A serial entrepreneur, David was co-founder of successful startups DBO2 and RepairPal where he owned Product Management as CTO/COO. Believing in the potential of blockchain technologies to solve classes of problems that haven’t been solvable at scale before, David joined IOHK in 2019 and is focused on building the world’s best blockchain platforms.
+  - name: Theo Goodman
+    image: theogoodman.png
+    twitter: theog__
+    linkedin: theo-goodman-20754515
+    bio: Meme Consultant, Degenerate Sports Bettor, Co Founder of the Rarepepe Foundation, World Crypto Network Legend, Creator of the Sound Wallet
   - name: Austin Griffith
     image: austingriffith.jpg
     twitter: austingriffith
     linkedin: austin-griffith-65ba2a2
     bio:
+  - name: Charles Hoskinson
+    image: charleshoskinson.png
+    twitter: IOHK_Charles
+    linkedin: charles-hoskinson-1a95a4b4
+    bio: Charles founded 3 cryptocurrency-related startups—Invictus Innovations, Ethereum and IOHK. He was the founding chairman of the Bitcoin Foundation's education committee and established the Cryptocurrency Research Group in 2013. He educates on cryptocurrency, evangelizes decentralization and is making cryptographic tools easier to use for the mainstream with his work leading research, design and development of Cardano.
+  - name: Ganesh Prasad Kumble
+    image: ganeshprasadkumble.png
+    twitter: 0zAND1z
+    linkedin: kumblegp
+    bio: Ganesh Prasad Kumble leads platform innovation at Aicumen Technologies Inc. He is an expert in emerging technologies and business strategy. Ganesh has co-founded, bootstrapped, mentored several start-ups and initiatives across SaaS, eCommerce, IoT, Blockchain & AI. He is a contributor to several open-source projects including Ethereum and IPFS. He is also a moderator at Ethereum Research.
+  - name: Jann Mueller
+    image: jannmueller.png
+    twitter: j_mueller1
+    linkedin: jann-müller
+    bio: A functional compiler engineer at IOHK who is working on the Plutus smart contract language. He is interested in functional programming, modeling uncertainty, and their intersections Jann previously worked on projects in regulatory and financial risk.
+  - name: Michael Peyton Jones
+    image: michaelpeytonjones.png
+    twitter:
+    linkedin:
+    bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
