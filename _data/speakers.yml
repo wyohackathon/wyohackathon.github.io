@@ -334,3 +334,20 @@ devcon:
     twitter:
     linkedin:
     bio: 
+
+sandcastle:
+  - name: Chris Snook
+    image: chrissnook.jpg
+    twitter: chrisjsnook
+    linkedin: chrisjsnook
+    bio: Bestselling Author of Digital Sense | Managing Partner at Launch Haus a Venture Studio and Opportunity Zone Impact Fund | Chairman/Founder of Sandcastle Foundation, Sandcastle Startups Challenge and the World Tokenomic Forum. Husband and Father.
+  - name: Joby Weeks
+    image: jobyweeks.jpg
+    twitter: Jobyweeks
+    linkedin: jobyweeks
+    bio: 2010 early Bitcoin investor/pioneer. Educates and presents on how this peer-to-peer asset built on a revolutionary technology called Blockchain and Cryptography can shift the transfer of wealth from banks and put the people in control of their wealth. To bank the un bankable. 2014 Bitclub was established to allow people profit from the source by mining cryptocurrency. Mined over 75,000 Bitcoins with 1,000,000 members enrolled in over 100 countries. Helped create 100 millionaires.
+  - name: Sebastien Henot
+    image: sebastienhenot.jpg
+    twitter: sebhenot
+    linkedin: sebastienhenot
+    bio: IT engineer background with 15 years of international business operations and strategic marketing experience. Head of Business Innovation in the automotive industry. Working to adapt the OEM's business model to tackle new technological and societal disruptions- blockchain, autonomous driving, connected cars, IoT, and New Mobility services. Chairman of the Vehicle Identity workgroup at MOBI
