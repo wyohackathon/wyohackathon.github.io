@@ -140,27 +140,27 @@ hackathon:
     linkedin: 
     bio: Supervisor of the Dash Investment Foundation (DIF), the world's first owner-less and member-less investment fund. Ms. Johnson began educating on cryptocurrency in 2014 as a journalist for Bitcoin Magazine and CoinTelegraph. In 2015 she launched "The Daily Decrypt." In 2016 she applied to the Dash treasury system for funds, she became the world's first freelancer to work for a Decentralized Autonomous Organization (DAO).
   - name: Michael Lewellen
-    image: 
-    twitter:
-    linkedin:
-    bio: 
+    image: michaellewellen.png
+    twitter: LewellenMichael
+    linkedin: michael-lewellen
+    bio: Michael is a technology strategist and software architect with over 7 years of experience working with blockchain systems. Early in his career, Michael formed the first blockchain consultancy in the Dallas area working as a technical consultant for startups and corporate clients including Thomson Reuters. As CEO of Tarski Technologies, he manages development teams for corporate project and startup client while regularly speaking on blockchain technology at nationwide conferences.
   - name: Peter Chmiel
     image: 
     twitter: 
     linkedin: 
     bio: 
   - name: Karthik Balasubramanian
-    image: 
-    twitter: 
-    linkedin: 
-    bio: 
+    image: karthikbalasubramanian.png
+    twitter: KarthikBTweets
+    linkedin: balakarthik
+    bio: Chief Business Officer of Aicumen Technologies Inc. and Co-Founder of KIP Foundation, KIP (Krama Intelligent Protocol) is an next-gen network protocol integrating Block chain and AI to enable value creation in the new digital economy.
   - name: David Pope
-    image: 
-    twitter: 
-    linkedin: 
-    bio: 
+    image: davidpope.png
+    twitter: DAPCPA
+    linkedin: david-pope-0361bb9
+    bio: Principal Officer of the DAPCPA group of accounting firms. Executive Director of Wyoming Blockchain Coalition, LLC
   - name: Ejaaz Ahamadeen
-    image: 
+    image: ejaazahamadeen.png
     twitter: ejaazahamadeen
     linkedin: ejaaz-ahamadeen-231b7030
     bio: Ejaaz leads digital asset architecture design at ConsenSys. His role involves working with major industries to help them navigate DLT and blockchain by architecting networks and solutions that allow for unique digital value transfer within their business and surrounding ecosystem.
@@ -169,6 +169,11 @@ hackathon:
     twitter: 
     linkedin: mona-gamboa-b7b45243
     bio: Mona Gamboa is the President and CTO of Happy Jack Software, Inc., specializing in the development of mobile and web-based rich internet applications, providing premiere mission-critical, enterprise solutions. HJS flagship applications are MedRight and CareRight. Both used in sub-acute hospitals and care facilities. HJS has also automated and integrated the State of Wyoming livestock applications and sale barns. HJS latest project is a blockchain application for a private customer.
+  - name: Lewis Cohen
+    image: 
+    twitter: nycryptolawyer
+    linkedin: 
+    bio: Lewis Cohen is a co-founder of DLx Law, a new type of law firm for the new economy involving the use of blockchain and distributed ledger technology. Lewis has a particular focus on securitization and structured finance. He served on the Board and Executive Committee of the Structured Finance Industry Group (SFIG) and, in 2018, Lewis was honored to have been recognized by Chambers Global as “Band 1” for Legal: Blockchain & Cryptocurrencies - USA. Lewis co-chairs SFIG’s Distributed Ledger Task Force.
   - name: Become a Speaker 
     image: becomeaspeaker.png
     website: https://forms.gle/d98mRoCTNeUn1oCRA
