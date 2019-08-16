@@ -23,6 +23,9 @@ developer:
   - name: Elevated Games
     logo: elevatedgames.png
     link: https://www.elevated.games
+  - name: Consensys
+    logo: consensys.png
+    link: https://www.consensys.net
 
 investor:
   - name: Wyoming Business Council
