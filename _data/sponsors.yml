@@ -40,6 +40,9 @@ investor:
   - name: IOHK/Cardano
     logo: iohk.png
     link: https://iohk.io/
+  - name: Happy Jack Software
+    logo: happyjacksoftware.png
+    link: https://happyjacksoftware.com/
     
 innovator:
 
