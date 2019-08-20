@@ -37,7 +37,10 @@ investor:
   - name: BXE Capital
     logo: bxecapital.png
     link: https://www.bxecapital.com/
-
+  - name: IOHK/Cardano
+    logo: iohk.png
+    link: https://iohk.io/
+    
 innovator:
 
 hacker:
