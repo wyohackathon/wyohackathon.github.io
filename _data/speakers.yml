@@ -204,6 +204,11 @@ hackathon:
     twitter: eaj
     linkedin:
     bio: Erik Johnson is a software developer and co-creator of MEGACITY, a social arcade set in a sci-fi universe and powered by cryptocurrency. MEGACITY originated as an overall winner of the 2018 ETHDenver hackathon, and today has players in over 60 countries across the globe.
+  - name: John Quinn
+    image: johnquinn.png
+    twitter: Storjq
+    linkedin: johnquinntech
+    bio: Founder of decentralized cloud storage company, Storj Labs, and digital asset manager, Decentral Park Capital. Recovering technology and emerging markets investment banker (Flemings, Credit Suisse and Deutsche Bank). Managed a $200m private equity fund. Life goal: to help build a more distributed world.
   - name: Become a Speaker
     image: becomeaspeaker.png
     website: https://forms.gle/d98mRoCTNeUn1oCRA
@@ -379,6 +384,11 @@ devcon:
     twitter: eaj
     linkedin:
     bio: Erik Johnson is a software developer and co-creator of MEGACITY, a social arcade set in a sci-fi universe and powered by cryptocurrency. MEGACITY originated as an overall winner of the 2018 ETHDenver hackathon, and today has players in over 60 countries across the globe.
+  - name: John Quinn
+    image: johnquinn.png
+    twitter: Storjq
+    linkedin: johnquinntech
+    bio: Founder of decentralized cloud storage company, Storj Labs, and digital asset manager, Decentral Park Capital. Recovering technology and emerging markets investment banker (Flemings, Credit Suisse and Deutsche Bank). Managed a $200m private equity fund. Life goal: to help build a more distributed world.
 
 sandcastle:
   - name: Chris Snook
