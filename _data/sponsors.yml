@@ -6,7 +6,7 @@ title:
 sandcastle:
   - name: green
     logo: green.png
-    link: 
+    link:
 
 founder:
   - name: Aicumen
@@ -43,7 +43,10 @@ investor:
   - name: Happy Jack Software
     logo: happyjacksoftware.png
     link: https://happyjacksoftware.com/
-    
+  - name: Cardano Foundation
+    logo: cardanofoundation.png
+    link: https://cardanofoundation.org/
+
 innovator:
 
 hacker:
