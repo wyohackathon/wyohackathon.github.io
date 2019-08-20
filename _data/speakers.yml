@@ -184,6 +184,11 @@ hackathon:
     twitter: c7five
     linkedin: c7five
     bio: Nick is Kraken’s Chief Security Officer. He has more than 22 years of experience in information, physical & product security. Formerly the CSO at Uptake, VP of Global Services at Rapid, & SVP & Founder of SpiderLabs, a Division of Trustwave. He has built & advised in the creation of security programs for the world’s top brands, investigated some of the largest consumer data breaches, developed security technology trusted by millions of businesses, discovered vulnerabilities in the technology used by billions of people every day.
+  - name: Gabriel Cardona
+    image: gabrielcardona.png
+    twitter: cgcardona
+    linkedin: 
+    bio: Gabriel Cardona is the creator of BITBOX SDK and Director of Developer Services as Bitcoin.com. Focused on bringing tokens to the BCH ecosystem and empowering developers to change the world with Bitcoin Cash. More info: https://developer.bitcoin.com
   - name: Become a Speaker
     image: becomeaspeaker.png
     website: https://forms.gle/d98mRoCTNeUn1oCRA
