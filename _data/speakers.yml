@@ -194,6 +194,16 @@ hackathon:
     twitter: nathan_kaiser
     linkedin: nathankaiser
     bio: Nathan regularly speaks at and hosts events pertaining to law & tech, & notably legal issues related to the digital economy, digital assets & crypto. Early-stage investments in Asia’s high-tech industry, ranging from aerospace to fintech. He is also a mentor, advisor & angel investor to various startups worldwide, always with a cutting-edge technology focus. He is currently a fellow at the Berkman Klein Center of Harvard Univ. in Cambridge, MA. Originally from Solothurn, CH, he studied in Lausanne, Strasbourg & St. Gallen.
+  - name: Stuart Trusty
+    image: stuarttrusty.png
+    twitter: TrustyStuart
+    linkedin:
+    bio: Stuart was the original technologist for AliBaba, an early proponent of mesh networking technologies, & presently the founder of WorldBit, an Augmented Reality-based blockchain Ecommerce system. Stuart was the CEO of Linux Labs for many years & operated the 3rd ISP in Seattle Washington at VBN. His technology clients have included Livermore, Sandia, & Los Alamos National Labs, American Museum of Natural History, Dahlgren Naval Surface Warfare, & a host of other high-profile clients.
+  - name: Erik Johnson
+    image: erikjohnson.png
+    twitter: eaj
+    linkedin:
+    bio: Erik Johnson is a software developer and co-creator of MEGACITY, a social arcade set in a sci-fi universe and powered by cryptocurrency. MEGACITY originated as an overall winner of the 2018 ETHDenver hackathon, and today has players in over 60 countries across the globe.
   - name: Become a Speaker
     image: becomeaspeaker.png
     website: https://forms.gle/d98mRoCTNeUn1oCRA
@@ -364,6 +374,11 @@ devcon:
     twitter: LewellenMichael
     linkedin: michael-lewellen
     bio: Michael is a technology strategist and software architect with over 7 years of experience working with blockchain systems. Early in his career, Michael formed the first blockchain consultancy in the Dallas area working as a technical consultant for startups and corporate clients including Thomson Reuters. As CEO of Tarski Technologies, he manages development teams for corporate project and startup client while regularly speaking on blockchain technology at nationwide conferences.
+  - name: Erik Johnson
+    image: erikjohnson.png
+    twitter: eaj
+    linkedin:
+    bio: Erik Johnson is a software developer and co-creator of MEGACITY, a social arcade set in a sci-fi universe and powered by cryptocurrency. MEGACITY originated as an overall winner of the 2018 ETHDenver hackathon, and today has players in over 60 countries across the globe.
 
 sandcastle:
   - name: Chris Snook
