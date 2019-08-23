@@ -12,7 +12,10 @@ founder:
   - name: Aicumen
     logo: aicumen2.png
     link: https://www.aicumen.com
-
+  - name: CEAS
+    logo: ceas.png
+    link: http://www.uwyo.edu/ceas/
+    
 developer:
   - name: Hund
     logo: hund.png
