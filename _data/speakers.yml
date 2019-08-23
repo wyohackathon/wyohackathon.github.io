@@ -209,6 +209,11 @@ hackathon:
     twitter: Storjq
     linkedin: johnquinntech
     bio: Founder of decentralized cloud storage company, Storj Labs, and digital asset manager, Decentral Park Capital. Recovering technology and emerging markets investment banker (Flemings, Credit Suisse and Deutsche Bank). Managed a $200m private equity fund. Life goal- to help build a more distributed world.
+  - name: Christopher Allen
+    image: christopherallen.png
+    twitter: ChristopherA
+    linkedin: christophera
+    bio: Christopher specializes in collaboration, security, & trust. He worked with Netscape to develop SSL & co-authored the IETF TLS internet draft that is now at the heart of secure commerce on the World Wide Web. More recently, he was Principal Architect at Blockstream, where he led blockchain standards efforts. Christopher is is founder of Blockchain Commons, LLC, supporting blockchain infrastructure & the broader security industry through cryptographic research, privacy protocol implementations, architecture & industry standards.
 
 hackathon-opening:
   - name: Charles Hoskinson
