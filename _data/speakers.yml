@@ -214,6 +214,11 @@ hackathon:
     twitter: ChristopherA
     linkedin: christophera
     bio: Christopher specializes in collaboration, security, & trust. He worked with Netscape to develop SSL & co-authored the IETF TLS internet draft that is now at the heart of secure commerce on the World Wide Web. More recently, he was Principal Architect at Blockstream, where he led blockchain standards efforts. Christopher is is founder of Blockchain Commons, LLC, supporting blockchain infrastructure & the broader security industry through cryptographic research, privacy protocol implementations, architecture & industry standards.
+  - name: Jordan Last
+    image: jordanlast.png
+    twitter: lastmjs
+    linkedin: lastmjs
+    bio: Jordan Last is a software developer, budding entrepreneur, and overall tech enthusiast. He graduated from Brigham Young University with a degree in computer science, and has been involved with startups for the past few years. He believes firmly in the benefits of sound technology, capitalism, open platforms, the internet, the web platform, and now blockchain. Blockchain has steadily consumed him since mid 2017.
 
 hackathon-opening:
   - name: Charles Hoskinson
