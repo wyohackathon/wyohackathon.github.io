@@ -73,6 +73,9 @@ media-partner:
   - name: AMBCrypto
     logo: ambcrypto.png
     link: https://ambcrypto.com
+  - name: Market Disruptors
+    logo: marketdisruptors.png
+    link: https://www.marketdisruptors.io/
   - name: Blockmanity
     logo: blockmanity.png
     link: https://blockmanity.com
