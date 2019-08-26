@@ -219,6 +219,11 @@ hackathon:
     twitter: lastmjs
     linkedin: lastmjs
     bio: Jordan Last is a software developer, budding entrepreneur, and overall tech enthusiast. He graduated from Brigham Young University with a degree in computer science, and has been involved with startups for the past few years. He believes firmly in the benefits of sound technology, capitalism, open platforms, the internet, the web platform, and now blockchain. Blockchain has steadily consumed him since mid 2017.
+  - name: Chris Cross
+    image: chriscross.png
+    twitter: coffeewithcross
+    linkedin: chris-cross-2a59735
+    bio: Chris Cross is a leading Creative Director in the games industry with over 25 years experience as a highly-respected creative director in both development and publishing. He is best known for his work as the Lead Designer of Medal of Honor(1999) at DreamWorks Interactive (later EALA). Chris is heading up the Games Team at Pocketful of Quarters working with developers on integration and monetization.
 
 hackathon-opening:
   - name: Charles Hoskinson
