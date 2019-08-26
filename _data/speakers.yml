@@ -385,11 +385,6 @@ devcon:
     twitter:
     linkedin:
     bio: Michael Peyton Jones is a Compiler Engineer at IOHK, and is one of the core Plutus developers.
-  - name: Michael Lewellen
-    image: michaellewellen.png
-    twitter: LewellenMichael
-    linkedin: michael-lewellen
-    bio: Michael is a technology strategist and software architect with over 7 years of experience working with blockchain systems. Early in his career, Michael formed the first blockchain consultancy in the Dallas area working as a technical consultant for startups and corporate clients including Thomson Reuters. As CEO of Tarski Technologies, he manages development teams for corporate project and startup client while regularly speaking on blockchain technology at nationwide conferences.
   - name: Erik Johnson
     image: erikjohnson.png
     twitter: eaj
