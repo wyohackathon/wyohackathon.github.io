@@ -223,7 +223,12 @@ hackathon:
     image: chriscross.png
     twitter: coffeewithcross
     linkedin: chris-cross-2a59735
-    bio: Chris Cross is a leading Creative Director in the games industry with over 25 years experience as a highly-respected creative director in both development and publishing. He is best known for his work as the Lead Designer of Medal of Honor(1999) at DreamWorks Interactive (later EALA). Chris is heading up the Games Team at Pocketful of Quarters working with developers on integration and monetization. 
+    bio: Chris Cross is a leading Creative Director in the games industry with over 25 years experience as a highly-respected creative director in both development and publishing. He is best known for his work as the Lead Designer of Medal of Honor(1999) at DreamWorks Interactive (later EALA). Chris is heading up the Games Team at Pocketful of Quarters working with developers on integration and monetization.
+  - name: Cal Evans
+    image: calevans.png
+    twitter:
+    linkedin: calevans1
+    bio: Cal is the managing associate of Gresham International. A UK & Ukrainian lawyer and US Litigation Consultant with experience working in top law firms in both California and London. Cal is considered one of the leading individuals on Cryptocurrency and Crypto Raise Compliance. Few people have the technological, legal, and financial expertise needed to tackle the cryptocurrency market and Cal certainly is one of them.
 
 hackathon-opening:
   - name: Charles Hoskinson
