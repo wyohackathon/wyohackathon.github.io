@@ -51,7 +51,7 @@ investor:
     link: https://cardanofoundation.org/
   - name: Dish Wireless
     logo: dishwireless.png
-    link: 
+    link:
 
 innovator:
   - name: Corporate Direct
@@ -68,6 +68,9 @@ hacker:
   - name: Kingdom Trust
     logo: kingdomtrust.png
     link: https://www.kingdomtrust.com
+  - name: tZero
+    logo: tzero.png
+    link: https://tzero.com
 
 media-partner:
   - name: What Bitcoin Did
