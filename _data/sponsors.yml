@@ -51,6 +51,9 @@ investor:
     link: https://cardanofoundation.org/
 
 innovator:
+  - name: Corporate Direct
+    logo: corporatedirect.png
+    link: https://www.corporatedirect.com/
 
 hacker:
   - name: SIMBA
