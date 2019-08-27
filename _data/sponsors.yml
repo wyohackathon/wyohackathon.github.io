@@ -49,6 +49,9 @@ investor:
   - name: Cardano Foundation
     logo: cardanofoundation.png
     link: https://cardanofoundation.org/
+  - name: Dish Wireless
+    logo: dishwireless.png
+    link: 
 
 innovator:
   - name: Corporate Direct
