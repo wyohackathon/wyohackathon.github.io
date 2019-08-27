@@ -15,6 +15,9 @@ founder:
   - name: CEAS
     logo: ceas.png
     link: http://www.uwyo.edu/ceas/
+  - name: University of Wyoming - College of Business
+    logo: uwcob.png
+    link: http://www.uwyo.edu/business/
 
 developer:
   - name: Hund
