@@ -249,6 +249,21 @@ hackathon:
     twitter:
     linkedin: wendy-lopez-780199a
     bio: Wendy Lopez is a fifth-generation Wyomingite from Cody. She earned a bachelor's degree in communication from the University of Wyoming. She spent 22 years at the Wyoming Tribune Eagle as an advertising sales consultant and the director of advertising. She has a background in multimedia advertising, sales, marketing, event planning, graphic design and promotions, and years of experience cultivating relationships with clients.
+  - name: Richard Titus
+    image: missingphoto.png
+    twitter: RDTitus
+    linkedin: rxdxt
+    bio: Richard Titus joins Transform Group following a two-year stint as founder and CEO of Ark Advisors, a leading blockchain advisory firm. Founded in 2017, ARK consulted with and invested in blockchain and DLT technology based businesses; servicing 20+ Blockchain projects in 2017-2018. Titus also led ARK’s investment efforts (arkfund.io) sourcing & deploying ~$6m in capital into 5+ successful startup ventures including 22x fund, Metacert, Securitize and Telegram.
+  - name: Jim Caldwell
+    image: missingphoto.png
+    twitter:
+    linkedin: james-caldwell-a4746725
+    bio: Jim Caldwell is a Professor in the Department of Computer Science at the University of Wyoming. He graduated with a PhD in Computer Science from Cornell in 1998 and has an MS and BS in Computer Science from SUNY at Albany. He has been on the Faculty at UW since 1998. Previously, he worked at NASA Langley Research Center for 10 years, at GE Corporate R&D, and at a VLSI CAD tool start-up.
+  - name: Brittany Kaiser
+    image: missingphoto.png
+    twitter:
+    linkedin: ownyourdata
+    bio: Brittany Kaiser is the founder of the OwnYourData campaign and cofounder of the Digital Asset Trade Association (DATA), a nonprofit lobbying firm advancing legislative and policy reform to protect the rights of individuals to control their own digital assets, with impactful success supporting the passing of 13 new blockchain-positive laws in the State of Wyoming. To raise awareness of data rights, she recently cofounded the Own Your Data Foundation, to promote digital literacy and STEM education.
 
 hackathon-opening:
   - name: Charles Hoskinson
