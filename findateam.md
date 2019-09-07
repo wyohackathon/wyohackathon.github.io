@@ -10,8 +10,8 @@ This repository contains an issue tracker that allows teams to find hackers, and
 -   Want to create a new team? Create an issue with `[NEW]`: [Find-A-Team/issues/new?template=idea-wants-team.md](https://github.com/cwallwor/Find-A-Team/issues/new?template=idea-wants-team.md)
 -   Browse existing inserations: [Find-A-Team/issues](https://github.com/cwallwor/Find-A-Team/issues)
 
-#TODO:
-#-   Connect with hackers on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
+# TODO:
+# -   Connect with hackers on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
 
 ![WyoHackathon logo](https://github.com/wyohackathon/wyohackathon.github.io/blob/master/assets/img/logos/events/stampede.svg)
 
