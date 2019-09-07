@@ -8,10 +8,10 @@ This repository contains an issue tracker that allows teams to find hackers, and
 -   Looking for a team? Create an issue with `[LFT]`: [Find-A-Team/issues/new?template=hacker-wants-team.md](https://github.com/cwallwor/Find-A-Team/issues/new?template=hacker-wants-team.md)
 -   Locking for hackers? Create an issue with `[LFH]`: [Find-A-Team/issues/new?template=team-wants-hacker.md](https://github.com/cwallwor/Find-A-Team/issues/new?template=team-wants-hacker.md)
 -   Want to create a new team? Create an issue with `[NEW]`: [Find-A-Team/issues/new?template=idea-wants-team.md](https://github.com/cwallwor/Find-A-Team/issues/new?template=idea-wants-team.md)
--   Browse existing inserations: [cwallwor/Find-A-Team/issues](https://github.com/cwallwor/Find-A-Team/issues)
+-   Browse existing inserations: [Find-A-Team/issues](https://github.com/cwallwor/Find-A-Team/issues)
 
-TODO:
--   Connect with hackers on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
+#TODO:
+#-   Connect with hackers on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
 
 ![WyoHackathon logo](https://github.com/wyohackathon/wyohackathon.github.io/blob/master/assets/img/logos/events/stampede.svg)
 
@@ -46,10 +46,11 @@ Some people have great ideas, but don't have a team yet to help them bring it in
 
 Interacting through issues might be great to find an initial match, but you probably want to take the conversation off GitHub at some point.
 
-TODO:
-1. You could meet in the `#buidlyourberlinteam` chat on Status: <https://status.im/>
+#TODO:
+#1. You could meet in the `#buidlyourberlinteam` chat on Status: <https://status.im/>
 
-TODO:
-2. Or join the hacker chat room on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
+#TODO:
+#2. Or join the hacker chat room on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
 
-You can also just directly leave your personal Riot/Status address in your tracking issue.
+#TODO:
+#You can also just directly leave your personal Riot/Status address in your tracking issue.
