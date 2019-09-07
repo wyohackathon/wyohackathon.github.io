@@ -12,7 +12,7 @@ about: You have a team and want to find more hackers? Amazing!
 
 _Talk a little about the team:_
 
-- [] ho is already on board, what you've been up to or what brings you to ETHBerlin*
+- [] Who is already on board, what you've been up to or what brings you to WyoHackathon*
 
 ## Skills wanted
 
