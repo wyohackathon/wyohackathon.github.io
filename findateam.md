@@ -13,6 +13,7 @@ This repository contains an issue tracker that allows teams to find hackers, and
 TODO:
 -   Connect with hackers on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
 -->
+
 ![WyoHackathon logo](https://wyohackathon.io/assets/img/logo.svg)
 
 You are looking for a hacker to help buidl your idea or you're looking for a team to join? You've come to the right place! Hacking together is much more fun, so let's find you a team.
