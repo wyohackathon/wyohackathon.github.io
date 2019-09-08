@@ -10,7 +10,7 @@ _Talk a little about yourself:_
 
 - [ ] _Who you are_: 
 - [ ] _What you do_: 
-- [ ] _How you got first into Ethereum_: 
+- [ ] _How you got first get into Ethereum_: 
 - [ ] _What brings you to WyoHackathon_: 
 
 ## Skills
