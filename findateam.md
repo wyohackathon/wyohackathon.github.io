@@ -5,7 +5,7 @@ This repository contains an issue tracker that allows teams to find hackers, and
 
 ## TL;DR
 
--   Looking for a team? Create an issue with `[LFT]`: [Find-A-Team/issues/new?template=hacker-wants-team.md](https://github.com/wyohackathon/wyohackathon.github.io/Find-A-Team/issues/new?template=hacker-wants-team.md)
+-   Looking for a team? Create an issue with `[LFT]`: [FIND-A-TEAM/issues/new?template=hacker-wants-team.md](https://github.com/wyohackathon/wyohackathon.github.io/Find-A-Team/issues/new?template=hacker-wants-team.md)
 -   Locking for hackers? Create an issue with `[LFH]`: [Find-A-Team/issues/new?template=team-wants-hacker.md](https://github.com/wyohackathon/wyohackathon.github.io/Find-A-Team/issues/new?template=team-wants-hacker.md)
 -   Want to create a new team? Create an issue with `[NEW]`: [Find-A-Team/issues/new?template=idea-wants-team.md](https://github.com/wyohackathon/wyohackathon.github.io/Find-A-Team/issues/new?template=idea-wants-team.md)
 -   Browse existing inserations: [Find-A-Team/issues](https://github.com/wyohackathon/wyohackathon.github.io/Find-A-Team/issues)
