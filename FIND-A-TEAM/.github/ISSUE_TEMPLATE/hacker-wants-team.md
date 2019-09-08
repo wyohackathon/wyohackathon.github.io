@@ -27,7 +27,7 @@ _Tell us what your skills are:_
 
 ## Communication
 
-_Consider leaving your personal Riot/Status address so that the team can contact you off GitHub._
+_Consider leaving your personal Status address so that the team can contact you off GitHub._
 
 - [ ] _Status IM_:
 
