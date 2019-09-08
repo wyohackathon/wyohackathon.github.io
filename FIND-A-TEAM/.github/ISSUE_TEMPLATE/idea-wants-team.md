@@ -31,7 +31,7 @@ _What skills do you need, or think you might need to implement the idea?_
 
 ## Communication
 
-_Consider leaving your personal Riot/Status address so that the team can contact you off GitHub._
+_Consider leaving your personal Status address so that the team can contact you off GitHub._
 
 - [ ] _Status IM_:
 
