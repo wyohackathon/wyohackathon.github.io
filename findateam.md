@@ -45,12 +45,3 @@ Some people have great ideas, but don't have a team yet to help them bring it in
 ## Communication
 
 Interacting through issues might be great to find an initial match, but you probably want to take the conversation off GitHub at some point.
-<!--
-TODO:
-1. You could meet in the `#buidlyourberlinteam` chat on Status: <https://status.im/>
-
-TODO:
-2. Or join the hacker chat room on Riot: [#ethberlinhackers:matrix.org](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
-
-You can also just directly leave your personal Riot/Status address in your tracking issue.
--->
