@@ -1,10 +1,10 @@
 ---
-name: Hacker wants team
-about: You have skills and want to find a team? Great!
+name: Idea wants team
+about: You have an idea and need some people to help you make it a reality!
 
 ---
 
-## Background
+## Introduction
 
 _Talk a little about yourself:_
 
@@ -13,15 +13,19 @@ _Talk a little about yourself:_
 - [ ] _How did you first get into Ethereum_:
 - [ ] _What brings you to WyoHackathon_:
 
-## Skills
+## Idea description
 
-_Tell us what your skills are:_
+_What is your idea? Give as many details as you possibly can._
+
+## Skillset
+
+_What skills do you need, or think you might need to implement the idea?_
 
 - [ ] _Core Blockchain Development (Go, C++, Rust)_:
 - [ ] _Smart Contracts (Solidity, Vyper)_:
 - [ ] _DApps, Web3.JS (JavaScript, CSS)_:
-- [ ] _Design, User Experience_:
 - [ ] _Project Management_:
+- [ ] _Design, User Experience_:
 - [ ] _Game theory_:
 - [ ] _Other_:
 

@@ -1,21 +1,22 @@
 ---
-name: Hacker wants team
-about: You have skills and want to find a team? Great!
+name: Team wants hacker
+about: You have a team and want to find more hackers? Amazing!
 
 ---
 
-## Background
+## Pitch it!
 
-_Talk a little about yourself:_
+*Tell us what your idea is and why it's great*
 
-- [ ] _Who you are_:
-- [ ] _What you do_:
-- [ ] _How did you first get into Ethereum_:
-- [ ] _What brings you to WyoHackathon_:
+## Team
 
-## Skills
+_Talk a little about the team:_
 
-_Tell us what your skills are:_
+- [] Who is already on board, what you've been up to or what brings you to WyoHackathon_*
+
+## Skills wanted
+
+_Tell us what you are looking for:_
 
 - [ ] _Core Blockchain Development (Go, C++, Rust)_:
 - [ ] _Smart Contracts (Solidity, Vyper)_:
