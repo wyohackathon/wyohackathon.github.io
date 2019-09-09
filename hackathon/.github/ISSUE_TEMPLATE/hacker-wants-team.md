@@ -17,12 +17,12 @@ _Talk a little about yourself:_
 
 _Tell us what your skills are:_
 
-- [ ] Core Blockchain Development (Go, C++, Rust)
-- [ ] Smart Contracts (Solidity, Vyper)
-- [ ] DApps, Web3.JS (JavaScript, CSS)
-- [ ] Design, User Experience
-- [ ] Project Management
-- [ ] Game theory
+- [ ] _Core Blockchain Development (Go, C++, Rust)_:
+- [ ] _Smart Contracts (Solidity, Vyper)_:
+- [ ] _DApps, Web3.JS (JavaScript, CSS)_:
+- [ ] _Design, User Experience_:
+- [ ] _Project Management_:
+- [ ] _Game theory_:
 - [ ] _Other_: ...
 
 ## Communication
