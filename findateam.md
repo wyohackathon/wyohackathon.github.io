@@ -13,7 +13,7 @@ This repository contains an issue tracker that allows teams to find hackers, and
   * [Hackers Looking for a Team](https://github.com/wyohackathon/wyohackathon.github.io/labels/hacker%20wants%20team)
   * [Idea Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/labels/idea%20wants%20team)
   * [Team Wants Hacker](https://github.com/wyohackathon/wyohackathon.github.io/labels/team%20wants%20hacker)
-  * [Show All Requests](https://github.com/wyohackathon/wyohackathon.github.io/labels/FindATeam)
+  * [Show All Requests](https://github.com/wyohackathon/wyohackathon.github.io/labels/FindTeam)
 
 ![WyoHackathon logo](https://wyohackathon.io/assets/img/logo.svg)
 
