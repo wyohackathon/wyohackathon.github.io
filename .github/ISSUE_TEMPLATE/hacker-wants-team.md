@@ -1,13 +1,10 @@
 ---
-## Please be descriptive in you title! 
-
-This will make is much easier for other hackers to find/help you.
----
 name: Hacker wants team
 about: You have skills and want to find a team? Great!
-
 ---
-
+## Please be descriptive in you title! 
+This will make is much easier for other hackers to find/help you.
+---
 ## Background
 
 _Talk a little about yourself:_
