@@ -5,14 +5,15 @@ This repository contains an issue tracker that allows teams to find hackers, and
 
 ## TL;DR
 
--   Looking for a team? Create an issue with: [Hacker Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=hacker-wants-team.md&labels=hacker%20wants%20team,FAT)
--   Locking for hackers? Create an issue with: [Team Wants Hacker](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=team-wants-hacker.md&labels=team%20wants%20hacker)
--   Want to create a new team? Create an issue with: [Idea Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=idea-wants-team.md&labels=idea%20wants%20team)
+-   Looking for a team? Create an issue with: [Hacker Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=hacker-wants-team.md&labels=hacker%20wants%20team,FindTeam)
+-   Locking for hackers? Create an issue with: [Team Wants Hacker](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=team-wants-hacker.md&labels=team%20wants%20hacker,FindTeam)
+-   Want to create a new team? Create an issue with: [Idea Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/issues/new?template=idea-wants-team.md&labels=idea%20wants%20team,FindTeam)
 
 * Browse existing requests
   * [Hackers Looking for a Team](https://github.com/wyohackathon/wyohackathon.github.io/labels/hacker%20wants%20team)
   * [Idea Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/labels/idea%20wants%20team)
   * [Team Wants Hacker](https://github.com/wyohackathon/wyohackathon.github.io/labels/team%20wants%20hacker)
+  * [Show All Requests](https://github.com/wyohackathon/wyohackathon.github.io/labels/FindATeam)
 
 ![WyoHackathon logo](https://wyohackathon.io/assets/img/logo.svg)
 
