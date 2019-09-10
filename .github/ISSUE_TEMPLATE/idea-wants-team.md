@@ -1,3 +1,4 @@
+Please be descriptive in you title since this is all the shows in you request!
 ---
 name: Idea wants team
 about: You have an idea and need some people to help you make it a reality!
