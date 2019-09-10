@@ -16,6 +16,11 @@ This repository contains an issue tracker that allows teams to find hackers, and
 *    *[Idea Wants Team](https://github.com/wyohackathon/wyohackathon.github.io/labels/idea%20wants%20team)
 *    *[Team Wants Hacker](https://github.com/wyohackathon/wyohackathon.github.io/labels/team%20wants%20hacker)
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
 https://github.com/wyohackathon/wyohackathon.github.io/labels/hacker%20wants%20team
 
 ![WyoHackathon logo](https://wyohackathon.io/assets/img/logo.svg)
