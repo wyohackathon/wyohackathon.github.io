@@ -1,3 +1,4 @@
+Please be descriptive in you title since this is all the shows in you request!!!
 ---
 name: Hacker wants team
 about: You have skills and want to find a team? Great!
