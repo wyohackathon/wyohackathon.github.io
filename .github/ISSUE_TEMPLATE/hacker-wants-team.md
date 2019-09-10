@@ -1,5 +1,4 @@
-Please be descriptive in you title! 
-
+##Please be descriptive in you title! 
 This will make is much easier for other hackers to find/help you.
 ---
 name: Hacker wants team
