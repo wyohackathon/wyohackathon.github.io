@@ -55,6 +55,9 @@ investor:
   - name: Dish Wireless
     logo: dishwireless.png
     link:
+  - name: Caitlin Long
+    logo: caitlinlong.png
+    link: https://caitlin-long.com
 
 innovator:
   - name: Corporate Direct
