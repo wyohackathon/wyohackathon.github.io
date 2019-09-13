@@ -264,6 +264,11 @@ hackathon:
     twitter:
     linkedin: ownyourdata
     bio: Brittany Kaiser is the founder of the OwnYourData campaign and cofounder of the Digital Asset Trade Association (DATA), a nonprofit lobbying firm advancing legislative and policy reform to protect the rights of individuals to control their own digital assets, with impactful success supporting the passing of 13 new blockchain-positive laws in the State of Wyoming. To raise awareness of data rights, she recently cofounded the Own Your Data Foundation, to promote digital literacy and STEM education.
+  - name: David Gold
+    image: davidgold.png
+    twitter: joinfio
+    linkedin: davidmgold
+    bio: Gold is founder and CEO of Dapix, a venture backed company launching the FIO Protocol which will revolutionize blockchain usability. Dapix was incubated while he was a Managing Director of Access Venture Partners, an early stage venture capital fund, where he served for over 11 years and led blockchain investments and its investors include Binance Labs, NGC Ventures, Blockwall Capital, LuneX Venutre, Dundee Venture Capital and First Mile Ventures.
 
 hackathon-opening:
   - name: Charles Hoskinson
