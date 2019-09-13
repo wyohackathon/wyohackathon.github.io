@@ -77,6 +77,18 @@ hacker:
   - name: tZero
     logo: tzero.png
     link: https://tzero.com
+  - name: FIO
+    logo: fio.png
+    link: https://fio.foundation
+  - name: WorldBit
+    logo: worldbit.png
+    link:
+  - name: Green House Data
+    logo: greenhousedata.png
+    link:
+  - name: Vigilent
+    logo: vigilent.png
+    link: 
 
 media-partner:
   - name: What Bitcoin Did
