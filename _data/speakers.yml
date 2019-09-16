@@ -299,6 +299,11 @@ hackathon:
     twitter: carbosproject
     linkedin: nathantutchton
     bio: Prior to his career in software development, Nathan worked in land conservation and restoration programs across government and private sectors. His experiences in environmental action groups lead him and his brother to found Carbos– a blockchain carbon offset generation platform– and pilot the project to success at multiple hackathons, most notably GoCode Colorado 2018 and ETHDenver 2019.
+  - name: Amy James
+    image: amyjames.png
+    twitter: AmyofAlexandria
+    linkedin: amy-elizabeth-james
+    bio: Amy James is the co-inventor of Open Index Protocol, an index for all public information built with blockchain & other decentralized technology. Currently in use by Caltech, Overstock subsidiary Medici Land Governance, Teton County, Wyoming & many others. It’s the technical solution to the problem of walled garden platforms monopolizing the web. #MakeTheInternetFreeAgain
 
 hackathon-opening:
   - name: Charles Hoskinson
