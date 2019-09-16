@@ -304,6 +304,11 @@ hackathon:
     twitter: AmyofAlexandria
     linkedin: amy-elizabeth-james
     bio: Amy James is the co-inventor of Open Index Protocol, an index for all public information built with blockchain & other decentralized technology. Currently in use by Caltech, Overstock subsidiary Medici Land Governance, Teton County, Wyoming & many others. It’s the technical solution to the problem of walled garden platforms monopolizing the web. #MakeTheInternetFreeAgain
+  - name: Tristan Roberts
+    image: tr.png
+    twitter: aitheric
+    linkedin: tristan-roberts-932b2923
+    bio:  A researcher of complex systems, Tristan's recent work has focused on bridging the divide between the 'real world' of states and the 'virtual worlds' of distributed ledgers. His project, Etherize.io, won the ConsenSys prize at last year's Wyohackathon, for facilitating the creation of hybrid LLC/DAOs.
 
 hackathon-opening:
   - name: Charles Hoskinson
