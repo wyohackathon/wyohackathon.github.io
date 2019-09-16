@@ -309,6 +309,11 @@ hackathon:
     twitter: aitheric
     linkedin: tristan-roberts-932b2923
     bio:  A researcher of complex systems, Tristan's recent work has focused on bridging the divide between the 'real world' of states and the 'virtual worlds' of distributed ledgers. His project, Etherize.io, won the ConsenSys prize at last year's Wyohackathon, for facilitating the creation of hybrid LLC/DAOs.
+  - name: Corey Billington
+    image: cb.png
+    twitter:
+    linkedin: corey-billington-1002b71
+    bio: Corey was Vice President of Supply Chain Services at Hewlett Packard guiding a team of 1400 professionals in 32 countries with expertise in procurement, engineering and product design, strategic supply chain design and sustainability management. Corey has served as a professor of operations management at IMD in Lausanne, Switzerland and a consulting professor at Stanford University. Corey has also launched several new ventures in the US and in Europe and holds numerous patents.
 
 hackathon-opening:
   - name: Charles Hoskinson
