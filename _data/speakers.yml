@@ -294,6 +294,11 @@ hackathon:
     twitter:
     linkedin: joseph-marchell
     bio: Joseph Marchell is a commodity analyst at Stanton Analytics. He educates traders involved with energy futures markets on trading methods for bitcoin and other cryptocurrencies. He utilizes a blend of fundamental, technical, statistical, and geo-political analysis to create a probabilistic trading strategy. His educational background includes Rider University for Global studies and Rutgers University for Data Science.
+  - name: Nathan Tutchton
+    image: nathantutchton.png
+    twitter: carbosproject
+    linkedin: nathantutchton
+    bio: Prior to his career in software development, Nathan worked in land conservation and restoration programs across government and private sectors. His experiences in environmental action groups lead him and his brother to found Carbos– a blockchain carbon offset generation platform– and pilot the project to success at multiple hackathons, most notably GoCode Colorado 2018 and ETHDenver 2019.
 
 hackathon-opening:
   - name: Charles Hoskinson
