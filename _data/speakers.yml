@@ -284,6 +284,11 @@ hackathon:
     twitter:
     linkedin:
     bio: Henok "Hen" Tekle is a founding partner of AlphaChain, a blockchain advisory and investment firm. A notable blockchain angel investor, advisor, content creator and public speaker, Hen is a passionate advocate for the disruption brought by token economies and blockchain technology, and regularly speaks at conferences around the world about these topics.
+  - name: Ryan Taylor
+    image: ryantaylor.png
+    twitter: RTaylor05
+    linkedin: ryan-taylor-dash
+    bio: Ryan Taylor is the CEO of Dash Core Group. Dash is an innovative digital currency optimized for payments. Ryan is an expert in the payments industry, with over 15 years of experience in fintech. Prior to Dash, Ryan was an analyst covering the payments industry for a $20 billion hedge fund. Previously he was an Associate Partner at McKinsey, where he served some of the world’s largest financial institutions on a variety of strategy and technology topics.
 
 hackathon-opening:
   - name: Charles Hoskinson
