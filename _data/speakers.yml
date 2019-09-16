@@ -324,6 +324,11 @@ hackathon:
     twitter:
     linkedin:
     bio:
+  - name: Christopher Flint
+    image: cf.png
+    twitter: realchrisflint
+    linkedin: christopherflint
+    bio:  Christopher is a Managing Partner of Maha Advisors, a cryptocurrency consulting and venture firm. With a focus on operational expertise, capital introduction and origination, Christopher serves as an advisor to a number of blockchain related businesses. Before forming Maha Advisors, he was a Principal and founding member of Sansar Capital Management, a $4 billion hedge fund with investments concentrated in Asia.
 
 hackathon-opening:
   - name: Charles Hoskinson
