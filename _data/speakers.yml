@@ -279,6 +279,11 @@ hackathon:
     twitter:
     linkedin: pesics
     bio: Sasa is the Lead Blockchain Research and Development Software Engineer for VizLore LLC, expert in context-aware Edge Computing, Smart Spaces as a Service and Machine Learning for Big Data. Sasa is a visiting researcher at the Blockchain Research Lab at Arizona State University on projects regarding Hyperledger Fabric technology deployment, integration, scalability and performance improvement.
+  - name: Henok Tekle
+    image: henoktekle.png
+    twitter:
+    linkedin:
+    bio: Henok "Hen" Tekle is a founding partner of AlphaChain, a blockchain advisory and investment firm. A notable blockchain angel investor, advisor, content creator and public speaker, Hen is a passionate advocate for the disruption brought by token economies and blockchain technology, and regularly speaks at conferences around the world about these topics.
 
 hackathon-opening:
   - name: Charles Hoskinson
