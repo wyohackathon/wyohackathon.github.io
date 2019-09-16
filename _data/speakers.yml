@@ -319,6 +319,11 @@ hackathon:
     twitter: atlanter
     linkedin: alexander-nemish
     bio:  Alex Nemish is a compiler engineer at IOHK, and is one of the core Marlowe developers. Marlowe is a financial contracts programming language for Cardano blockchain smart contracts platform Plutus.
+  - name: John Falk
+    image: jf.png
+    twitter:
+    linkedin:
+    bio:
 
 hackathon-opening:
   - name: Charles Hoskinson
