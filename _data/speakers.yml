@@ -329,6 +329,11 @@ hackathon:
     twitter: realchrisflint
     linkedin: christopherflint
     bio:  Christopher is a Managing Partner of Maha Advisors, a cryptocurrency consulting and venture firm. With a focus on operational expertise, capital introduction and origination, Christopher serves as an advisor to a number of blockchain related businesses. Before forming Maha Advisors, he was a Principal and founding member of Sansar Capital Management, a $4 billion hedge fund with investments concentrated in Asia.
+  - name: Elliot Grossman
+    image: eg.png
+    twitter:
+    linkedin:
+    bio: Elliot Grossman is the CEO, Capital Markets at tZERO, overseeing the establishment and management of its planned retail broker-dealer affiliate's sales trading, electronic execution and portfolio execution for buy- and sell-side clients. Grossman is responsible for building tZERO's planned broker-dealer into the leading next generation brokerage firm for investors and financial intermediaries. Most recently, Grossman was a Founding Member and Managing Director of Equity Trading at Dinosaur Financial Group, LLC.
 
 hackathon-opening:
   - name: Charles Hoskinson
