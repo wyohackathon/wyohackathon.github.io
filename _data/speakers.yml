@@ -289,6 +289,11 @@ hackathon:
     twitter: RTaylor05
     linkedin: ryan-taylor-dash
     bio: Ryan Taylor is the CEO of Dash Core Group. Dash is an innovative digital currency optimized for payments. Ryan is an expert in the payments industry, with over 15 years of experience in fintech. Prior to Dash, Ryan was an analyst covering the payments industry for a $20 billion hedge fund. Previously he was an Associate Partner at McKinsey, where he served some of the world’s largest financial institutions on a variety of strategy and technology topics.
+  - name: Joe Marchell
+    image: joemarchell.png
+    twitter:
+    linkedin: joseph-marchell
+    bio: Joseph Marchell is a commodity analyst at Stanton Analytics. He educates traders involved with energy futures markets on trading methods for bitcoin and other cryptocurrencies. He utilizes a blend of fundamental, technical, statistical, and geo-political analysis to create a probabilistic trading strategy. His educational background includes Rider University for Global studies and Rutgers University for Data Science.
 
 hackathon-opening:
   - name: Charles Hoskinson
