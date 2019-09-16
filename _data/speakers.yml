@@ -314,6 +314,11 @@ hackathon:
     twitter:
     linkedin: corey-billington-1002b71
     bio: Corey was Vice President of Supply Chain Services at Hewlett Packard guiding a team of 1400 professionals in 32 countries with expertise in procurement, engineering and product design, strategic supply chain design and sustainability management. Corey has served as a professor of operations management at IMD in Lausanne, Switzerland and a consulting professor at Stanford University. Corey has also launched several new ventures in the US and in Europe and holds numerous patents.
+  - name: Alexander Nemish
+    image: an.png
+    twitter: atlanter
+    linkedin: alexander-nemish
+    bio:  Alex Nemish is a compiler engineer at IOHK, and is one of the core Marlowe developers. Marlowe is a financial contracts programming language for Cardano blockchain smart contracts platform Plutus.
 
 hackathon-opening:
   - name: Charles Hoskinson
