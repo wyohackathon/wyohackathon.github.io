@@ -274,6 +274,11 @@ hackathon:
     twitter:
     linkedin: jared-moss-1b408017
     bio: Jared W. Moss has been working with venture funds since the start of his legal career. He assisted with the formation and capital raise for two funds in real estate and oil & gas sectors. Jared has represented several funds, family offices, and private capital with numerous portfolio investments. Jared has a passion for entrepreneurship and new technology, and he is advancing the legal issues in the blockchain community.
+  - name: Sasa Pesic
+    image: sasapesic.png
+    twitter:
+    linkedin: pesics
+    bio: Sasa is the Lead Blockchain Research and Development Software Engineer for VizLore LLC, expert in context-aware Edge Computing, Smart Spaces as a Service and Machine Learning for Big Data. Sasa is a visiting researcher at the Blockchain Research Lab at Arizona State University on projects regarding Hyperledger Fabric technology deployment, integration, scalability and performance improvement.
 
 hackathon-opening:
   - name: Charles Hoskinson
