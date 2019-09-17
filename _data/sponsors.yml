@@ -18,6 +18,9 @@ founder:
   - name: University of Wyoming - College of Business
     logo: uwcob.png
     link: http://www.uwyo.edu/business/
+  - name: University of Wyoming - College of Agriculture and Natural Resources
+    logo: canr.png
+    link: https://www.uwyo.edu/uwag/
 
 developer:
   - name: Hund
@@ -88,7 +91,7 @@ hacker:
     link:
   - name: Vigilent
     logo: vigilent.png
-    link: 
+    link:
 
 media-partner:
   - name: What Bitcoin Did
