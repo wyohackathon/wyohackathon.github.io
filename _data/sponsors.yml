@@ -61,6 +61,12 @@ investor:
   - name: Caitlin Long
     logo: caitlinlong.png
     link: https://caitlin-long.com
+  - name: Visceral Art
+    logo: visceralart.png
+    link: https://visceralart.co
+  - name: Foundry Legal
+    logo: foundrylegal.png
+    link: https://foundry.legal
 
 innovator:
   - name: Corporate Direct
