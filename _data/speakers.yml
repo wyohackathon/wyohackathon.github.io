@@ -365,7 +365,7 @@ hackathon-opening:
     image: missingphoto.png
     twitter:
     linkedin:
-    bio: 
+    bio:
 
 bizcon:
   - name: Charles Hoskinson
@@ -448,23 +448,143 @@ bizcon:
     twitter: chrisjsnook
     linkedin: chrisjsnook
     bio: Bestselling Author of Digital Sense | Managing Partner at Launch Haus a Venture Studio and Opportunity Zone Impact Fund | Chairman/Founder of Sandcastle Foundation, Sandcastle Startups Challenge and the World Tokenomic Forum. Husband and Father.
-  - name: Joby Weeks
-    image: jobyweeks.jpg
-    twitter: Jobyweeks
-    linkedin: jobyweeks
-    bio: 2010 early Bitcoin investor/pioneer. Educates and presents on how this peer-to-peer asset built on a revolutionary technology called Blockchain and Cryptography can shift the transfer of wealth from banks and put the people in control of their wealth. To bank the un bankable. 2014 Bitclub was established to allow people profit from the source by mining cryptocurrency. Mined over 75,000 Bitcoins with 1,000,000 members enrolled in over 100 countries. Helped create 100 millionaires.
   - name: Sebastien Henot
     image: sebastienhenot.jpg
     twitter: sebhenot
     linkedin: sebastienhenot
     bio: IT engineer background with 15 years of international business operations and strategic marketing experience. Head of Business Innovation in the automotive industry. Working to adapt the OEM's business model to tackle new technological and societal disruptions- blockchain, autonomous driving, connected cars, IoT, and New Mobility services. Chairman of the Vehicle Identity workgroup at MOBI
-
-devcon:
+  - name: Christopher Allen
+    image: christopherallen.png
+    twitter: ChristopherA
+    linkedin: christophera
+    bio: Christopher specializes in collaboration, security, & trust. He worked with Netscape to develop SSL & co-authored the IETF TLS internet draft that is now at the heart of secure commerce on the World Wide Web. More recently, he was Principal Architect at Blockstream, where he led blockchain standards efforts. Christopher is is founder of Blockchain Commons, LLC, supporting blockchain infrastructure & the broader security industry through cryptographic research, privacy protocol implementations, architecture & industry standards.
   - name: Eric Badiere
     image: ericbadiere.png
     twitter: ebadiere
     linkedin: ericbadiere
     bio: Software programmer/engineer for over 20 years. I am also an ethereum miner. I currently work for Clearme where we are working on identity solutions that respect the user's privacy.
+  - name: Corey Billington
+    image: cb.png
+    twitter:
+    linkedin: corey-billington-1002b71
+    bio: Corey was Vice President of Supply Chain Services at Hewlett Packard guiding a team of 1400 professionals in 32 countries with expertise in procurement, engineering and product design, strategic supply chain design and sustainability management. Corey has served as a professor of operations management at IMD in Lausanne, Switzerland and a consulting professor at Stanford University. Corey has also launched several new ventures in the US and in Europe and holds numerous patents.
+  - name: Dr. James Caldwell
+    image: jimcaldwell.png
+    twitter:
+    linkedin: james-caldwell-a4746725
+    bio: Jim Caldwell is a Professor in the Department of Computer Science at the University of Wyoming. He graduated with a PhD in Computer Science from Cornell in 1998 and has an MS and BS in Computer Science from SUNY at Albany. He has been on the Faculty at UW since 1998. Previously, he worked at NASA Langley Research Center for 10 years, at GE Corporate R&D, and at a VLSI CAD tool start-up.
+  - name: Lewis Cohen
+    image: lewiscohen.png
+    twitter: nycryptolawyer
+    linkedin:
+    bio: Lewis Cohen is a co-founder of DLx Law, a new type of law firm for the new economy involving the use of blockchain and distributed ledger technology. Lewis has a particular focus on securitization and structured finance. He served on the Board and Executive Committee of the Structured Finance Industry Group, SFIG, and, in 2018, Lewis was honored to have been recognized by Chambers Global as Band 1 for Legal- Blockchain and Cryptocurrencies - USA. Lewis co-chairs SFIG’s Distributed Ledger Task Force.
+  - name: Bob Cornish
+    image: bobcornish.png
+    twitter:
+    linkedin: bob-cornish-462b254
+    bio: Bob is a nationally recognized securities attorney concentrating on providing assistance to innovators in the financial services arena, including regulatory compliance and counseling. A former General Counsel for a prominent bond manager and family office, Bob has been an instrumental contributor in creating Wyoming's favorable ecosystem for blockchain businesses. Bob is admitted to practice in 5 states, including Wyoming.
+  - name: Cal Evans
+    image: calevans.png
+    twitter:
+    linkedin: calevans1
+    bio: Cal is the managing associate of Gresham International. A UK & Ukrainian lawyer and US Litigation Consultant with experience working in top law firms in both California and London. Cal is considered one of the leading individuals on Cryptocurrency and Crypto Raise Compliance. Few people have the technological, legal, and financial expertise needed to tackle the cryptocurrency market and Cal certainly is one of them.
+  - name: John Falk
+    image: jf.png
+    twitter:
+    linkedin:
+    bio:
+  - name: Steve Farkas
+    image: missingphoto.png
+    twitter:
+    linkedin:
+    bio:
+  - name: Christopher Flint
+    image: cf.png
+    twitter: realchrisflint
+    linkedin: christopherflint
+    bio:  Christopher is a Managing Partner of Maha Advisors, a cryptocurrency consulting and venture firm. With a focus on operational expertise, capital introduction and origination, Christopher serves as an advisor to a number of blockchain related businesses. Before forming Maha Advisors, he was a Principal and founding member of Sansar Capital Management, a $4 billion hedge fund with investments concentrated in Asia.
+  - name: Pawan Jain
+    image: missingphoto.png
+    twitter:
+    linkedin:
+    bio:
+  - name: Amy James
+    image: amyjames.png
+    twitter: AmyofAlexandria
+    linkedin: amy-elizabeth-james
+    bio: Amy James is the co-inventor of Open Index Protocol, an index for all public information built with blockchain & other decentralized technology. Currently in use by Caltech, Overstock subsidiary Medici Land Governance, Teton County, Wyoming & many others. It’s the technical solution to the problem of walled garden platforms monopolizing the web. #MakeTheInternetFreeAgain
+  - name: Amanda B. Johnson
+    image: amandabjohnson.png
+    twitter: AmandaB_Johnson
+    linkedin:
+    bio: Supervisor of the Dash Investment Foundation (DIF), the world's first owner-less and member-less investment fund. Ms. Johnson began educating on cryptocurrency in 2014 as a journalist for Bitcoin Magazine and CoinTelegraph. In 2015 she launched "The Daily Decrypt." In 2016 she applied to the Dash treasury system for funds, she became the world's first freelancer to work for a Decentralized Autonomous Organization (DAO).
+  - name: Brittany Kaiser
+    image: bk.png
+    twitter:
+    linkedin: ownyourdata
+    bio: Brittany Kaiser is the founder of the OwnYourData campaign and cofounder of the Digital Asset Trade Association (DATA), a nonprofit lobbying firm advancing legislative and policy reform to protect the rights of individuals to control their own digital assets, with impactful success supporting the passing of 13 new blockchain-positive laws in the State of Wyoming. To raise awareness of data rights, she recently cofounded the Own Your Data Foundation, to promote digital literacy and STEM education.
+  - name: Matt Kaufman
+    image: mattkaufman.png
+    twitter: MDKaufman307
+    linkedin: matt-kaufman-7972b567
+    bio: Matt is a partner with the law firm of Hathaway & Kunz, LLP based in Cheyenne, Wyoming. He holds a B.A. and J.D. from UW and a LLM from CU. He focuses on business, corporate, finance, securities, IP and technology. Matt was appointed by Governor Mead to the ENDOW council, and the Wyoming Blockchain Taskforce where Governor Gordon reappointed him. The Wyoming Supreme Court appointed him to help stand up the newly created Chancery (business court).
+  - name: Wendy Lopez
+    image: wendylopez.png
+    twitter:
+    linkedin: wendy-lopez-780199a
+    bio: Wendy Lopez is a fifth-generation Wyomingite from Cody. She earned a bachelor's degree in communication from the University of Wyoming. She spent 22 years at the Wyoming Tribune Eagle as an advertising sales consultant and the director of advertising. She has a background in multimedia advertising, sales, marketing, event planning, graphic design and promotions, and years of experience cultivating relationships with clients.
+  - name: Joe Marchell
+    image: joemarchell.png
+    twitter:
+    linkedin: joseph-marchell
+    bio: Joseph Marchell is a commodity analyst at Stanton Analytics. He educates traders involved with energy futures markets on trading methods for bitcoin and other cryptocurrencies. He utilizes a blend of fundamental, technical, statistical, and geo-political analysis to create a probabilistic trading strategy. His educational background includes Rider University for Global studies and Rutgers University for Data Science.
+  - name: Jared Moss
+    image: jaredmoss.png
+    twitter:
+    linkedin: jared-moss-1b408017
+    bio: Jared W. Moss has been working with venture funds since the start of his legal career. He assisted with the formation and capital raise for two funds in real estate and oil & gas sectors. Jared has represented several funds, family offices, and private capital with numerous portfolio investments. Jared has a passion for entrepreneurship and new technology, and he is advancing the legal issues in the blockchain community.
+  - name: Anthony Pompliano
+    image: anthonypompliano.png
+    twitter: apompliano
+    linkedin: anthonypompliano
+    bio:
+  - name: Tristan Roberts
+    image: tr.png
+    twitter: aitheric
+    linkedin: tristan-roberts-932b2923
+    bio:  A researcher of complex systems, Tristan's recent work has focused on bridging the divide between the 'real world' of states and the 'virtual worlds' of distributed ledgers. His project, Etherize.io, won the ConsenSys prize at last year's Wyohackathon, for facilitating the creation of hybrid LLC/DAOs.
+  - name: Garrett Sutton
+    image: garrettsutton2.png
+    twitter:
+    linkedin:
+    bio: Garrett Sutton, Esq. is the founder of Corporate Direct. He is a bestselling author and asset protection attorney. A member of Robert Kiyosaki’s Rich Dad Advisor team, Garrett has written a number of books guiding entrepreneurs and investors. Garrett’s best sellers include - Start Your Own Corporation, Loopholes of Real Estate, Writing Winning Business Plans, and Run Your Own Corporation among other titles. Garrett is also the author of How to Use Limited Liability Companies & Limited Partnerships and the co-author of Finance Your Own Business.
+  - name: Garrett Thurston
+    image: missingphoto.png
+    twitter:
+    linkedin:
+    bio:
+  - name: R.D. Titus
+    image: rdtitus.png
+    twitter: RDTitus
+    linkedin: rxdxt
+    bio: Richard Titus joins Transform Group following a two-year stint as founder and CEO of Ark Advisors, a leading blockchain advisory firm. Founded in 2017, ARK consulted with and invested in blockchain and DLT technology based businesses; servicing 20+ Blockchain projects in 2017-2018. Titus also led ARK’s investment efforts (arkfund.io) sourcing & deploying ~$6m in capital into 5+ successful startup ventures including 22x fund, Metacert, Securitize and Telegram.
+  - name: George Weiksner
+    image: georgeweiksner.png
+    twitter: buyquarters
+    linkedin:
+    bio: 13 year old CEO of Pocketful of Quarters
+  - name: Jeremy Wood
+    image: jeremywood.png
+    twitter:
+    linkedin:
+    bio: Since 2013 Jeremy has been interested in crypto and is a founding member of the Kansai Bitcoin Meet-up. He became entranced by the potential of blockchains and joined Ethereum at the end of 2013, managing operations. After Ethereum, Jeremy consulted on cryptocurrencies then started Input Output with Charles Hoskinson in 2015. Jeremy believes fintech's future depends on experimentation, research, and collaboration between diverse groups.
+  - name: Bobby Zagotta
+    image: bobbyzagotta.png
+    twitter:
+    linkedin:
+    bio: Bobby is Kraken's Chief Commercial Officer and is a proven strategy & operating leader with broad experience as an engineer, consultant, entrepreneur & CEO, and Fortune 500 executive. Prior to Kraken, Bobby was a Senior Managing Director and Corporate Officer at CME Group, a $75B company, where he was responsible for a $3B P&L and also served as Head of Strategy & Execution. During his time at CME, the company’s share value tripled, outperforming the S&P 500 by 2 to 1.
+
+devcon:
   - name: Peter Chmiel
     image: peterchmiel.png
     twitter: petec029
