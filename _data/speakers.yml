@@ -356,6 +356,16 @@ hackathon-opening:
     twitter: jespow
     linkedin: jessepowell
     bio: Jesse Powell is the founder and CEO of numerous organizations, including Kraken. Powell was founder and CEO of Lewt, Inc., that delivered services for assisting players in online-based video games with account management and in-game currency, from 2001 to 2011. He also founded Internet Ventures & Holdings, which also provided services to the online gaming community. In 2007 he started the Verge Gallery & Studio Project in Sacramento and took board seat in 2010.
+  - name: Rich Kopcho
+    image: richkopcho.png
+    twitter: kopcho
+    linkedin: kopcho
+    bio: Producer—WyoHackathon and the Wyoming Blockchain Stampede | Sales | Marketing | Product | Full Stack Entrepreneur
+  - name: Steve Lupien
+    image: missingphoto.png
+    twitter:
+    linkedin:
+    bio: 
 
 bizcon:
   - name: Charles Hoskinson
