@@ -209,7 +209,8 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ffc425;
+  /*  color: #ffc425;*/
+  color: #810000;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
