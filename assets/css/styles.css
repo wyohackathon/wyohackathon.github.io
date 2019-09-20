@@ -3617,7 +3617,8 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ffc425;
+  color: #810000;
+  /*color: #ffc425;*/
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
