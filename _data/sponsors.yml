@@ -6,7 +6,7 @@ title:
 sandcastle:
   - name: green
     logo: green.png
-    link:
+    link: https://greenblockchain.com
 
 founder:
   - name: Aicumen
@@ -57,7 +57,7 @@ investor:
     link: https://cardanofoundation.org/
   - name: Dish Wireless
     logo: dishwireless.png
-    link:
+    link: https://dish.com
   - name: Caitlin Long
     logo: caitlinlong.png
     link: https://caitlin-long.com
@@ -91,13 +91,13 @@ hacker:
     link: https://fio.foundation
   - name: WorldBit
     logo: worldbit.png
-    link:
+    link: https://www.worldbit.com
   - name: Green House Data
     logo: greenhousedata.png
     link: https://www.greenhousedata.com
   - name: Vigilent
     logo: vigilent.png
-    link:
+    link: https://vigilent-inc.com
 
 media-partner:
   - name: What Bitcoin Did
