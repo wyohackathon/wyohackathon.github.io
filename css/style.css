@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*  Mixins */
 /*  Fonts */
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
    Google Fonts
 -----------------------------------------------------------------*/
 @import "https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800";
@@ -12776,7 +12776,7 @@ select {
   font-size: 1.2rem; }
 
 /* .form-group {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     +.btn {
         margin-left: -4px;
         border-top-left-radius: 0 !important;
@@ -12833,7 +12833,7 @@ select {
     }
 }
  */
-/* 
+/*
 input[type="checkbox"].form-control {
     float: left;
     width: auto;
@@ -14919,3 +14919,5 @@ body[data-bg-image] {
 } */
 
 /*# sourceMappingURL=style.css.map */
+
+.videocenter { margin: 0 auto; width: 400px; }
