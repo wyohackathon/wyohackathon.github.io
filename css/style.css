@@ -14920,4 +14920,8 @@ body[data-bg-image] {
 
 /*# sourceMappingURL=style.css.map */
 
-.videocenter { margin: 0 auto; width: 400px; }
+.videocenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
