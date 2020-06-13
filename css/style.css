@@ -14964,7 +14964,7 @@ body[data-bg-image] {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 500px;
+  max-width: 900px;
 }
 
 /* The Close Button */
@@ -14991,7 +14991,7 @@ body[data-bg-image] {
 
 /* Next & previous buttons */
 .prev,
-.next {
+.modalnext {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -15008,14 +15008,14 @@ body[data-bg-image] {
 }
 
 /* Position the "next button" to the right */
-.next {
+.modalnext {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
-.next:hover {
+.modalnext:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
