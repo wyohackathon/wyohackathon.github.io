@@ -19,7 +19,7 @@
       <meta property="twitter:title" content="WyoHackathon Blockchain Stampede 2020">
       <meta property="twitter:description" content="The WyoHackathon Blockchain Stampede is a celebratory blockchain event for developers, entrepreneurs and established companies.">
       <meta property="twitter:image" content="https://wyohackathon.io/img/landing_logo.png">
-      <link href="css/plugins.css" rel="stylesheet">
+      <!--<link href="css/plugins.css" rel="stylesheet">-->
       <link href="css/style.css" rel="stylesheet">
 
       <!--  FAVICON AND TOUCH ICONS -->
@@ -63,148 +63,6 @@
     <!-- Typeform Code -->
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     <!-- End Typeform Code -->
-
-    <style>
-    body {
-      font-family: Verdana, sans-serif;
-      margin: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    .row > .column {
-      padding: 0 8px;
-    }
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    .column {
-      float: left;
-      width: 100%;
-    }
-
-    /* The Modal (background) */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      padding-top: 100px;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: black;
-    }
-
-    /* Modal Content */
-    .modal-content {
-      position: relative;
-      background-color: #fefefe;
-      margin: auto;
-      padding: 0;
-      width: 90%;
-      max-width: 1200px;
-    }
-
-    /* The Close Button */
-    .close {
-      color: white;
-      position: absolute;
-      top: 10px;
-      right: 25px;
-      font-size: 35px;
-      font-weight: bold;
-    }
-
-    .close:hover,
-    .close:focus {
-      color: #999;
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    .mySlides {
-      display: none;
-    }
-
-    .cursor {
-      cursor: pointer;
-    }
-
-    /* Next & previous buttons */
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -50px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    img {
-      margin-bottom: -4px;
-    }
-
-    .caption-container {
-      text-align: center;
-      background-color: black;
-      padding: 2px 16px;
-      color: white;
-    }
-
-    .demo {
-      opacity: 0.6;
-    }
-
-    .active,
-    .demo:hover {
-      opacity: 1;
-    }
-
-    img.hover-shadow {
-      transition: 0.3s;
-    }
-
-    .hover-shadow:hover {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    </style>
 
    </head>
    <body>
@@ -328,7 +186,6 @@
                 </div>
             </div>
          </section>
-
          <section class="">
             <img src="img/2020.png" style="width: 100%">
          </section>
@@ -402,52 +259,17 @@
              <br  id="sponsors"><br><br><br>
              <div class="container text-center">
                 <div class="heading-text heading-line text-center">
-                    <h3>Sponsors</h3>
+                    <h4>Sponsors</h4>
                 </div>
                 <div align="center">
                   <video controls poster="img/stampede_original.png">
                     <source src="video/sponsorship.mp4" type="video/mp4">
                   </video>
                 </div>
-                <div class="row">
-                  <div class="column">
-                    <img src="img/sponsorship/sponsorship_deck_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-                  </div>
-                </div>
-
-                <div id="myModal" class="modal">
-                  <span class="close cursor" onclick="closeModal()">&times;</span>
-                  <div class="modal-content">
-
-                    <div class="mySlides">
-                      <div class="numbertext">1 / 4</div>
-                      <img src="img/sponsorship/sponsorship_deck_1.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">2 / 4</div>
-                      <img src="img/sponsorship/sponsorship_deck_2.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">3 / 4</div>
-                      <img src="img/sponsorship/sponsorship_deck_3.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">4 / 4</div>
-                      <img src="img/sponsorship/sponsorship_deck_4.png" style="width:100%">
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  </div>
-                </div>
-
                 <div>
                   &nbsp;
                 </div>
-                <h4>Founder</h4>
+                <h5>Founder</h5>
                 <div class="row">
                     <div class="col-lg-4"><a href="http://www.uwyo.edu/ceas/" target="_blank"><img src="img/sponsors/founder/ceas.png"></a></div>
                     <div class="col-lg-4"><a href="http://www.uwyo.edu/uwag/" target="_blank"><img src="img/sponsors/founder/canr.png"></a></div>
@@ -455,7 +277,6 @@
                 </div>
              </div>
          </section>
-
          <section style="padding-bottom: 0px">
              <div style="background-image:url(img/uw.png)" class="call-to-action p-t-100 p-b-100 background-image mb-0">
                <div class="container">
@@ -472,14 +293,10 @@
                </div>
             </div>
          </section>
-
-
-
          <section class="m-t-0" id="venue">
              <div class="container text-center">
                 <div class="heading-text heading-line text-center">
                     <h4>Venue</h4><br>
-
                 </div>
                 <div class="row text-center align-center">
                     <div class="col-lg-12">
@@ -496,8 +313,6 @@
                 </div>
             </div>
         </section>
-
-
          <footer id="footer" class="inverted text-center align-center" >
            <div class="footer-content">
               <div class="container">
@@ -540,59 +355,16 @@
               </div>
            </div>
         </footer>
-
       </div>
       <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
       <script src="js/jquery.js"></script>
       <script src="js/plugins.js"></script>
       <script src="js/functions.js"></script>
-
-      <script>
-      function openModal() {
-        document.getElementById("myModal").style.display = "block";
-      }
-
-      function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-      }
-
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-      }
-      </script>
-
       <!-- Noscript content for added SEO -->
       <noscript><a href="https://www.eventbrite.com/e/wyohackathon-blockchain-stampede-2020-tickets-94259908925" rel="noopener noreferrer" target="_blank"></noscript>
       <!-- You can customize this button any way you like -->
       <noscript></a>Buy Tickets on Eventbrite</noscript>
-
       <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
       <script type="text/javascript">
           var exampleCallback = function() {
               console.log('Order complete!');
