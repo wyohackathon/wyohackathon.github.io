@@ -14968,7 +14968,7 @@ body[data-bg-image] {
 }
 
 /* The Close Button */
-.close {
+.modalclose {
   color: white;
   position: absolute;
   top: 10px;
@@ -14977,8 +14977,8 @@ body[data-bg-image] {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.modalclose:hover,
+.modalclose:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
