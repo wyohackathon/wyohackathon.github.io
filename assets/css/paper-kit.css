@@ -3321,19 +3321,19 @@ blockquote small {
 /*     General overwrite     */
 
 body {
-  color: #66615b;
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
 }
 
 a {
-  color: #51bcda;
+  color: #A2A42C;
 }
 
 a:hover,
 a:focus {
-  color: #2ba9cd;
+  color: #A2A42C;
   text-decoration: none;
 }
 
