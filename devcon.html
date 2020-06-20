@@ -312,6 +312,26 @@
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!--  Plugin for presentation page - isometric cards  -->
   <script src="../assets/js/plugins/presentation-page/main.js"></script>
+  <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/wyohackathon-blockchain-stampede-2020-tickets-94259908925" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '94259908925',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-94259908925',
+        onOrderComplete: exampleCallback
+    });
+</script>
 </body>
 
 </html>
