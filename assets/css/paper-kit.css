@@ -9198,7 +9198,7 @@ textarea.form-control {
 }
 
 .page-header .filter.filter-danger::after {
-  background-color: rgba(243, 48, 13, 0.5);
+  background-color: rgba(162, 164, 44, 0.25);
 }
 
 .page-header .container {
