@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Form
+    Apply To Present Your Paper
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <meta name="author" content="WyoHackathon Blockchain Stampede" />
@@ -149,7 +149,7 @@
 		<div class="card-form col-sm-8" id="card">
             <div class="card-body text-center">
               <h4 class="card-title">
-                Test Form
+                Apply To Present Your Paper Form
               </h4>
               <div class="card-description">
 					<form id="frm1">
@@ -162,17 +162,28 @@
 						 <input type="text" class="form-control" id="lname" name="Last" placeholder="Last Name">
 						</div>
 					  </div>
-					  <div class="form-group">
-						<input type="email" class="form-control" id="email" name="Email" placeholder="Email">
+					   <div class="form-group">
+						<input type="text" class="form-control" id="cname" name="Company" placeholder="Company Name">
+					  </div>
+					  <div class="form-row">
+						<div class="form-group col-md-6">
+						   <input type="email" class="form-control" id="email" name="Email" placeholder="Email">
+						</div>
+						<div class="form-group col-md-6">
+						 <input type="tel" class="form-control" id="pnumber" name="Phone" placeholder="Phone Number">
+						</div>
 					  </div>
 					  <div class="form-group">
-						<input type="text" class="form-control" id="site" name="Website" placeholder="Site">
+						<input type="text" class="form-control" id="title" name="Title" placeholder="Paper Title">
+					  </div>
+					  <div class="form-group">
+						<input type="text" class="form-control" id="abstract" name="Abstract" placeholder="Paste your Abstract">
 					  </div>
 					</form>
 					<div class="row">
 						<div class="col-sm-12">
 						  <h4 class="title">
-							<small>Upload File</small>
+							<small>Upload Paper</small>
 						  </h4>
 						  <form id="upload-widget" method="post" action="/upload" class="dropzone"></form>
 						</div>
@@ -290,7 +301,7 @@
 	<script>
 	
 	form_settings = {
-	"Location": "Test",
+	"Location": "Papers",
 	"Test": false,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/"
