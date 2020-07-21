@@ -26,13 +26,15 @@
   <meta property="twitter:description" content="The WyoHackathon Blockchain Stampede is a celebratory blockchain event for developers, entrepreneurs and established companies.">
   <meta property="twitter:image" content="https://wyohackathon.io/assets/img/landing_logo.png">
   <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <!-- CSS Files -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css">
   <link href="./assets/css/form.css" rel="stylesheet" />
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/paper-kit.css?v=2.3.0" rel="stylesheet" />
+  <link href="./assets/css/overwrite.css" rel="stylesheet" /> 
   <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -143,12 +145,12 @@
       </div>
     </div>
   </div> -->
-  <div class="main">
+  <div class="main mt-4">
 	  <div class="row">
 		<div class="col-sm-2"></div>
 		<div class="card-form col-sm-8" id="card">
             <div class="card-body text-center">
-              <h4 class="card-title">
+              <h4 class="card-title form-text">
                 Volunteer Signup Form
               </h4>
               <div class="card-description">
@@ -169,14 +171,14 @@
 						<input type="tel" class="form-control" id="phone" name="Phone" placeholder="Phone">
 					  </div>
 					  <div class="form-group">
-						<label for="Terms"> I have read and agree with the <a href= "https://wyohackathon.io/assets/pdf/WyoHackathon_Volunteer_Agreement.pdf" style="text-decoration: underline;">Volunteer Agreement, Terms of Service, Terms of Use and Privacy Policy. </a></label><br>
+						<label for="Terms" class="form-text"> I have read and agree with the <a href= "https://wyohackathon.io/assets/pdf/WyoHackathon_Volunteer_Agreement.pdf" style="text-decoration: underline;">Volunteer Agreement, Terms of Service, Terms of Use and Privacy Policy. </a></label><br>
 						<input type="checkbox"  id="Terms" name="Terms" value="off">
 					  </div>
 					</form>
 					<div class="row">
 						<div class="col-sm-12">
-						  <h4 class="title">
-							<small>Upload Headshot</small>
+						  <h4 class="title form-text mb-n1" >
+							Upload Headshot
 						  </h4>
 						  <form id="upload-widget" method="post" action="/upload" class="dropzone"></form>
 						</div>
@@ -297,7 +299,8 @@
 	"Location": "Volunteers",
 	"Test": false,
 	"TextFormID": "frm1",
-	"Redirect": "https://wyohackathon.io/"
+	"Redirect": "https://wyohackathon.io/",
+	"DZMessage": "Insert headshot here. Must be Less than 4MB" 
 	};
 	</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>

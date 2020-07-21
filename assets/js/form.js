@@ -7,12 +7,16 @@
 //      create a dict form_settings with values: 
 //		{
 //			"Location": what location in Teams,
-//			"Test": true or false
+//			"Test": true or false,
+//			"Redirect": redirect link after submission
+//			"DZMessage": the Dropzone message given to be put in as default
 //		}
 //----------------------------------------------------/
 var Form_ID = form_settings["TextFormID"];
 var Location = form_settings["Location"];
 var RedirectPage = form_settings["Redirect"];
+var DZMessage = form_settings["DZMessage"];
+
 if( form_settings["Test"]){
 	var base_url = "http://127.0.0.1:5000/"
 }
@@ -46,6 +50,8 @@ Dropzone.options.uploadWidget = {
 				paramName : "file",
 				url : base_url + "upload",
 				autoProcessQueue: true,
+				maxFilesize: 4,
+				dictDefaultMessage: DZMessage, 
 				//maxFiles: 1,
 				 success: function (file, response) {
                     if (this.files.length > 1)
@@ -55,6 +61,11 @@ Dropzone.options.uploadWidget = {
 				init: function () {
 
 					var myDropzone = this;
+					
+					this.on("error", function(file, message) { 
+						alert(message);
+						this.removeFile(file); 
+						});
 					
 					this.on('sending', function(file, xhr, formData) {
 					// Adds first and last name for desired filename
