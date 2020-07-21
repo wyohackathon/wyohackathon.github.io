@@ -90,6 +90,7 @@ async function SubmitForm(){
 	var form = document.getElementById(Form_ID);
 	data["file"] = document.getElementById("file").value
 	for (var i = 0; i < form.length; ++i) {
+		//alert(form.elements[i].type);
 		if(form.elements[i].type == "checkbox"){
 			data[form.elements[i].name] = form.elements[i].checked
 		}
