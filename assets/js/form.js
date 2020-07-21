@@ -10,18 +10,69 @@
 //			"Test": true or false,
 //			"Redirect": redirect link after submission
 //			"DZMessage": the Dropzone message given to be put in as default
+//          "Required_List": the fields that are required first element in the multiselect sublist[[]] is for the text to be colored
 //		}
 //----------------------------------------------------/
 var Form_ID = form_settings["TextFormID"];
 var Location = form_settings["Location"];
 var RedirectPage = form_settings["Redirect"];
 var DZMessage = form_settings["DZMessage"];
+var Required_List = form_settings["Required_List"];
 
 if( form_settings["Test"]){
 	var base_url = "http://127.0.0.1:5000/"
 }
 else{
 	var base_url = "https://wyo01.wyohackathon.io/"
+}
+
+function CheckRequired(){
+	var satisfied = true;
+	var form = document.getElementById(Form_ID);
+	for (var i = 0; i < Required_List.length; ++i) {
+		if (Required_List[i].constructor == Array){
+			if (Required_List[i][0]=="file"){// file handling
+				if (!document.getElementById(Required_List[i][1]).value){
+					alert("File upload is empty");
+					document.getElementById(Required_List[i][2]).style.color = "red";
+				}
+				else{
+					document.getElementById(Required_List[i][2]).style.color = "black";
+				}
+			}
+			else{//Checkbox handling
+				var selection = false;
+				for (var j = 1; j < Required_List[i].length; ++j) {
+					if (document.getElementById(Required_List[i][j]).checked){
+						selection = true;
+					}
+					
+				}
+				if (!selection){
+					satisfied = false;	
+					if(Required_List[i].length ==2){
+						alert(Required_List[i][0] + " must be checked");
+					}
+					else{
+						alert(Required_List[i][0] + " cannot be empty");
+					}
+					document.getElementById(Required_List[i][0]).style.color = "red";
+				}
+				else{
+					document.getElementById(Required_List[i][0]).style.color = "black";
+				}
+			}
+		}
+		else if (!document.getElementById(Required_List[i]).value){
+			alert(Required_List[i] + " cannot be empty");
+			document.getElementById(Required_List[i]).style.borderColor = "red";
+			satisfied = false;
+		}
+		else{
+			document.getElementById(Required_List[i]).style.borderColor = "black";
+		}
+	}
+	return satisfied;
 }
 
 function ShowLoading() {
@@ -69,8 +120,6 @@ Dropzone.options.uploadWidget = {
 					
 					this.on('sending', function(file, xhr, formData) {
 					// Adds first and last name for desired filename
-						var firstname = document.getElementById("fname").value;
-						var lastname = document.getElementById("lname").value;
 						var dateTime = getstamp();
 						document.getElementById("file").value = dateTime + "." + file.name.split(".").pop();
 						formData.append("FileName",  dateTime + "." + file.name.split(".").pop());
@@ -96,21 +145,23 @@ async function AddRow(Data, Success) {
 
 //Wrap all desired input in a form tag with your desired form ID, and put Sharepoint info on the API under Same Form Location
 async function SubmitForm(){
-	ShowLoading();
-	var data = { 'Location':  Location}
-	var form = document.getElementById(Form_ID);
-	data["file"] = document.getElementById("file").value
-	for (var i = 0; i < form.length; ++i) {
-		if(form.elements[i].type == "checkbox"){
-			data[form.elements[i].name] = form.elements[i].checked
+	if(CheckRequired()){
+		ShowLoading();
+		var data = { 'Location':  Location}
+		var form = document.getElementById(Form_ID);
+		data["file"] = document.getElementById("file").value
+		for (var i = 0; i < form.length; ++i) {
+			if(form.elements[i].type == "checkbox"){
+				data[form.elements[i].name] = form.elements[i].checked
+			}
+			else{
+				data[form.elements[i].name] = form.elements[i].value
+			}
 		}
-		else{
-			data[form.elements[i].name] = form.elements[i].value
-		}
+		AddRow(data, function() 
+				{
+					alert( "Your Form Has Been Submitted");
+					window.location = RedirectPage;
+				}); 
 	}
-	AddRow(data, function() 
-			{
-				alert( "Your Form Has Been Submitted");
-				window.location = RedirectPage;
-			}); 
 }

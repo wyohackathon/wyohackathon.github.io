@@ -4,9 +4,13 @@ p {
 
 .form-text {
    font-weight: normal !important;
-   color: #000 !important;
+   color: #000;
    font-size: 16px !important;
 }
 h4.form-text {
    font-size: 24px !important;
+}
+
+.form-input input {
+	border-color: black;
 }

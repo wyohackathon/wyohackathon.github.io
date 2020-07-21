@@ -154,14 +154,14 @@
                 Apply To Present Your Paper Form
               </h4>
               <div class="card-description">
-					<form id="frm1">
+					<form class="form-input" id="frm1">
 					  <input type="hidden" id="file" name="file">
 					  <div class="form-row">
 						<div class="form-group col-md-6">
-						   <input type="text" class="form-control" id="fname" name="First" placeholder="First Name">
+						   <input type="text" class="form-control" id="Firstname" name="First" placeholder="First Name">
 						</div>
 						<div class="form-group col-md-6">
-						 <input type="text" class="form-control" id="lname" name="Last" placeholder="Last Name">
+						 <input type="text" class="form-control" id="Lastname" name="Last" placeholder="Last Name">
 						</div>
 					  </div>
 					   <div class="form-group">
@@ -169,22 +169,22 @@
 					  </div>
 					  <div class="form-row">
 						<div class="form-group col-md-6">
-						   <input type="email" class="form-control" id="email" name="Email" placeholder="Email">
+						   <input type="email" class="form-control" id="Email" name="Email" placeholder="Email">
 						</div>
 						<div class="form-group col-md-6">
-						 <input type="tel" class="form-control" id="pnumber" name="Phone" placeholder="Phone Number">
+						 <input type="tel" class="form-control" id="Phone" name="Phone" placeholder="Phone Number">
 						</div>
 					  </div>
 					  <div class="form-group">
-						<input type="text" class="form-control" id="title" name="Title" placeholder="Paper Title">
+						<input type="text" class="form-control" id="Title" name="Title" placeholder="Paper Title">
 					  </div>
 					  <div class="form-group">
-						<input type="text" class="form-control" id="abstract" name="Abstract" placeholder="Paste your Abstract">
+						<input type="text" class="form-control" id="Abstract" name="Abstract" placeholder="Paste your Abstract">
 					  </div>
 					</form>
 					<div class="row">
 						<div class="col-sm-12">
-						  <h3 class="title form-text mb-n1">
+						  <h3 class="title mb-n1" id="Paper">
 							Upload Paper
 						  </h3>
 						  <form id="upload-widget" method="post" action="/upload" class="dropzone"></form>
@@ -307,7 +307,8 @@
 	"Test": false,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/",
-	"DZMessage": "Insert file of your paper here. Must be Less than 4MB" 
+	"DZMessage": "Insert file of your paper here. Must be Less than 4MB",
+	"Required_List": ["Firstname", "Lastname", "Email", "Phone", "Title", "Abstract", ["file","file","Paper"]]
 	};
 	</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
