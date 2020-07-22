@@ -35,6 +35,7 @@ function CheckRequired(){
 				if (!document.getElementById(Required_List[i][1]).value){
 					alert("File upload is empty");
 					document.getElementById(Required_List[i][2]).style.color = "red";
+					satisfied = false;
 				}
 				else{
 					document.getElementById(Required_List[i][2]).style.color = "black";
@@ -43,7 +44,21 @@ function CheckRequired(){
 			else{//Checkbox handling
 				var selection = false;
 				for (var j = 1; j < Required_List[i].length; ++j) {
-					if (document.getElementById(Required_List[i][j]).checked){
+					if (Required_List[i][j].constructor == Array){// checkbox has fillout form
+						if (document.getElementById(Required_List[i][j][0]).checked){
+							if (!document.getElementById(Required_List[i][j][1]).value){
+								alert(Required_List[i][j][1] + " cannot be empty if "+ Required_List[i][j][0]+ " is checked" );
+								document.getElementById(Required_List[i][j][1]).style.borderColor = "red";
+								satisfied = false;
+								selection = true;
+							}
+							else{
+								document.getElementById(Required_List[i][j][1]).style.borderColor = "black";
+								selection = true;
+							}
+						}
+					}
+					else if (document.getElementById(Required_List[i][j]).checked){
 						selection = true;
 					}
 					
