@@ -152,8 +152,9 @@ async function AddRow(Data, Success) {
 		data: Data,
 		success: Success,
 		error: function() {
+				alert( "Something Went Wrong With Your Submission Please Email admin@wyohackathon.io With Your Information");
 				window.location = RedirectPage;
-				alert( "Something Went Wrong With Your Submission Please Email admin@wyohackathon.io With Your Information");}
+				}
 		});         	
 }
 
