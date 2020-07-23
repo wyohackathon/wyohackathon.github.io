@@ -7,6 +7,12 @@ p {
    color: #000;
    font-size: 16px !important;
 }
+
+.form-description {
+   font-weight: normal !important;
+   color: #000;
+   font-size: 12px !important;
+}
 h4.form-text {
    font-size: 24px !important;
 }
