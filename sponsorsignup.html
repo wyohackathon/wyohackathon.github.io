@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Organizer Information Form
+    Sponsor Signup Form
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <meta name="author" content="WyoHackathon Blockchain Stampede" />
@@ -151,35 +151,30 @@
 		<div class="card-form col-sm-8" id="card">
             <div class="card-body text-center">
               <h4 class="card-title form-text">
-                Organizer Information Form
+                Sponsor Form
               </h4>
               <div class="card-description">
 					<form  class="form-input" id="frm1">
 					  <input type="hidden" id="file" name="file">
-					  <div class="form-row">
-						<div class="form-group col-md-6">
-						   <input type="text" class="form-control" id="Firstname" name="First" placeholder="First Name" maxlength="60">
-						</div>
-						<div class="form-group col-md-6">
-						 <input type="text" class="form-control" id="Lastname" name="Last" placeholder="Last Name" maxlength="60">
-						</div>
+					  <div class="form-group">
+						<input type="text" class="form-control" id="Company name" name="Company name" placeholder="Company Name" maxlength="45">
 					  </div>
 					  <div class="form-group">
-						<input type="text" class="form-control" id="Job title" name="Job title" placeholder="Job Title" maxlength="60">
+						<input type="text" class="form-control" id="Website URL" name="Website URL" placeholder="Website URL" maxlength="45">
 					  </div>
 					  <div class="form-row">
 						<div class="form-group col-md-6">
-						   <input type="text" class="form-control" id="Twitter" name="Twitter" placeholder="Twitter Handle" maxlength="60">
+						   <input type="text" class="form-control" id="Twitter" name="Twitter" placeholder="Twitter Handle" maxlength="45">
 						</div>
 						<div class="form-group col-md-6">
-						 <input type="text" class="form-control" id="Linkedin" name="Linkedin" placeholder="Linkedin URL" maxlength="60">
+						 <input type="text" class="form-control" id="Linkedin" name="Linkedin" placeholder="Linkedin URL" maxlength="45">
 						</div>
 					  </div>
 					</form>
 					<div class="row">
 						<div class="col-sm-12">
 						  <h3 class="title form-text mb-n1" id="Headshot" >
-							Upload Headshot
+							Upload Company Logo
 						  </h3>
 						  <form id="upload-widget" method="post" action="/upload" class="dropzone"></form>
 						</div>
@@ -297,12 +292,12 @@
 	<script>
 	
 	form_settings = {
-	"Location": "Organizer",
+	"Location": "Sponsor",
 	"Test": false,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/",
-	"DZMessage": "Insert headshot here. Must be Less than 4MB",
-	"Required_List": ["Firstname", "Lastname",  ["file","file","Headshot"]]
+	"DZMessage": "Insert logo here. Must be Less than 4MB",
+	"Required_List": ["Company name", "Website URL",  ["file","file","Headshot"]]
 	};
 	</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
