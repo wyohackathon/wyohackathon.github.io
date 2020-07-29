@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Volunteer Signup
+    Stampede VIP Participant Details
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <meta name="author" content="WyoHackathon Blockchain Stampede" />
@@ -151,7 +151,7 @@
 		<div class="card-form col-sm-8" id="card">
             <div class="card-body text-center">
               <h4 class="card-title form-text">
-                Stampede VIP Signup
+                Stampede VIP Participant Details
               </h4>
 			  <span data-qa="block-title deep-purple-block-title" class="form-text">
 				Tell us the role(s) you will play at the Wyoming Blockchain Stampede.  Please provide social handles so we can share your participation with photos and comments.
@@ -167,15 +167,9 @@
 						 <input type="text" class="form-control" id="Lastname" name="Last" placeholder="Last Name" maxlength="30">
 						</div>
 					  </div>
-					  <div class="form-row">
-						  <div class="form-group  col-md-6">
-							<input type="text" class="form-control" id="Company Name" name="Company" placeholder="Company you Represent" maxlength="60">
-						  </div>
-						  <div class="form-group  col-md-6">
-							<input type="text" class="form-control" id="Job Title" name="JT" placeholder="Job Title" maxlength="60">
-						  </div>
+					  <div class="form-group">
+						<input type="text" class="form-control" id="cname" name="Company" placeholder="Company you Represent" maxlength="60">
 					  </div>
-
 					  <div class="form-row">
 						<div class="form-group col-md-6">
 						   <input type="email" class="form-control" id="Email" name="Email" placeholder="Email" maxlength="60">
@@ -227,53 +221,10 @@
 					  </div>
 
 
-					  <div class="form-group my-5">
-
-							<div class="form-group mb-n1" style="font-size:14px;">Please provide a short bio (approx 100 words)</div>
-							<textarea class="field-element mt-1" name="bio" id="Biography" rows="4" style="border-color: black; width: 100%; height: 100%; box-sizing: border-box;" placeholder="A little about me..." maxlength="600"></textarea>
-					  </div>
-					  
-					  <div class="form-group mt-5" >
-						<h3>
-						If you want to be a Speaker...
-						</h3>
-					  </div>
-					  
-					  <div class="form-group" style="font-size:14px;" id="multiselect2">
-						Which Conference Track(s) Would You Like To Speak At?
-					  </div>
-					   <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="BC" name="BC" value="off">
-						<label for="Terms" class="col-xs-11"> Stampede Business Conference</label><br>
-					  </div>
-					  <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="DC" name="DC" value="off">
-						<label for="Terms" class="col-xs-11"> Stampede Developers Conference</label><br>
-					  </div>
-					  <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="LC" name="LC" value="off">
-						<label for="Terms" class="col-xs-11"> Stampede Law Conference</label><br>
-					  </div>
-					  <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="WH" name="WH" value="off">
-						<label for="Terms" class="col-xs-11"> WyoHackathon</label><br>
+					  <div class="form-group mt-5">
+						<input type="text" class="form-control" id="Biography" name="Bio" placeholder="Please provide a short bio. Approx 100 words" maxlength="800">
 					  </div>
 
-					  <div class="form-group">
-						<input type="text" class="form-control" id="Topic" name="Topic" placeholder="What topic would you like to cover?" maxlength="300">
-					  </div>
-					  <div class="form-group">
-
-							<div class="form-group mb-n1" style="font-size:14px;">Explain why you should speak on this topic</div>
-							<textarea class="field-element mt-1" name="Explain" id="Explaination" rows="4" style="border-color: black; width: 100%; height: 100%; box-sizing: border-box;" placeholder="I would be a good candidate because ..." maxlength="600"></textarea>
-					  </div>
-					  <div class="form-group">
-						<input type="text" class="form-control"  id="links" name="links" placeholder="If possible, please provide links to videos of your prior speaking engagements." maxlength="1000">
-					  </div>
 
 					</form>
 					<div class="row mt-5">
@@ -397,12 +348,12 @@
 	<script>
 
 	form_settings = {
-	"Location": "Vip Registration",
+	"Location": "Stampede",
 	"Test": false,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/",
 	"DZMessage": "Insert headshot here. Must be Less than 4MB",
-	"Required_List": ["Firstname", "Lastname",  "Email", "Phone", ["multiselect", "Speaker", "Mentor", "Judge", ["Other", "Explaination"]], "Biography", ["file","file","Headshot"]]
+	"Required_List": ["Firstname", "Lastname", "Email", "Phone", ["multiselect","Speaker", "Mentor", "Judge", ["Other", "Explaination"]], "Biography", ["file","file","Headshot"]]
 	};
 
 
