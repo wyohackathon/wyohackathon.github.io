@@ -33,7 +33,6 @@ function return_page(){
 		for (var i = 1; i < RedirectPage.length; ++i) {
 			RP= RP.replace("{"+i+"}", document.getElementById(RedirectPage[i]).value);
 		}
-		alert(RP);
 		return RP;
 	}
 	else{
