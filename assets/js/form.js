@@ -26,6 +26,21 @@ else{
 	var base_url = "https://wyo01.wyohackathon.io/"
 }
 
+//checks if the redirect needs to be specific of the input and outputs the string
+function return_page(){
+	if (RedirectPage.constructor == Array){
+		var RP = RedirectPage[0];
+		for (var i = 1; i < RedirectPage.length; ++i) {
+			RP= RP.replace("{"+i+"}", document.getElementById(RedirectPage[i]).value);
+		}
+		alert(RP);
+		return RP;
+	}
+	else{
+		return RedirectPage;
+	}
+}
+
 function CheckRequired(){
 	var satisfied = true;
 	var form = document.getElementById(Form_ID);
@@ -177,7 +192,7 @@ async function SubmitForm(){
 		AddRow(data, function() 
 				{
 					alert( "Your Form Has Been Submitted");
-					window.location = RedirectPage;
+					window.location = return_page();
 				}); 
 	}
 }
