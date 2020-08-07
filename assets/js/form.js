@@ -19,6 +19,15 @@ var RedirectPage = form_settings["Redirect"];
 var DZMessage = form_settings["DZMessage"];
 var Required_List = form_settings["Required_List"];
 
+"Your Form Has Been Submitted"
+if( form_settings["Success Message"]){
+	var success_message = form_settings["Success Message"]
+}
+else{
+	var success_message = "Your Form Has Been Submitted"
+}
+
+
 if( form_settings["Test"]){
 	var base_url = "http://127.0.0.1:5000/"
 }
@@ -190,7 +199,7 @@ async function SubmitForm(){
 		}
 		AddRow(data, function() 
 				{
-					alert( "Your Form Has Been Submitted");
+					alert( success_message);
 					window.location = return_page();
 				}); 
 	}
