@@ -189,16 +189,10 @@
 					  <div class="form-group" style="font-size:14px;" id="multiselect">
 						Amount of money raised:
 					  </div>
-					   <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="BC" name="BC" value="off">
-						<label for="Terms" class="col-xs-11"> Under $1.5 MM</label><br>
-					  </div>
-					  <div class="form-row">
-						<div class="col-xs-1"></div>
-					    <input class="col-xs-1" type="checkbox"  id="DC" name="DC" value="off">
-						<label for="Terms" class="col-xs-11">Over $1.5 MM</label><br>
-					  </div>
+					  <select name = "dropdown1" class="mt-1">
+									<option value = "Under $1.5 MM" selected> Under $1.5 MM</option>
+									<option value = "Over $1.5 MM">Over $1.5 MM - Put me in the drawing please </option>
+					  </select>
 
 
 					</form>
@@ -324,11 +318,11 @@
 
 	form_settings = {
 	"Location": "Free Booth Apply",
-	"Test": false,
+	"Test": true,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/",
 	"DZMessage": "Insert logo here. Must be Less than 4MB",
-	"Required_List": ["Firstname", "Lastname",  "Email", "Company Name", ["multiselect", "BC", "DC"], ["file","file","Logo"]]
+	"Required_List": ["Firstname", "Lastname",  "Email", "Company Name", ["file","file","Logo"]]
 	};
 
 
