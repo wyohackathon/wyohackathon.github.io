@@ -56,9 +56,25 @@ window.location = 'https://www.eventbrite.com/e/wyohackathon-blockchain-stampede
       src="https://www.facebook.com/tr?id=604990676752107&ev=PageView&noscript=1"/>
     </noscript>
   <!-- End Facebook Pixel Code -->
-  <!-- Typeform Code -->
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-  <!-- End Typeform Code -->
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.wyohackathon.io"]);
+    _paq.push(["setDomains", ["*.wyohackathon.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.lode.network/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.lode.network/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 </head>
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
@@ -153,7 +169,7 @@ window.location = 'https://www.eventbrite.com/e/wyohackathon-blockchain-stampede
 		<div class="col-sm-2"></div>
 		<div class="card-form col-sm-8" id="card">
             <div class="card-body text-center">
-              
+
               <div class="">
                 <a href="#" onclick="NewTab()" class="btn btn-danger btn-round">Register for Wyohackathon</a>
               </div>
@@ -262,14 +278,14 @@ window.location = 'https://www.eventbrite.com/e/wyohackathon-blockchain-stampede
   <!--  Plugin for presentation page - isometric cards  -->
   <script src="./assets/js/plugins/presentation-page/main.js"></script>
   <!-- Noscript content for added SEO -->
-  <script> 
-	function NewTab() { 
+  <script>
+	function NewTab() {
 			alert("This opens two tabs, please fill the form in eventbrite first and then the form in devpost. Thank You!");
-			window.open( 
+			window.open(
               "https://wyohackathon2020.devpost.com/", "_blank")
-            window.open( 
+            window.open(
               "https://www.eventbrite.com/e/wyohackathon-blockchain-stampede-2020-tickets-94259908925", "_blank")
-        } 
+        }
 	<!-- window.open('https://wyohackathon2020.devpost.com/', '_blank'); -->
 	<!-- window.location = 'https://www.eventbrite.com/e/wyohackathon-blockchain-stampede-2020-tickets-94259908925' -->
   </script>

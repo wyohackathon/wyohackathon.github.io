@@ -53,9 +53,25 @@
       src="https://www.facebook.com/tr?id=604990676752107&ev=PageView&noscript=1"/>
     </noscript>
   <!-- End Facebook Pixel Code -->
-  <!-- Typeform Code -->
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-  <!-- End Typeform Code -->
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.wyohackathon.io"]);
+    _paq.push(["setDomains", ["*.wyohackathon.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.lode.network/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.lode.network/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 </head>
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
@@ -233,7 +249,7 @@
 							<div class="form-group mb-n1" style="font-size:14px;">Please provide a short bio (approx 100 words)</div>
 							<textarea class="field-element mt-1" name="bio" id="Biography" rows="4" style="border-color: black; width: 100%; height: 100%; box-sizing: border-box;" placeholder="A little about me..." maxlength="600"></textarea>
 					  </div>
-					  
+
 					  <div class="form-group mt-5" >
 						<h3>
 						If you want to be a Speaker...
@@ -243,7 +259,7 @@
 				<br>We’re asking our speakers to address ideas around FORGING IMPACT and have consolidated themes and value propositions below—mapped to the Governor’s<i style="color:green;"> Select Committee goals (SC). </i>
 				<br>
 				<br><strong>Overall Stampede Theme: </strong>
-				<br>FORGING IMPACT—Digital Technologies   (Month long: Sept 23rd – Oct 24th) 
+				<br>FORGING IMPACT—Digital Technologies   (Month long: Sept 23rd – Oct 24th)
 				<br><i style="color:blue;">We amplify the UN75 SDG’s with practical application to improve the world. </i>
 				<br>
 				<br><strong>Sub-themes:  </strong>
@@ -253,7 +269,7 @@
 				<br><strong>DevCon: </strong> Designing IMPACT      (Month long: Sept 25rd – Oct 24th)
 				<br><strong>WyoHackathon: </strong> Developing IMPACT   (Month long: Sept 25rd – Oct 24th)
 				<br><br>
-				<br><strong>Where: </strong>Live streamed into our Virtual Reality 2D/3D environment accessible worldwide via VR Headset or HTML5 browser.  
+				<br><strong>Where: </strong>Live streamed into our Virtual Reality 2D/3D environment accessible worldwide via VR Headset or HTML5 browser.
 				<br><i style="color:blue;">Caveat: Also in person (if approved by then) at University of Wyoming or other venue before a live (socially distanced) studio audience. </i>
 				<br><br>
 				<br><strong>Value Propositions for speaker conversations:</strong>
@@ -282,7 +298,7 @@
 				<br>
 			  </span>
 					  </div>
-					  
+
 					  <div class="form-group" style="font-size:14px;" id="multiselect2">
 						Which Conference Track(s) Would You Like To Speak At?
 					  </div>
