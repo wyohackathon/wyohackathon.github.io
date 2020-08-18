@@ -53,9 +53,25 @@
       src="https://www.facebook.com/tr?id=604990676752107&ev=PageView&noscript=1"/>
     </noscript>
   <!-- End Facebook Pixel Code -->
-  <!-- Typeform Code -->
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-  <!-- End Typeform Code -->
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.wyohackathon.io"]);
+    _paq.push(["setDomains", ["*.wyohackathon.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.lode.network/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.lode.network/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 </head>
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
@@ -188,7 +204,7 @@
 						 <input type="text" class="form-control" id="twttr" name="Twitter" placeholder="Company's Twitter Handle" maxlength="60">
 						</div>
 					  </div>
-					  
+
 					  <div class="form-group" style="font-size:14px;" id="multiselect">
 						Amount of money raised:
 					  </div>
