@@ -7,10 +7,10 @@ re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
 	return true; } 
 
 
-async function subscribe(email, page, list) {
+async function subscribe(email, page, list, fname, lname) {
   if(checkform(email)){
   successMessage = 'Thank you for your registration. Please check your email to confirm.';
-  data =  "email="+email.replace("@","%40")+"&htmlemail=1&list%5B"+list+"%5D=signup&subscribe=subscribe";
+  data =  "email="+email.replace("@","%40")+"&htmlemail=1&makeconfirmed=1&list%5B"+list+"%5D=signup&subscribe=subscribe&attribute5="+fname+"&attribute6="+lname;
   // alert(data);
   jQuery.ajax( 
 	{ type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
@@ -19,3 +19,6 @@ async function subscribe(email, page, list) {
   }
 }
 
+async function sub(email, list, fname, lname) {
+	subscribe(email, 4, list, fname, lname);
+	}
