@@ -55,7 +55,7 @@ function subscribe(email, page, list, fname, lname) {
   data =  "email="+email.replace("@","%40")+"&htmlemail=1&makeconfirmed=1&list%5B"+list+"%5D=signup&subscribe=subscribe&attribute5="+fname+"&attribute6="+lname;
   // alert(data);
   jQuery.ajax( 
-	{ type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
+	{async: false, type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
 		alert(successMessage);}, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.');
 		} });
   }
