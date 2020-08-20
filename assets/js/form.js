@@ -11,6 +11,7 @@
 //			"Redirect": redirect link after submission
 //			"DZMessage": the Dropzone message given to be put in as default
 //          "Required_List": the fields that are required first element in the multiselect sublist[[]] is for the text to be colored
+//			"Email": if specified provides the list to add the email - Firstname field must have id="Firstname" same with last name and Email must be id="Email"
 //		}
 //----------------------------------------------------/
 var Form_ID = form_settings["TextFormID"];
@@ -19,7 +20,12 @@ var RedirectPage = form_settings["Redirect"];
 var DZMessage = form_settings["DZMessage"];
 var Required_List = form_settings["Required_List"];
 
-"Your Form Has Been Submitted"
+
+if( form_settings["Email"]){
+	var email_settings = form_settings["Email"]
+}
+
+
 if( form_settings["Success Message"]){
 	var success_message = form_settings["Success Message"]
 }
@@ -33,6 +39,47 @@ if( form_settings["Test"]){
 }
 else{
 	var base_url = "https://wyo01.wyohackathon.io/"
+}
+
+//checks for valid email
+function checkemail(email) { 
+re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
+ if (!(re.test(email))) {
+	alert("Please enter a valid email address");
+	jQuery("#email").focus();
+	return false; }
+	return true; } 
+
+//sends a subscriber post request
+async function subscribe(email, page, list, fname, lname) {
+  if(checkemail(email)){
+  successMessage = 'Thank you for your registration. Please check your email to confirm.';
+  data =  "email="+email.replace("@","%40")+"&htmlemail=1&makeconfirmed=1&list%5B"+list+"%5D=signup&subscribe=subscribe&attribute5="+fname+"&attribute6="+lname;
+  // alert(data);
+  jQuery.ajax( 
+	{ type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
+		alert(successMessage);}, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.');
+		} });
+  }
+}
+//wrapper to get rid of what subscribe page
+async function sub(email, list, fname, lname) {
+	subscribe(email, 4, list, fname, lname);
+	}
+//checks if the request needs to be sent and adds the needed stuff
+async function add_sub(){
+	if( form_settings["Email"]){
+		if( document.getElementById("Email").value){
+	var list = form_settings["Email"]
+	var first = document.getElementById("Firstname").value
+	var last = document.getElementById("Lastname").value
+	var email = document.getElementById("Email").value
+	sub(email, list, first, last);
+		}
+	else{
+		alert("Email id is not specified");
+	}
+	}
 }
 
 //checks if the redirect needs to be specific of the input and outputs the string
@@ -199,6 +246,7 @@ async function SubmitForm(){
 		}
 		AddRow(data, function() 
 				{
+					add_sub();
 					alert( success_message);
 					window.location = return_page();
 				}); 
