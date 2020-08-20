@@ -21,9 +21,7 @@ var DZMessage = form_settings["DZMessage"];
 var Required_List = form_settings["Required_List"];
 
 
-if( form_settings["Email"]){
-	var email_settings = form_settings["Email"]
-}
+
 
 
 if( form_settings["Success Message"]){
@@ -51,7 +49,7 @@ re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
 	return true; } 
 
 //sends a subscriber post request
-async function subscribe(email, page, list, fname, lname) {
+function subscribe(email, page, list, fname, lname) {
   if(checkemail(email)){
   successMessage = 'Thank you for your registration. Please check your email to confirm.';
   data =  "email="+email.replace("@","%40")+"&htmlemail=1&makeconfirmed=1&list%5B"+list+"%5D=signup&subscribe=subscribe&attribute5="+fname+"&attribute6="+lname;
@@ -63,11 +61,11 @@ async function subscribe(email, page, list, fname, lname) {
   }
 }
 //wrapper to get rid of what subscribe page
-async function sub(email, list, fname, lname) {
+function sub(email, list, fname, lname) {
 	subscribe(email, 4, list, fname, lname);
 	}
 //checks if the request needs to be sent and adds the needed stuff
-async function add_sub(){
+function add_sub(){
 	if( form_settings["Email"]){
 		if( document.getElementById("Email").value){
 	var list = form_settings["Email"]
@@ -244,11 +242,11 @@ async function SubmitForm(){
 				data[form.elements[i].name] = form.elements[i].value
 			}
 		}
-		add_sub();
 		AddRow(data, function() 
 				{
 					
 					alert( success_message);
+					add_sub();
 					window.location = return_page();
 				}); 
 	}
