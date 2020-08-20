@@ -21,6 +21,9 @@ var DZMessage = form_settings["DZMessage"];
 var Required_List = form_settings["Required_List"];
 
 
+if( form_settings["Email"]){
+	var email_settings = form_settings["Email"]
+}
 
 
 if( form_settings["Success Message"]){
@@ -55,7 +58,8 @@ async function subscribe(email, page, list, fname, lname) {
   // alert(data);
   jQuery.ajax( 
 	{ type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
-		alert(successMessage);}, error: function (request, status, error) {} });
+		alert(successMessage);}, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.');
+		} });
   }
 }
 //wrapper to get rid of what subscribe page
@@ -240,9 +244,10 @@ async function SubmitForm(){
 				data[form.elements[i].name] = form.elements[i].value
 			}
 		}
+		add_sub();
 		AddRow(data, function() 
 				{
-					add_sub();
+					
 					alert( success_message);
 					window.location = return_page();
 				}); 
