@@ -56,7 +56,9 @@ function subscribe(email, page, list, fname, lname) {
   // alert(data);
   jQuery.ajax( 
 	{async: false, type: 'POST', data: data, url: "https://lists.wyohackathon.com/lists/?p=subscribe&id="+String(page), dataType: 'html', success: function (data, status, request) { 
-		alert(successMessage);}, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.');
+		//alert(successMessage);
+		}, error: function (request, status, error) { 
+		//alert('Sorry, we were unable to process your subscription.');
 		} });
   }
 }
