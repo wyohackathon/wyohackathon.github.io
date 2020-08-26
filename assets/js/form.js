@@ -206,7 +206,7 @@ Dropzone.options.uploadWidget = {
 					this.on('sending', function(file, xhr, formData) {
 					// Adds first and last name for desired filename
 						var dateTime = getstamp();
-						document.getElementById(this.element.dataset['type']).value = dateTime + "." + file.name.split(".").pop();
+						document.getElementById("file").value = dateTime + "." + file.name.split(".").pop();
 						formData.append("FileName",  dateTime + "." + file.name.split(".").pop());
 						formData.append("Location", Location);
 						});
