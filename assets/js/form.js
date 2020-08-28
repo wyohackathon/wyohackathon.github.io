@@ -214,6 +214,38 @@ Dropzone.options.uploadWidget = {
 				}
 			};
 			
+Dropzone.options.bigUploadWidget = {
+				paramName : "file",
+				url : base_url + "upload",
+				autoProcessQueue: true,
+				maxFilesize: 100,
+				dictDefaultMessage: DZMessage, 
+				//maxFiles: 1,
+				 success: function (file, response) {
+                    if (this.files.length > 1)
+                        this.removeFile(this.files[0]);
+                    //Do others tasks...
+                },
+				init: function () {
+
+					var myDropzone = this;
+					
+					this.on("error", function(file, message) { 
+						alert(message);
+						this.removeFile(file); 
+						});
+					
+					this.on('sending', function(file, xhr, formData) {
+					// Adds first and last name for desired filename
+						var dateTime = getstamp();
+						document.getElementById(this.element.dataset['type']).value = dateTime + "." + file.name.split(".").pop();
+						formData.append("FileName",  dateTime + "." + file.name.split(".").pop());
+						formData.append("Location", Location);
+						});
+						
+				}
+			};
+			
 async function AddRow(Data, Success) {
 	var myurl = base_url;
 	$.ajax({
@@ -235,7 +267,7 @@ async function SubmitForm(){
 		ShowLoading();
 		var data = { 'Location':  Location}
 		var form = document.getElementById(Form_ID);
-		data["file"] = document.getElementById("file").value
+		// data["file"] = document.getElementById("file").value
 		for (var i = 0; i < form.length; ++i) {
 			if(form.elements[i].type == "checkbox"){
 				data[form.elements[i].name] = form.elements[i].checked
