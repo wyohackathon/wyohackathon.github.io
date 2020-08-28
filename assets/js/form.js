@@ -164,7 +164,7 @@ function ShowLoading() {
 		var outerdiv = document.createElement('div');
         var div = document.createElement('div');
         var img = document.createElement('img');
-        img.src = 'https://wyo01.wyohackathon.io/assets/img/loading.gif';
+        img.src = 'https://wyohackathon.io/assets/img/loading.gif';
         div.innerHTML = "Loading...<br />";
         div.style.cssText = 'position: fixed; top: 40%; display: block; left: 38%; right: auto; z-index: 5000; border-radius: 15px; width: 24%; height: 100px; text-align: center; background: #eeeeee; border: 1px solid #000';
         div.appendChild(img);
