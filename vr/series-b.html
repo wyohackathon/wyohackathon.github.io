@@ -187,10 +187,7 @@
 					<form  class="form-input" id="frm1">
 					  <input type="hidden" id="header file" name="header file">
 					  <input type="hidden" id="document file" name="document file">
-					  <input type="hidden" id="banner1 file" name="banner1 file">
-					  <input type="hidden" id="banner2 file" name="banner2 file">
-					  <input type="hidden" id="banner3 file" name="banner3 file">
-					  <input type="hidden" id="banner4 file" name="banner4 file">
+					  <input type="hidden" id="banner file" name="banner file">
 					  <input type="hidden" id="video bigfile" name="video bigfile">
 					  					  <div class="form-row">
 					  <div class="form-group col-md-6">
@@ -220,45 +217,23 @@
 						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="header file"></form>
 						</div>
 					  </div><br>
-
-					  <div class="row">
-						<div class="col-md-6">
-						  <h3 class="title form-text mb-n1" id="Banner" >
-							Upload Banner 1 sized 250x970 4mb max
-						  </h3>
-						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="banner1 file"></form>
-						</div>
-						<div class="col-md-6">
-						  <h3 class="title form-text mb-n1" id="Banner" >
-							Upload Banner 2 sized 250x970 4mb max
-						  </h3>
-						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="banner2 file"></form>
-						</div>			
-						<div class="col-md-6">
-						  <h3 class="title form-text mb-n1" id="Banner" >
-							Upload Banner 3 sized 250x970 4mb max
-						  </h3>
-						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="banner3 file"></form>
-						</div>
-						<div class="col-md-6">
-						  <h3 class="title form-text mb-n1" id="Banner" >
-							Upload Banner 4 sized 250x970 4mb max
-						  </h3>
-						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="banner4 file"></form>
-						</div>
-						</div>
-						
-						<h3 class="title form-text mb-n1"  >
+					  	<h3 class="title form-text mb-n1"  >
 							And Upload One of:
 						</h3>
-						<div class="row">
-						<div class="col-sm-6">
+					  <div class="row">
+						<div class="col-sm-4">
+						  <h3 class="title form-text mb-n1" id="Banner" >
+							Banner 400x300 4mb max
+						  </h3>
+						  <form id="upload-widget" method="post" action="/upload" class="dropzone" data-type="banner file"></form>
+						</div>
+						<div class="col-sm-4">
 						  <h3 class="title form-text mb-n1" id="Video" >
 							Video 16:9 100mb max
 						  </h3>
 						  <form id="big-upload-widget" method="post" action="/upload" class="dropzone" data-type="video bigfile"></form>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4">
 						  <h3 class="title form-text mb-n1" id="Document" >
 							Document 4mb max
 						  </h3>
@@ -378,13 +353,13 @@
 	<script>
 
 	form_settings = {
-	"Location": "Booth Asset A",
+	"Location": "Booth Asset B",
 	"Test": false,
 	"TextFormID": "frm1",
 	"Redirect": "https://wyohackathon.io/",
-	"DZMessage": "Click or drag to insert asset here",
+	"DZMessage": "Insert asset here",
 	"Required_List": ["Firstname", "Lastname", "Companyname", "Email"],
-	"Email": 19
+	"Email": 20
 	};
 	</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
