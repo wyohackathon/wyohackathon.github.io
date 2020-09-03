@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    WyoHackathon | Wyoming Blockchain Stampede
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <meta name="author" content="WyoHackathon Blockchain Stampede" />
+  <meta name="description" content="The WyoHackathon Blockchain Stampede is a celebratory blockchain event for developers, entrepreneurs and established companies.">
+  <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>WyoHackathon Blockchain Stampede 2020</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wyohackathon.io/">
+  <meta property="og:title" content="WyoHackathon Blockchain Stampede 2020">
+  <meta property="og:description" content="The WyoHackathon Blockchain Stampede is a celebratory blockchain event for developers, entrepreneurs and established companies.">
+  <meta property="og:image" content="https://wyohackathon.io/assets/img/landing_logo.png">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://wyohackathon.io/">
+  <meta property="twitter:title" content="WyoHackathon Blockchain Stampede 2020">
+  <meta property="twitter:description" content="The WyoHackathon Blockchain Stampede is a celebratory blockchain event for developers, entrepreneurs and established companies.">
+  <meta property="twitter:image" content="https://wyohackathon.io/assets/img/landing_logo.png">
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" /> -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/paper-kit.css?v=2.3.0" rel="stylesheet" />
+  <link href="./assets/css/overwrite.css" rel="stylesheet" />
+  <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '604990676752107');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=604990676752107&ev=PageView&noscript=1"/>
+    </noscript>
+  <!-- End Facebook Pixel Code -->
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.wyohackathon.io"]);
+    _paq.push(["setDomains", ["*.wyohackathon.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.lode.network/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.lode.network/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
+</head>
+<body class="sidebar-collapse">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-danger">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="./index.html" rel="tooltip" title="Wyoming Blockchain Stampede" data-placement="bottom">
+          <img src="./assets/img/logo/navbar_logo.png" alt="Wyoming Blockchain Stampede">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" data-nav-image="./assets/img/blurred-image-1.jpg" data-color="orange">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+              Events </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-danger">
+              <a href="./index.html#events" class="dropdown-item">
+                All Events
+              </a>
+              <a class="dropdown-item" href="./selectcommittee.html">
+                Select Committee
+              </a>
+              <a class="dropdown-item" href="./sandcastleinvitational.html">
+                Sandcastle Invitational
+              </a>
+              <a class="dropdown-item" href="./lawcon.html">
+                Stampede Law Conference
+              </a>
+              <a class="dropdown-item" href="./wyohackathon.html">
+                WyoHackathon
+              </a>
+              <a class="dropdown-item" href="./devcon.html">
+                Stampede Developers Conference
+              </a>
+              <a class="dropdown-item" href="./bizcon.html">
+                Stampede Business Conference
+              </a>
+			  <a class="dropdown-item" href="./quantum.html">
+                Quantum Entanglement
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#speakers">Speakers</a>
+          </li>
+		  <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+              Organizers </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-danger">
+				<a class="dropdown-item" href="./volunteersignup.html">Apply To Volunteer</a>
+				<a class="dropdown-item" href="./organizers.html">Organizers</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#venue">Venue</a>
+          </li>
+          <!-- <li class="nav-item"> -->
+            <!-- <a class="nav-link" href="./volunteersignup.html">Volunteer</a> -->
+          <!-- </li> -->
+          <li class="nav-item">
+            <a id="eventbrite-widget-modal-trigger-94259908925" style="color: #ffffff" class="btn btn-round btn-danger">Register Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+     <div class="section section-white" style="padding-bottom:0px; padding-top:100px">
+		<img class="img-header" src="./assets/img/headers/WyoHackathonHeader.png"  width="100%"></img>
+	</div>
+  <div class="main">
+    <div class="section">
+      <div class="container">
+        <h3 class="title-uppercase" style="color: #000">WyoHackathon</h3>
+        <p style="color: #000"><br><b>What:</b> Wyohackathon is a month-long virtual hackathon. The launch party in our 3D/2D VR environment starts Friday evening Sept 25th including virtual participants from anywhere. </p>
+        <p style="color: #000"><br> A persistent virtual environment will be active for the duration of the month. </p>
+		<p style="color: #000"><br> DevCon—Developer Conference content will be available on a schedule throughout the month. Challenges will have an initial sprint milestone due Sunday 27th with a show and tell. Final polished projects and judging happens on October 24th. </p>
+		<p style="color: #000"><br><b>Theme:</b> Developing IMPACT—Digital Technologies</p>
+        <p style="color: #000"><br><b>Where:</b> Live-streamed into our Virtual Reality 2D/3D environment accessible worldwide via VR Headset or HTML5 browser.</p>
+        <p style="color: #000"><br><b>When:</b> September 25th evening through October 24th</p>
+		<div class="text-center  mt-5"><a href="https://wyohackathon2020.devpost.com/" target="_blank" class="btn btn-danger btn-round">Register Now</a></div>
+		<h1 id="speakers" class="text-center creators" style="color: #000"><u>Speakers</u></h1>
+		<div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img img-square-portrait" src="./assets/img/speakers/caitlin.png" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Caitlin Long</h4>
+                <div class="card-footer">
+                  <a href="https://twitter.com/CaitlinLong_" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/caitlin-long-" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img img-square-portrait" src="./assets/img/speakers/tyler.png" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Rep. Tyler Lindholm</h4>
+                <div class="card-footer">
+                  <a href="https://twitter.com/Tyler_Lindholm" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/tyler-lindholm-9119a259" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img" src="./assets/img/speakers/Rich Kopcho.png" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Rich Kopcho</h4>
+                <div class="card-footer">
+                  <a href="https://twitter.com/kopcho" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/kopcho" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img" src="./assets/img/speakers/Ed Seidel.jpg" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Ed Seidel</h4>
+                <div class="card-footer">
+                  <a href="https://twitter.com/eseidel1" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/harryedwardseidel/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img img-square-portrait" src="./assets/img/speakers/Governor Mark Gordon.jpg" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Governor Mark Gordon</h4>
+                <div class="card-footer">
+                  <a href="https://twitter.com/GovernorGordon" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/mark-gordon-2145771b/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-profile card-plain">
+              <div class="card-img-top">
+                  <img class="img img-square-portrait" src="./assets/img/speakers/Cameron Wright.jpg" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Cameron Wright</h4>
+                <div class="card-footer">
+                  <!-- <a href="https://twitter.com/Tyler_Lindholm" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+                  <a href="https://www.linkedin.com/in/cameron-wright-38361010/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="text-center creators" style="color: #000"><u>Distinguished Judges</u></h1>
+        <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/Scott_Stornetta.png" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Scott Stornetta</h4>
+                    <div class="card-footer">
+                      <!-- <a href="https://twitter.com/CaitlinLong_" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+                      <a href="https://www.linkedin.com/in/w-scott-stornetta-25186120/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/Christopher Allen.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Christopher Allen</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/ChristopherA" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/christophera/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/Nick Spanos.png" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Nick Spanos</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/nickspanos" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/nick-spanos/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/bryan-bishop.png" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Bryan Bishop</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/kanzure" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/bryan-bishop-3a63978/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+		<h1 class="text-center creators" style="color: #000"><u>Preliminary Judges</u></h1>
+        <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/Nisa-Amolis.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Nisa Amolis</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/AmoilsNisa" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/nisaamoils/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/James-Caldwell.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">James Caldwell</h4>
+                    <div class="card-footer">
+                      <!-- <a href="https://twitter.com/ChristopherA" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+                      <a href="https://www.linkedin.com/in/james-caldwell-a4746725/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/Tommy-Cooksey.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Tommy Cooksey</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/tommycooksey" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/tommycooksey1972/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/Hadrien-Croubois.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Hadrien Croubois</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/Amxx" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/hadriencroubois" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/jonathan-dunsmoor.png" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Jonathan Dunsmoor</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/JDunsmoorEsq" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/jdunsmoor" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img img-square-portrait" src="./assets/img/speakers/Edward-Kepler.png" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Edward Kepler</h4>
+                    <div class="card-footer">
+                      <!-- <a href="https://twitter.com/ChristopherA" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+                      <a href="https://www.linkedin.com/in/edwardkepler/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/Steve-Lupien.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Steve Lupien</h4>
+                    <div class="card-footer">
+                      <a href="https://twitter.com/SteveLupien" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/steven-c-lupien/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    		  <div class="col-md-3 col-sm-6">
+                <div class="card card-profile card-plain">
+                  <div class="card-img-top">
+                      <img class="img" src="./assets/img/speakers/Yev-Muchnik.jpg" />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Yev Muchnik</h4>
+                    <div class="card-footer">
+                      <!-- <a href="https://twitter.com/Amxx" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+                      <a href="https://www.linkedin.com/in/yevmuchnik/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+		<div class="row">
+            <div class="col-md-3 col-sm-6">
+  					<div class="card card-profile card-plain">
+  					  <div class="card-img-top">
+  						  <img class="img img-square-portrait" src="./assets/img/speakers/Marc-Asselin.jpg" />
+  					  </div>
+  					  <div class="card-body">
+  						<h4 class="card-title">Marc Asselin</h4>
+  						<div class="card-footer">
+  						  <!-- <a href="https://twitter.com/Tyler_Lindholm" target="_blank" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a> -->
+  						  <a href="https://www.linkedin.com/in/marcasselin/" target="_blank" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+  						</div>
+  					  </div>
+  					</div>
+  				  </div>
+			</div>
+		<br><h1 class="text-center creators" style="color: #000"><u>Agenda</u></h1>
+		<br><p style="color: #000">To be announced</p>
+		<!-- <br><h1 class="text-center creators" style="color: #000"><u>To be announced</u></h1> -->
+		<br><h1 class="text-center creators" style="color: #000"><u>Important Information</u></h1>
+		<br>
+		<br><p style="color: #000"><b>Parent Waiver:</b></p>
+		<br><p style="color: #000"><a href="./assets/pdf/PARENT_WAVIER_HACKATHON.pdf" target="_blank">PARENT WAIVER HACKATHON.pdf</a></p>
+		<br><p style="color: #000"><b>Official Hackathon Rules:</b></p>
+		<br><p style="color: #000"><a href="./assets/pdf/WYOHACKATHON_OFFICIAL_RULES.pdf" target="_blank">WYOHACKATHON OFFICIAL RULES.pdf</a></p>
+		<br><p style="color: #000"><b>Code of Conduct:</b></p>
+		<br><p style="color: #000"><a href="./assets/pdf/CODE_OF_CONDUCT_HACKATHON.pdf" target="_blank">CODE OF CONDUCT HACKATHON.pdf</a></p>
+
+      </div>
+    </div>
+  </div>
+  <footer class="footer footer-big" style="background-color: #2A3E60">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-9 ml-auto mr-auto">
+          <div class="widget text-center">
+           <img src="./assets/img/heading_logo.svg" style="width: 50%; height: 50%">
+             <div class="align-center text-center">
+          <div class="links">
+            <ul class="uppercase-links">
+              <li>
+                <a href="./index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#events">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#speakers">
+                  Speakers
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#sponsors">
+                  Sponsors
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#venue">
+                  Venue
+                </a>
+              </li>
+            </ul>
+            <hr />
+            <div class="copyright">
+              ©
+              <script>
+                document.write(new Date().getFullYear())
+              </script> All Rights Reserved | <a style="color: #ffffff" href="https://uwyo.edu" target="_blank">University of Wyoming</a> | <a style="color: #ffffff" href="./privacy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <div class="social-area">
+            <a href="https://www.facebook.com/wyohackathon" class="btn btn-just-icon btn-facebook">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com/wyohackathon" class="btn btn-just-icon btn-twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/WyoHackathon" class="btn btn-just-icon btn-pinterest">
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/wyohackathon" class="btn btn-just-icon btn-linkedin">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/wyohackathon" class="btn btn-just-icon btn-instagram">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:admin@wyohackathon.io" class="btn btn-just-icon btn-dribbble">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Datetimepicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Vertical nav - dots -->
+  <!--  Photoswipe files -->
+  <script src="./assets/js/plugins/photo_swipe/photoswipe.min.js"></script>
+  <script src="./assets/js/plugins/photo_swipe/photoswipe-ui-default.min.js"></script>
+  <script src="./assets/js/plugins/photo_swipe/init-gallery.js"></script>
+  <!--  for Jasny fileupload -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/paper-kit.js?v=2.3.0" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--  Plugin for presentation page - isometric cards  -->
+  <script src="./assets/js/plugins/presentation-page/main.js"></script>
+  <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/wyohackathon-blockchain-stampede-2020-tickets-94259908925" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '94259908925',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-94259908925',
+        onOrderComplete: exampleCallback
+    });
+</script>
+</body>
+
+</html>
