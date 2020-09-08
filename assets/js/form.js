@@ -218,6 +218,7 @@ Dropzone.options.bigUploadWidget = {
 				paramName : "file",
 				url : base_url + "upload",
 				autoProcessQueue: true,
+				timeout: 1000000,
 				maxFilesize: 100,
 				dictDefaultMessage: DZMessage, 
 				//maxFiles: 1,
