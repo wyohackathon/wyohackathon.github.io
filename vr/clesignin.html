@@ -187,15 +187,26 @@
 								</label>
 								 <!-- <div class="description form-description">Early stage technology doesn't always have to imply that the company or R&D portion isn't years in the making. This helps us understand how much development or R&D might also be behind your commercial opportunity. </div> -->
 						         <select name = "dropdown1" class="mt-1">
-									<option value = "<1 year" selected> <1year </option>
-									<option value = "1-2 years">1-2 years</option>
-									<option value = "2-3 years">2-3 years</option>
-									<option value = "3-4 years">3-4 years</option>
-									<option value = "4-5 years">4-5 years</option>
-									<option value = ">5 years" > >5 years </option>
+									<option value = "Introduction to Business Entity Types and Their Formation Prof. Moscary (1 General CLE)" selected> Introduction to Business Entity Types and Their Formation
+Prof. Moscary (1 General CLE) </option>
+									<option value = "What You Need to Know About Securities Laws Matt Kaufman (1 General CLE)">What You Need to Know About Securities Laws
+Matt Kaufman (1 General CLE)</option>
+									<option value = "Security Tokens and the SAFT– the Landscape and Future Emma Channing (1 General CLE)">Security Tokens and the SAFT– the Landscape and Future
+Emma Channing (1 General CLE)</option>
+									<option value = "Trends in Blockchain Legislation: A Protean Moment Andrea Tinianow / Chris Land (2 General CLE)">Trends in Blockchain Legislation: A Protean Moment
+Andrea Tinianow / Chris Land(2 General CLE)</option>
+									<option value = "Regulatory Innovation: The Wyoming SPDI Angela Angelovska-Wilson (1 General CLE)">Regulatory Innovation: The Wyoming SPDI
+Angela Angelovska-Wilson (1 General CLE)</option>
+									<option value = "Crypto System Governance Andrew Hinkes (1 Ethics CLE)" > Crypto System Governance
+Andrew Hinkes (1 Ethics CLE) </option>
+									<option value = "Legal Ethics: Digital Asset Money Laundering Cal Evans (1 Ethics CLE)" > Legal Ethics: Digital Asset Money Laundering
+Cal Evans (1 Ethics CLE)</option>
+									<option value = "Ethics for Blockchain Lawyers Yev Muchnik / Lewis Cohen (1 Ethics CLE)" >Ethics for Blockchain Lawyers
+Yev Muchnik / Lewis Cohen (1 Ethics CLE) </option>
 								</select>
 					  </div>
 					  <input type="hidden" id="time" name="time">
+					  <input type="hidden" id="timestamp" name="timestamp">
 					</form>
 
               </div>
@@ -321,7 +332,13 @@
   <script src="../assets/js/form.js" type="text/javascript"></script>
   	<script>
 	function SubmitFormDate() {
-		document.getElementById("time").value = getstamp();
+
+		var today = new Date();
+		var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+		var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+		var dateTime = date+' '+time;
+		document.getElementById("time").value = dateTime;
+		document.getElementById("timestamp").value = getstamp();
 		SubmitForm();
 	}
 	</script>
