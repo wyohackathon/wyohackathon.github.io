@@ -1,2 +1,2 @@
 # wyohackathon.github.io
-WyoHackathon 2020
+WyoHackathon 2021
