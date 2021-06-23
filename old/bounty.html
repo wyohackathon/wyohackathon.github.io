@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+$(function(){
+    $("[data-load]").each(function(){
+        $(this).load($(this).data("load"), function(){
+        });
+    });
+})
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon.png">
@@ -55,7 +61,7 @@
 </head>
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
- @RenderPage("./navbar.cshtml")
+<nav data-load="./navbar.html"></nav>
    <!-- End Navbar -->
     <br /><br /><br /><br />
  <!--<div class="page-header page-header-small" style="background-image: url('./assets/img/sections/university.png');">
