@@ -6808,7 +6808,7 @@ textarea.form-control {
 }
 
 .navbar .btn {
-  margin: 14px 3px;
+  margin: 14px 3px 14px -2px;
   font-size: 12px;
 }
 
